@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cocktail -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="tdt4250.project.model.cocktail.presentation.CocktailModelWizardID"
+            name="%_UI_CocktailModelWizard_label"
+            class="tdt4250.project.model.cocktail.presentation.CocktailModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CocktailModelFile.gif">
+         <description>%_UI_CocktailModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cocktail -->
+      <editor
+            id="tdt4250.project.model.cocktail.presentation.CocktailEditorID"
+            name="%_UI_CocktailEditor_label"
+            icon="icons/full/obj16/CocktailModelFile.gif"
+            extensions="cocktail"
+            class="tdt4250.project.model.cocktail.presentation.CocktailEditor"
+            contributorClass="tdt4250.project.model.cocktail.presentation.CocktailActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
