@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="cocktail" nsURI="platform:/plugin/tdt4250_cocktail.cocktail/model/cocktail.ecore"
+    nsPrefix="cocktail">
+  <eClassifiers xsi:type="ecore:EClass" name="Product">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vol" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CocktailParty">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inventories" eType="#//Inventory"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="drinkRegister" eType="#//Drink"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cocktailProducts" eType="#//Product"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DrinkIngredient">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="product" lowerBound="1"
+        eType="#//Product"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="amountType" lowerBound="1"
+        eType="#//AmountType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="amount" lowerBound="1"
+        eType="#//Amount"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Drink">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredIngredients" lowerBound="1"
+        upperBound="-1" eType="#//DrinkIngredient" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="strength" lowerBound="1"
+        eType="#//StrengthType" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="priceGroup" lowerBound="1"
+        eType="#//PriceGroupType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="instructions" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="AmountType">
+    <eLiterals name="PCS"/>
+    <eLiterals name="CL" value="1"/>
+    <eLiterals name="GRAMS" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Inventory">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="availableIngredients" upperBound="-1"
+        eType="#//DrinkIngredient"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        iD="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="PriceGroupType">
+    <eLiterals name="LOW"/>
+    <eLiterals name="MEDIUM" value="1"/>
+    <eLiterals name="HIGH" value="2"/>
+    <eLiterals name="EXTRAVAGANT" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Amount" instanceClassName="float">
+    <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+      <details key="minExclusive" value="0"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="StrengthType" instanceTypeName="StrengthType">
+    <eLiterals name="NON_ALCOHOLIC" literal="NON_ALCOHOLIC"/>
+    <eLiterals name="WEAK" value="1" literal="WEAK"/>
+    <eLiterals name="MEDIUM" value="2" literal="MEDIUM"/>
+    <eLiterals name="STRONG" value="3" literal="STRONG"/>
+    <eLiterals name="WASTED" value="4" literal="WASTED"/>
+  </eClassifiers>
+</ecore:EPackage>
