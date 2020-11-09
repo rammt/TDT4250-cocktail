@@ -1,0 +1,22 @@
+{
+  "drinks": [
+    {
+      "name": "Vodka-lime",
+      "id": "1111",
+      "category" : "spicy shot",
+      "instructions": "instructions...",
+      "ingredients": [
+        {
+          "ingredient": "vodka",
+          "amount": 4,
+          "unity": "cl"
+        },
+        {
+            "ingredient": "lime",
+            "amount": 1,
+            "unit": "piece"
+          }
+      ]
+    }
+  ]
+}
