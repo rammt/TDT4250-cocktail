@@ -163,11 +163,6 @@ def convertMeasure(measure):
   # set unit to lowercase
   unit = unit.lower()
 
-  # fix multiple names
-  if(unit == "tsp" or unit == "tblsp" or unit == "tbsp"):
-    unit = "tablespoon"
-
-  
   # remove plurals
   if(unit != "" and unit[len(unit)-1] == "s"):
     if(unit == "dashes"):
@@ -180,11 +175,37 @@ def convertMeasure(measure):
       unit = "pinch"
     else:
       unit = unit[0:len(unit)-1]
+
+  # fix multiple names
+  if(unit == "tblsp" or unit == "tbsp" or unit == "spoon"):
+    unit = "tablespoon"
+  elif (unit == "quart"):
+    unit = "qt"
+  elif (unit == "splashe"):
+    unit = "splash"
   
-  # Fjerne flertallsendinger på unit
-  #if (re.match("\s$", unit) is not None):
-  #  print(unit)
-  
+  #TODO Handle measures, convert or rename
+  # Oz, cup, lb, frozen, gal, inch?, one-inch, splashe, jigger (1,5 oz), 
+
+  optimalResult = convertToFewerUnits(amount, unit)
+  amount = optimalResult[0]
+  unit = optimalResult[1]
+
+  return [amount, unit]
+
+def removeFloatDecimalIfZero(amount):
+  decimal = amount.split(".")
+  if (decimal[1] == "0"):
+    amount = decimal[0]
+  return amount
+
+def convertToFewerUnits(amount, unit):
+  if (unit == "shot"):
+    amount = removeFloatDecimalIfZero(str(float(amount)*4))
+    unit = "cl"
+  elif(unit == "small"):
+    amount = removeFloatDecimalIfZero(str(float(amount)*0.5))
+    unit = "bottle"
 
   return [amount, unit]
 
@@ -226,7 +247,6 @@ for drink in data["drinks"]:
     if(unit not in enums):
       enums.append(unit)
 
-  #print(listIngredients, listAmount, listUnit)
   # generate dictionary for each ingredient
   for l in range(len(listIngredients)):
       ingredientstemp = {}
@@ -244,8 +264,18 @@ for drink in data["drinks"]:
     #TODO Skrive kode for å legge til hver drikingrediens i dictionary
 
   #TODO Skrive kode for å legge til hver drink i en JSON-fil
+  drink = [_id, name, category, instructions, ingredients]
+  drinks.append(drink)
 
-  print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
-print(enums)
+  #print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
+#print(enums)
+#print(drinks[0])
+
+# Convert drinks to JSON
+json_string = json.dumps(drinks)
+
+f2 = open("clean_drinks.json", "w")
+f2.write(json_string)
+f2.close()
 
 f.close()
