@@ -190,58 +190,60 @@ def convertMeasure(measure):
   return [amount, unit]
 
 enums = []
+drinks = []
 
-# i = drink
-for i in data["drinks"]:
-  _id = i["idDrink"]
-  name = i["strDrink"]
-  category = i["strCategory"]
-  instructions = i["strInstructions"]
+for drink in data["drinks"]:
+  _id = drink["idDrink"]
+  name = drink["strDrink"]
+  category = drink["strCategory"]
+  instructions = drink["strInstructions"]
   listIngredients = []
-  listMeasures = []
+  listAmount = []
+  listUnit = []
   ingredients = []
+  amount = ""
+  unit = ""
 
-  for element in i:
-    # unit and amound
-    if(element[3:10] == "Measure" and i[element] != None):
-      converted = convertMeasure(i[element])
+  for element in drink:
+    # element unit and amount
+    if(element[3:10] == "Measure" and drink[element] != None):
+      converted = convertMeasure(drink[element])
       amount = converted[0]
       unit = converted[1]
+      listAmount.append(amount)
+      listUnit.append(unit)
+
       #print(converted)
-      if(unit not in enums):
-        enums.append(converted[1])
+    elif (element[3:10] == "Measure" and drink[element] == None):
+      listAmount.append(None)
+      listUnit.append(None)
 
-  if(j < 200000000000000000000000):
-    for element in i:
-        if(element[3:13] == "Ingredient"):
-          if (i[element] != None):
-            listIngredients.append(i[element])
-        elif(element[3:10] == "Measure"):
-          if (i[element] != None):
-            listMeasures.append(i[element])
+    # element is ingredient
+    if(element[3:13] == "Ingredient"):
+      ingredient = drink[element]
+      listIngredients.append(ingredient)
 
-    for l in range(len(listIngredients)):
-        ingredientstemp = {}
-    
-        ingredientstemp["ingredient"] = listIngredients[l]
-        try:
-            ingredientstemp["measure"] = listMeasures[l]
-        except:
-            ingredientstemp["measure"] = ""
-        
+    # add list of all unique units
+    if(unit not in enums):
+      enums.append(unit)
 
-        #print(ingredientstemp)
+  #print(listIngredients, listAmount, listUnit)
+  # generate dictionary for each ingredient
+  for l in range(len(listIngredients)):
+      ingredientstemp = {}
+      ingredient = listIngredients[l]
+      ingredient_amount = listAmount[l]
+      ingredient_unit = listAmount[l]
+      # gidder ikke legge det inn hvis alle er tomme
+      if (ingredient is not None and ingredient_amount is not None and ingredient_amount is not None):
+      #her, i dictionary, må vi legge til listen med ingredienser
+        ingredientstemp["ingredient"] =  ingredient
+        ingredientstemp["amount"] = ingredient_amount
+        ingredientstemp["unit"] = ingredient_unit
         ingredients.append(ingredientstemp)
 
-    """print(listIngredients)
-    print(listMeasures)
-    print(ingredients)
-    """
 
-
-  j += 1
-
-
+  print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
 print(enums)
 
 f.close()

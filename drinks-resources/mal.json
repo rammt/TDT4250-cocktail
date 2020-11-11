@@ -9,7 +9,7 @@
         {
           "ingredient": "vodka",
           "amount": 4,
-          "unity": "cl"
+          "unit": "cl"
         },
         {
             "ingredient": "lime",
