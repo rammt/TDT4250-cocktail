@@ -242,6 +242,9 @@ for drink in data["drinks"]:
         ingredientstemp["unit"] = ingredient_unit
         ingredients.append(ingredientstemp)
 
+    #TODO Skrive kode for å legge til hver drikingrediens i dictionary
+
+  #TODO Skrive kode for å legge til hver drink i en JSON-fil
 
   print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
 print(enums)
