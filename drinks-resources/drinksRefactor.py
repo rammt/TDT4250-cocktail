@@ -170,7 +170,6 @@ def convertMeasure(measure):
   
   # remove plurals
   if(unit != "" and unit[len(unit)-1] == "s"):
-    oldunit = unit
     if(unit == "dashes"):
       unit = "dash"
     elif(unit == "cubes"):
