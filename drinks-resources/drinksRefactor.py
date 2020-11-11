@@ -272,6 +272,7 @@ for drink in data["drinks"]:
 #print(drinks[0])
 
 # Convert drinks to JSON
+#TODO Change list to dictionaries
 json_string = json.dumps(drinks)
 
 f2 = open("clean_drinks.json", "w")
