@@ -210,7 +210,9 @@ def convertToFewerUnits(amount, unit):
   return [amount, unit]
 
 enums = []
+
 drinks = []
+drinkIngredients = []
 
 for drink in data["drinks"]:
   _id = drink["idDrink"]
@@ -261,9 +263,10 @@ for drink in data["drinks"]:
         ingredientstemp["unit"] = ingredient_unit
         ingredients.append(ingredientstemp)
 
-    #TODO Skrive kode for å legge til hver drikingrediens i dictionary
+      #TODO Skrive kode for å legge til hver drikingrediens i dictionary
+      if (ingredient not in drinkIngredients and ingredient != None):
+        drinkIngredients.append(ingredient)
 
-  #TODO Skrive kode for å legge til hver drink i en JSON-fil
   drink = {
     "id" : _id,
     "name" : name,
@@ -274,12 +277,12 @@ for drink in data["drinks"]:
 
   drinks.append(drink)
 
-  #print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
-#print(enums)
-#print(drinks[0])
-
 # Convert drinks to JSON
-json_string = json.dumps({"drinks" : drinks})
+result = {
+  "drinks" : drinks,
+  "ingredients" : drinkIngredients
+}
+json_string = json.dumps(result)
 
 f2 = open("clean_drinks.json", "w")
 f2.write(json_string)
