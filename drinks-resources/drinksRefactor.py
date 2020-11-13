@@ -252,7 +252,7 @@ for drink in data["drinks"]:
       ingredientstemp = {}
       ingredient = listIngredients[l]
       ingredient_amount = listAmount[l]
-      ingredient_unit = listAmount[l]
+      ingredient_unit = listUnit[l]
       # gidder ikke legge det inn hvis alle er tomme
       if (ingredient is not None and ingredient_amount is not None and ingredient_amount is not None):
       #her, i dictionary, må vi legge til listen med ingredienser
@@ -264,7 +264,14 @@ for drink in data["drinks"]:
     #TODO Skrive kode for å legge til hver drikingrediens i dictionary
 
   #TODO Skrive kode for å legge til hver drink i en JSON-fil
-  drink = [_id, name, category, instructions, ingredients]
+  drink = {
+    "id" : _id,
+    "name" : name,
+    "category" : category,
+    "instructions" : instructions,
+    "ingredients" : ingredients
+  }
+
   drinks.append(drink)
 
   #print("ingredientstemp ", _id, name, category, instructions, ingredientstemp)
@@ -272,8 +279,7 @@ for drink in data["drinks"]:
 #print(drinks[0])
 
 # Convert drinks to JSON
-#TODO Change list to dictionaries
-json_string = json.dumps(drinks)
+json_string = json.dumps({"drinks" : drinks})
 
 f2 = open("clean_drinks.json", "w")
 f2.write(json_string)
