@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cocktail:CocktailParty
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore"
+    xsi:schemaLocation="platform:/plugin/tdt4250.project.model/model/cocktail.ecore cocktail.ecore">
+  <inventories
+      name="Home"/>
+  <drinkRegister
+      name="Cuba Libre"
+      strength="MEDIUM">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.3"
+        amountType="CL"
+        amount="4.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="CL"
+        amount="20.0"/>
+  </drinkRegister>
+  <cocktailProducts
+      name="Lime"/>
+  <cocktailProducts
+      name="Ice Cube"/>
+  <cocktailProducts
+      name="Coca Cola"/>
+  <cocktailProducts
+      name="Havana Club Rum"
+      vol="40.0"/>
+</cocktail:CocktailParty>
