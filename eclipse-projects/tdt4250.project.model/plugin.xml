@@ -14,4 +14,11 @@
             genModel="model/cocktail.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated cocktail -->
+      <parser
+            type="cocktail"
+            class="tdt4250.project.model.cocktail.util.CocktailResourceFactoryImpl"/>
+   </extension>
+
 </plugin>

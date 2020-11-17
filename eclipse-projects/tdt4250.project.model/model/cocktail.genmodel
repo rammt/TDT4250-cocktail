@@ -8,8 +8,8 @@
     copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>cocktail.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
-  <genPackages prefix="Cocktail" basePackage="tdt4250.project.model" disposableProviderFactory="true"
-      ecorePackage="cocktail.ecore#/">
+  <genPackages prefix="Cocktail" basePackage="tdt4250.project.model" resource="Basic"
+      disposableProviderFactory="true" ecorePackage="cocktail.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="cocktail.ecore#//AmountType">
       <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//AmountType/PCS"/>
       <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//AmountType/CL"/>

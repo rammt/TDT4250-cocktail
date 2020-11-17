@@ -115,7 +115,7 @@ public interface CocktailPackage extends EPackage {
 	int COCKTAIL_PARTY = 1;
 
 	/**
-	 * The feature id for the '<em><b>Inventories</b></em>' containment reference.
+	 * The feature id for the '<em><b>Inventories</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -124,7 +124,7 @@ public interface CocktailPackage extends EPackage {
 	int COCKTAIL_PARTY__INVENTORIES = 0;
 
 	/**
-	 * The feature id for the '<em><b>Drink Register</b></em>' containment reference.
+	 * The feature id for the '<em><b>Drink Register</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -133,7 +133,7 @@ public interface CocktailPackage extends EPackage {
 	int COCKTAIL_PARTY__DRINK_REGISTER = 1;
 
 	/**
-	 * The feature id for the '<em><b>Cocktail Products</b></em>' containment reference.
+	 * The feature id for the '<em><b>Cocktail Products</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -433,10 +433,10 @@ public interface CocktailPackage extends EPackage {
 	EClass getCocktailParty();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link tdt4250.project.model.cocktail.CocktailParty#getInventories <em>Inventories</em>}'.
+	 * Returns the meta object for the containment reference list '{@link tdt4250.project.model.cocktail.CocktailParty#getInventories <em>Inventories</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Inventories</em>'.
+	 * @return the meta object for the containment reference list '<em>Inventories</em>'.
 	 * @see tdt4250.project.model.cocktail.CocktailParty#getInventories()
 	 * @see #getCocktailParty()
 	 * @generated
@@ -444,10 +444,10 @@ public interface CocktailPackage extends EPackage {
 	EReference getCocktailParty_Inventories();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link tdt4250.project.model.cocktail.CocktailParty#getDrinkRegister <em>Drink Register</em>}'.
+	 * Returns the meta object for the containment reference list '{@link tdt4250.project.model.cocktail.CocktailParty#getDrinkRegister <em>Drink Register</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Drink Register</em>'.
+	 * @return the meta object for the containment reference list '<em>Drink Register</em>'.
 	 * @see tdt4250.project.model.cocktail.CocktailParty#getDrinkRegister()
 	 * @see #getCocktailParty()
 	 * @generated
@@ -455,10 +455,10 @@ public interface CocktailPackage extends EPackage {
 	EReference getCocktailParty_DrinkRegister();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link tdt4250.project.model.cocktail.CocktailParty#getCocktailProducts <em>Cocktail Products</em>}'.
+	 * Returns the meta object for the containment reference list '{@link tdt4250.project.model.cocktail.CocktailParty#getCocktailProducts <em>Cocktail Products</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Cocktail Products</em>'.
+	 * @return the meta object for the containment reference list '<em>Cocktail Products</em>'.
 	 * @see tdt4250.project.model.cocktail.CocktailParty#getCocktailProducts()
 	 * @see #getCocktailParty()
 	 * @generated
@@ -728,7 +728,7 @@ public interface CocktailPackage extends EPackage {
 		EClass COCKTAIL_PARTY = eINSTANCE.getCocktailParty();
 
 		/**
-		 * The meta object literal for the '<em><b>Inventories</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Inventories</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -736,7 +736,7 @@ public interface CocktailPackage extends EPackage {
 		EReference COCKTAIL_PARTY__INVENTORIES = eINSTANCE.getCocktailParty_Inventories();
 
 		/**
-		 * The meta object literal for the '<em><b>Drink Register</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Drink Register</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -744,7 +744,7 @@ public interface CocktailPackage extends EPackage {
 		EReference COCKTAIL_PARTY__DRINK_REGISTER = eINSTANCE.getCocktailParty_DrinkRegister();
 
 		/**
-		 * The meta object literal for the '<em><b>Cocktail Products</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Cocktail Products</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated

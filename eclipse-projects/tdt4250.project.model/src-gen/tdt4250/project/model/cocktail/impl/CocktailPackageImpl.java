@@ -504,13 +504,13 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 
 		initEClass(cocktailPartyEClass, CocktailParty.class, "CocktailParty", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCocktailParty_Inventories(), this.getInventory(), null, "inventories", null, 0, 1,
+		initEReference(getCocktailParty_Inventories(), this.getInventory(), null, "inventories", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCocktailParty_DrinkRegister(), this.getDrink(), null, "drinkRegister", null, 0, 1,
+		initEReference(getCocktailParty_DrinkRegister(), this.getDrink(), null, "drinkRegister", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCocktailParty_CocktailProducts(), this.getProduct(), null, "cocktailProducts", null, 0, 1,
+		initEReference(getCocktailParty_CocktailProducts(), this.getProduct(), null, "cocktailProducts", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
