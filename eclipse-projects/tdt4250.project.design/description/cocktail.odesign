@@ -15,6 +15,13 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
+        <nodeMappings name="DrinkInstructionNode" semanticCandidatesExpression="feature:eAllContents" domainClass="cocktail::Drink">
+          <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:instructions" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
         <containerMappings name="DrinkContainer" domainClass="cocktail::Drink">
           <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="feature:eAllContents" domainClass="cocktail::DrinkIngredient">
             <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType.name" labelPosition="node" resizeKind="NSEW">

@@ -2,9 +2,8 @@
  */
 package tdt4250.project.model.cocktail.util;
 
+import java.io.IOException;
 import org.eclipse.emf.common.util.URI;
-import org.eclipse.emf.ecore.resource.Resource;
-import org.eclipse.emf.ecore.resource.impl.ResourceImpl;
 import org.emfjson.jackson.resource.JsonResource;
 
 /**
@@ -23,15 +22,11 @@ public class CocktailResourceImpl extends JsonResource {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param uri the URI of the new resource.
-	 * @generated NOT
+	 * @generated
 	 */
-	
 
-	public CocktailResourceImpl(URI uri) {
+	public CocktailResourceImpl(URI uri) throws IOException {
 		super(uri);
-		
-		Resource resource = resourceSet.createResource(URI.createFileURI(""));
-		//resource.load(null);
 	}
 
 } //CocktailResourceImpl
