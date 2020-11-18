@@ -267,19 +267,21 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String toString() {
 		if (eIsProxy())
 			return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (amountType: ");
+		StringBuilder result = new StringBuilder("");
+		result.append("(product: ");
+		result.append(this.getProduct().getName());
+		result.append(", amountType: ");
 		result.append(amountType);
 		result.append(", amount: ");
 		result.append(amount);
-		result.append(')');
+		result.append(")\n");
 		return result.toString();
 	}
 

@@ -1,0 +1,43 @@
+{
+	"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//CocktailParty",
+	"cocktailProducts": [
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coca Cola",
+            "vol": ""
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime",
+            "vol": ""
+        }
+    ],
+    "drinkRegister": [
+    	{
+    		"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+    		"id": 0,
+    		"name": "Cuba Libre",
+    		"instructions": "Mix that shit",
+    		"requiredIngredients": [
+    			{
+    				"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+    				"product": {
+    					"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+    					"$ref": "//@cocktailProducts.0"
+    				},
+    				"amount": 40.0,
+    				"amountType": "CL"
+    			},
+    			{
+    				"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+    				"product": {
+    					"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+    					"$ref": "//@cocktailProducts.1"
+    				},
+    				"amount": 0.5,
+    				"amountType": "PCS"
+    			}
+    		]
+    	}
+    ]
+}

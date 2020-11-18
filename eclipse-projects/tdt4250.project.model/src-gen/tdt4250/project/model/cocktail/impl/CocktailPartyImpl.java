@@ -221,5 +221,24 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 		}
 		return super.eIsSet(featureID);
 	}
+	
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated NOT
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy())
+			return super.toString();
 
+		StringBuilder result = new StringBuilder("");
+		result.append("\nDrinks: ");
+		result.append(this.getDrinkRegister().size());
+		result.append("\nInventory: ");
+		result.append(this.getInventories().size());
+		result.append("\nProducts: ");
+		result.append(this.getCocktailProducts().size());
+		return result.toString();
+	}
 } //CocktailPartyImpl
