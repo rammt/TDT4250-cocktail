@@ -1,5 +1,5 @@
 <eClassifiers xsi:type="ecore:EEnum" name="AmountType">
-  <eLiterals name="" value="0"/>
+  <eLiterals name="unknown" value="0"/>
   <eLiterals name="oz" value="1"/>
   <eLiterals name="tsp" value="2"/>
   <eLiterals name="cl" value="3"/>

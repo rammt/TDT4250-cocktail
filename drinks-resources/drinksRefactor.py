@@ -294,6 +294,7 @@ f.close()
 f3 = open("enumUnits.txt", "w")
 f3.write("")
 f3.close()
+enums[0] = "unknown"
 f3 = open("enumUnits.txt", "a")
 f3.write('<eClassifiers xsi:type="ecore:EEnum" name="AmountType">\n')
 for k in range(len(enums)):

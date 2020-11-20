@@ -25,15 +25,12 @@ for drink in data["drinks"]:
 
   # Hver ingreduens i en drink
   for ingredient in drink["ingredients"]:
-
-    if (drink["name"] == "Lunch Box"):
-      print(ingredient)
-
-    # Finne id i peoduct-liste
+    # Finne id i product-liste
     productName = ingredient["ingredient"]
     productIndex = None
     ref = ""
     amount = None
+    amountType = ingredient["unit"]
     
     # Handle empty units
     if (ingredient["amount"] == ""):
@@ -44,6 +41,10 @@ for drink in data["drinks"]:
       amount = 11.0
     else:
       amount = float(ingredient["amount"])
+
+    # Handle empty amount types
+    if (ingredient["unit"] == ""):
+      amountType = "unknown"
 
     # For hvert produkt må det sjekkes hvilken ID produktet har
     for i in range(len(products)):
@@ -58,10 +59,9 @@ for drink in data["drinks"]:
         "$ref": ref
       },
       "amount": amount,
-      "amountType": ingredient["unit"]
+      "amountType": amountType
     }
     requiredIngredients.append(requiredIngredient)
-    #print(requiredIngredients)
   drink = {
     "eClass" : "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
     "id" : drink["id"],
