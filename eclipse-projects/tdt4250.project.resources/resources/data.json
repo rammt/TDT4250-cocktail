@@ -1,5 +1,4 @@
 {
-	"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//CocktailParty",
 	"cocktailProducts": [
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -16,8 +15,8 @@
     	{
     		"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
     		"id": 0,
-    		"name": "Cuba Libre",
-    		"instructions": "Mix that shit",
+    		"name": "Cuba Bing bong",
+    		"instructions": "Mix that motherfucker",
     		"requiredIngredients": [
     			{
     				"eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
@@ -39,5 +38,6 @@
     			}
     		]
     	}
-    ]
+    ],
+    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//CocktailParty"
 }
