@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cocktail:CocktailParty xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore">
+  <drinkRegister name="Cuba Bing bong" instructions="Mix that motherfucker">
+    <requiredIngredients product="//@cocktailProducts.0" amountType="CL" amount="40.0"/>
+    <requiredIngredients product="//@cocktailProducts.1" amount="0.5"/>
+  </drinkRegister>
+  <cocktailProducts name="Coca Cola"/>
+  <cocktailProducts name="Lime"/>
+</cocktail:CocktailParty>

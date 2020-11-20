@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cocktail:CocktailParty xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore" xsi:schemaLocation="platform:/plugin/tdt4250.project.model/model/cocktail.ecore ../tdt4250.project.model/model/cocktail.ecore">
   <inventories name="Home"/>
-  <drinkRegister name="Cuba Libre" strength="MEDIUM" instructions="Scoopdipoop">
+  <drinkRegister name="Cuba Libre" strength="MEDIUM" instructions="peeepeepoopoo when you peep poop and then poo poo for then to bing bong oiwjreg ejrg oei oij oij oij oij oijoij ">
     <requiredIngredients product="//@cocktailProducts.0" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.1" amount="6.0"/>
     <requiredIngredients product="//@cocktailProducts.3" amountType="CL" amount="4.0"/>
