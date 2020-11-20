@@ -429,9 +429,9 @@ public class DrinkImpl extends MinimalEObjectImpl.Container implements Drink {
 		result.append(", instructions: ");
 		result.append(instructions);
 		result.append(")\n");
-		for (int i = 0; i < this.getRequiredIngredients().size(); i++){
+		for (int i = 0; i < this.getRequiredIngredients().size(); i++) {
 			result.append("Ingredient ");
-			result.append(i+1);
+			result.append(i + 1);
 			result.append(": ");
 			result.append(this.getRequiredIngredients().get(i));
 		}

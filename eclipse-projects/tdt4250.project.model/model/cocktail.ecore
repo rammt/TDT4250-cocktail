@@ -35,9 +35,56 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="instructions" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="AmountType">
-    <eLiterals name="PCS"/>
-    <eLiterals name="CL" value="1"/>
-    <eLiterals name="GRAMS" value="2"/>
+    <eLiterals name="oz" value="1"/>
+    <eLiterals name="tsp" value="2"/>
+    <eLiterals name="cl" value="3"/>
+    <eLiterals name="dash" value="4"/>
+    <eLiterals name="cube" value="5"/>
+    <eLiterals name="splash" value="6"/>
+    <eLiterals name="slice" value="7"/>
+    <eLiterals name="twist" value="8"/>
+    <eLiterals name="tablespoon" value="9"/>
+    <eLiterals name="drop" value="10"/>
+    <eLiterals name="wedge" value="11"/>
+    <eLiterals name="whole" value="12"/>
+    <eLiterals name="piece" value="13"/>
+    <eLiterals name="cup" value="14"/>
+    <eLiterals name="chunk" value="15"/>
+    <eLiterals name="part" value="16"/>
+    <eLiterals name="large" value="17"/>
+    <eLiterals name="lb" value="18"/>
+    <eLiterals name="frozen" value="19"/>
+    <eLiterals name="can" value="20"/>
+    <eLiterals name="l" value="21"/>
+    <eLiterals name="pinch" value="22"/>
+    <eLiterals name="gal" value="23"/>
+    <eLiterals name="ground" value="24"/>
+    <eLiterals name="inch" value="25"/>
+    <eLiterals name="qt" value="26"/>
+    <eLiterals name="gr" value="27"/>
+    <eLiterals name="stick" value="28"/>
+    <eLiterals name="strip" value="29"/>
+    <eLiterals name="beaten" value="30"/>
+    <eLiterals name="crushed" value="31"/>
+    <eLiterals name="cubes" value="32"/>
+    <eLiterals name="bottle" value="33"/>
+    <eLiterals name="ml" value="34"/>
+    <eLiterals name="cracked" value="35"/>
+    <eLiterals name="one_inch" value="36" literal="one_inch"/>
+    <eLiterals name="kg" value="37"/>
+    <eLiterals name="pint" value="38"/>
+    <eLiterals name="ripe" value="39"/>
+    <eLiterals name="dl" value="40"/>
+    <eLiterals name="scoop" value="41"/>
+    <eLiterals name="measure" value="42"/>
+    <eLiterals name="glass" value="43"/>
+    <eLiterals name="package" value="44"/>
+    <eLiterals name="handful" value="45"/>
+    <eLiterals name="jigger" value="46"/>
+    <eLiterals name="sprig" value="47"/>
+    <eLiterals name="leave" value="48"/>
+    <eLiterals name="long" value="49"/>
+    <eLiterals name="unknown" literal="unknown"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Inventory">
     <eStructuralFeatures xsi:type="ecore:EReference" name="availableIngredients" upperBound="-1"

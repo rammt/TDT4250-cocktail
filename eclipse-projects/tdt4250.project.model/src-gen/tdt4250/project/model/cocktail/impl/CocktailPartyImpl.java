@@ -221,7 +221,7 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 		}
 		return super.eIsSet(featureID);
 	}
-	
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

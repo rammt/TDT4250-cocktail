@@ -49,7 +49,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final AmountType AMOUNT_TYPE_EDEFAULT = AmountType.PCS;
+	protected static final AmountType AMOUNT_TYPE_EDEFAULT = AmountType.OZ;
 
 	/**
 	 * The cached value of the '{@link #getAmountType() <em>Amount Type</em>}' attribute.
