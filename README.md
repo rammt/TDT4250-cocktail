@@ -36,5 +36,7 @@ Follow the installation steps to get the project running and follow the user gui
 
 ### Installation
 
+#### Dependencies
+
 
 ### User Guide
