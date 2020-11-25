@@ -16,13 +16,13 @@ Through the use of Sirius, it shows you the instructions and required ingredient
 
 ### The Ecore Model
 The root of the model is the CocktailParty class, it may contain several user Inventories, Drinks (Cocktails) and Products.
-A Drink is  specific Cocktail and may contain several DrinkIngredients. A DrinkIngredient is related to a product, however, a DrinkIngredient is specific for a given Drink and specifies the the amountType (f.ex liter, kilogram or piece) and the amount of the ingredient required for the Drink. The AmountType is an enum that holds all the various types of measurements found in the dataset.
+A Drink is  specific Cocktail and may contain several DrinkIngredients. A DrinkIngredient is related to a product, however, a DrinkIngredient is specific for a given Drink and specifies the the amountType (f.ex liter, kilogram or piece) and the amount of the ingredient required for the Drink. The AmountType is an enum that holds all the various types of measurements found in the cocktail dataset.
 
 ### Chosen API
 
 
 ### Refactoring API to EMFJson
-The Json dataset that weWe chose to use Python for the refactoring of the original cocktail API. The result was a clean dataset on the EMFJson format.
+We chose to use Python for the refactoring of the original cocktail API. The result was a clean dataset on the EMFJson format.
 
 ### Transformation
 
