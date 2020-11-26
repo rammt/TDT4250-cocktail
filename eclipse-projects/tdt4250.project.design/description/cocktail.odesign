@@ -21,7 +21,7 @@
         <containerMappings name="DrinkContainer" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
           <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink">
             <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.requiredIngredients" domainClass="cocktail::DrinkIngredient">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType.name" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql: if (self.amountType.name == 'unknown' then (self.product.name + ': ' + self.amount) else (self.product.name + ': ' + self.amount + ' ' + self.amountType.name) endif" sizeComputationExpression="6" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
