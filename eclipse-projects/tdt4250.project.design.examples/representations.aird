@@ -4,480 +4,907 @@
     <semanticResources>CocktailParty.xmi</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_jahZgCQMEeu-6oujYu7CHw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_NFENgSsqEeuYzoz38pjZFg" name="new Cocktail Diagram" repPath="#_NE-G4CsqEeuYzoz38pjZFg" changeId="edf347bf-572c-4fca-bb06-114d8076fada">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7rUdoC_CEeuxOuX-XhAyQA" name="new Cocktail Diagram" repPath="#_7qR70C_CEeuxOuX-XhAyQA" changeId="ce900ac0-f77b-459b-8d45-24600843fd76">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']"/>
         <target xmi:type="cocktail:CocktailParty" href="CocktailParty.xmi#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_h-KXwSs0EeuYzoz38pjZFg" name="peepeepopopo" repPath="#_h-JwsCs0EeuYzoz38pjZFg" changeId="783a9c89-fa5f-42e5-8023-e9102b5b58df">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']"/>
-        <target xmi:type="cocktail:CocktailParty" href="CocktailParty.xmi#/"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KKuy4C_WEeuxOuX-XhAyQA" name="Drinks available from inventory Home" repPath="#_KKrIgC_WEeuxOuX-XhAyQA" changeId="0ac651cd-ce5b-4e8e-b2b6-d8d751b18881">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']"/>
+        <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram uid="_NE-G4CsqEeuYzoz38pjZFg">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_NFRo4CsqEeuYzoz38pjZFg" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_NFRo4SsqEeuYzoz38pjZFg" type="Sirius" element="_NE-G4CsqEeuYzoz38pjZFg" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_NF57ACsqEeuYzoz38pjZFg" type="2001" element="_NFUsMCsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGABoCsqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGABoSsqEeuYzoz38pjZFg" y="5"/>
+  <diagram:DSemanticDiagram uid="_7qR70C_CEeuxOuX-XhAyQA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_7rNv8C_CEeuxOuX-XhAyQA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_7rNv8S_CEeuxOuX-XhAyQA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_7rgq4C_CEeuxOuX-XhAyQA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_7rgq4S_CEeuxOuX-XhAyQA" type="Sirius" element="_7qR70C_CEeuxOuX-XhAyQA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_7rjuMC_CEeuxOuX-XhAyQA" type="2001" element="_7qXbYC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7romsC_CEeuxOuX-XhAyQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7romsS_CEeuxOuX-XhAyQA" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_NGOEECsqEeuYzoz38pjZFg" type="3014" element="_NFay0CsqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGOEESsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGOEEisqEeuYzoz38pjZFg"/>
+          <children xmi:type="notation:Node" xmi:id="_7r1bAC_CEeuxOuX-XhAyQA" type="3017" element="_7qbs0C_CEeuxOuX-XhAyQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7r1bAS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r1bAi_CEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NF6iECsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NF6iESsqEeuYzoz38pjZFg" x="137" y="40" width="30" height="30"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rjuMS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rjuMi_CEeuxOuX-XhAyQA" x="45" y="300" width="60" height="60"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_NGCd4CsqEeuYzoz38pjZFg" type="2001" element="_NFedMCsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGDE8CsqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGDE8SsqEeuYzoz38pjZFg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_7rrC8C_CEeuxOuX-XhAyQA" type="2001" element="_7qewIS_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7rrqAC_CEeuxOuX-XhAyQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7rrqAS_CEeuxOuX-XhAyQA" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_NGOrICsqEeuYzoz38pjZFg" type="3014" element="_NFfEQCsqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGOrISsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGOrIisqEeuYzoz38pjZFg"/>
+          <children xmi:type="notation:Node" xmi:id="_7r2CEC_CEeuxOuX-XhAyQA" type="3017" element="_7qewIi_CEeuxOuX-XhAyQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7r2CES_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r2CEi_CEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NGCd4SsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGCd4isqEeuYzoz38pjZFg" x="137" y="40" width="30" height="30"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rrC8S_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rrC8i_CEeuxOuX-XhAyQA" x="186" y="300" width="60" height="60"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_NGETECsqEeuYzoz38pjZFg" type="2001" element="_NFgSYCsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGFhMCsqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGFhMSsqEeuYzoz38pjZFg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_7rrqAi_CEeuxOuX-XhAyQA" type="2001" element="_7qfXMS_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7rsREC_CEeuxOuX-XhAyQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7rsRES_CEeuxOuX-XhAyQA" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_NGPSMCsqEeuYzoz38pjZFg" type="3014" element="_NFgSYSsqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGPSMSsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGPSMisqEeuYzoz38pjZFg"/>
+          <children xmi:type="notation:Node" xmi:id="_7r2pIC_CEeuxOuX-XhAyQA" type="3017" element="_7qfXMi_CEeuxOuX-XhAyQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7r2pIS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r2pIi_CEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NGETESsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGETEisqEeuYzoz38pjZFg" x="137" y="40" width="30" height="30"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rrqAy_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rrqBC_CEeuxOuX-XhAyQA" x="506" y="300" width="60" height="60"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_NGGIQCsqEeuYzoz38pjZFg" type="2001" element="_NFg5cSsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGGvUCsqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGGvUSsqEeuYzoz38pjZFg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_7rsREi_CEeuxOuX-XhAyQA" type="2001" element="_7qfXNC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7rs4IC_CEeuxOuX-XhAyQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_7rs4IS_CEeuxOuX-XhAyQA" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_NGQgUCsqEeuYzoz38pjZFg" type="3014" element="_NFhggCsqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGQgUSsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGQgUisqEeuYzoz38pjZFg"/>
+          <children xmi:type="notation:Node" xmi:id="_7r3QMC_CEeuxOuX-XhAyQA" type="3017" element="_7qf-QC_CEeuxOuX-XhAyQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_7r3QMS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r3QMi_CEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NGGIQSsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGGIQisqEeuYzoz38pjZFg" x="137" y="40" width="30" height="30"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rsREy_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rsRFC_CEeuxOuX-XhAyQA" x="351" y="300" width="60" height="60"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_NGHWYCsqEeuYzoz38pjZFg" type="2001" element="_NFiHkSsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGH9cCsqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGH9cSsqEeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_NGRHYCsqEeuYzoz38pjZFg" type="3014" element="_NFiHkisqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGRHYSsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGRHYisqEeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NGHWYSsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGHWYisqEeuYzoz38pjZFg" x="137" y="40" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_NGIkgCsqEeuYzoz38pjZFg" visible="false" type="2001" element="_NFjVsCsqEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_NGIkgysqEeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_NGIkhCsqEeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_NGSVgCsqEeuYzoz38pjZFg" type="3003" element="_NFj8wCsqEeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_NGSVgSsqEeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGSVgisqEeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_NGIkgSsqEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGIkgisqEeuYzoz38pjZFg" x="500" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_ev064CsxEeuYzoz38pjZFg" type="2002" element="_wCC-uiszEeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_ev1h8CsxEeuYzoz38pjZFg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_ev2JACsxEeuYzoz38pjZFg" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_wCPzACszEeuYzoz38pjZFg" type="3009" element="_wCDlwyszEeuYzoz38pjZFg">
-              <children xmi:type="notation:Node" xmi:id="_wCRBICszEeuYzoz38pjZFg" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_wCRBISszEeuYzoz38pjZFg" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_wCVSkCszEeuYzoz38pjZFg" type="3010" element="_wCEM0SszEeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_wCVSkSszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wCVSkiszEeuYzoz38pjZFg"/>
+        <children xmi:type="notation:Node" xmi:id="_7rv7cC_CEeuxOuX-XhAyQA" type="2002" element="_7qglUC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7rxJkC_CEeuxOuX-XhAyQA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_7rzl0C_CEeuxOuX-XhAyQA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_7r4eUC_CEeuxOuX-XhAyQA" type="3008" element="_7qjooC_CEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_7r5FYC_CEeuxOuX-XhAyQA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_7r5scC_CEeuxOuX-XhAyQA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_7r_MAC_CEeuxOuX-XhAyQA" type="3007" element="_7q6N8C_CEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_7r_MAy_CEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_7r_MBC_CEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7sDdcC_CEeuxOuX-XhAyQA" type="3003" element="_7rAUkC_CEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7sDdcS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sDdci_CEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7r_MAS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r_MAi_CEeuxOuX-XhAyQA" x="29" y="31" width="100" height="100"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_wCVSkyszEeuYzoz38pjZFg" type="3010" element="_wCEz4CszEeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_wCVSlCszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wCVSlSszEeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_7r_zEC_CEeuxOuX-XhAyQA" type="3007" element="_7rA7oC_CEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_7sAaIC_CEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_7sAaIS_CEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7sDdcy_CEeuxOuX-XhAyQA" type="3003" element="_7rA7oS_CEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7sDddC_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sDddS_CEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7r_zES_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r_zEi_CEeuxOuX-XhAyQA" x="159" y="31" width="100" height="100"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_wCVSliszEeuYzoz38pjZFg" type="3010" element="_wCEz4iszEeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_wCVSlyszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wCVSmCszEeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_7sAaIi_CEeuxOuX-XhAyQA" type="3007" element="_7rBisS_CEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_7sBBMC_CEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_7sBBMS_CEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7sEEgC_CEeuxOuX-XhAyQA" type="3003" element="_7rCw0C_CEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7sEEgS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sEEgi_CEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7sAaIy_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sAaJC_CEeuxOuX-XhAyQA" x="319" y="31" width="100" height="100"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_wCV5oCszEeuYzoz38pjZFg" type="3010" element="_wCEz5CszEeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_wCV5oSszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_wCV5oiszEeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_7sBoQC_CEeuxOuX-XhAyQA" type="3007" element="_7rDX4S_CEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_7sCPUC_CEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_7sCPUS_CEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7sErkC_CEeuxOuX-XhAyQA" type="3003" element="_7rDX4i_CEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7sErkS_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sErki_CEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7sBoQS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sBoQi_CEeuxOuX-XhAyQA" x="479" y="31" width="100" height="100"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_wCRBIiszEeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_wCRBIyszEeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:DrawerStyle" xmi:id="_wCTdYCszEeuYzoz38pjZFg"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_7r5scS_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_7r5sci_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_7r6TgC_CEeuxOuX-XhAyQA"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_wCPzASszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wCPzAiszEeuYzoz38pjZFg" width="185" height="213"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_7r4eUS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r4eUi_CEeuxOuX-XhAyQA"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_wCTdYSszEeuYzoz38pjZFg" type="3009" element="_3knYQCszEeuYzoz38pjZFg">
-              <children xmi:type="notation:Node" xmi:id="_wCUEciszEeuYzoz38pjZFg" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_wCUEcyszEeuYzoz38pjZFg" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_3loE4CszEeuYzoz38pjZFg" type="3010" element="_3knYQSszEeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_3loE4SszEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_3loE4iszEeuYzoz38pjZFg"/>
+            <children xmi:type="notation:Node" xmi:id="_7r66kC_CEeuxOuX-XhAyQA" type="3009" element="_7rD-8S_CEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_7r7hoC_CEeuxOuX-XhAyQA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_7r994C_CEeuxOuX-XhAyQA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_1_vG8C_aEeuxOuX-XhAyQA" type="3010" element="_1_czEi_aEeuxOuX-XhAyQA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_1_vG8S_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1_vG8i_aEeuxOuX-XhAyQA"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_wCUEdCszEeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_wCUEdSszEeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:DrawerStyle" xmi:id="_wCUrgCszEeuYzoz38pjZFg"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_7r994S_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_7r994i_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_7r-k8C_CEeuxOuX-XhAyQA"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_wCUEcCszEeuYzoz38pjZFg" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wCUEcSszEeuYzoz38pjZFg" x="25" width="135" height="213"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_7r66kS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r66ki_CEeuxOuX-XhAyQA" x="588"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_ev2JASsxEeuYzoz38pjZFg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_ev2JAisxEeuYzoz38pjZFg"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7rzl0S_CEeuxOuX-XhAyQA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7rzl0i_CEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_ev064SsxEeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12" underline="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ev064isxEeuYzoz38pjZFg" x="-20" y="90"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7rv7cS_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7rv7ci_CEeuxOuX-XhAyQA"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_NFRo4isqEeuYzoz38pjZFg"/>
+        <children xmi:type="notation:Node" xmi:id="_7r0M4C_CEeuxOuX-XhAyQA" type="2002" element="_7rFNES_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7r0M4y_CEeuxOuX-XhAyQA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_7r0M5C_CEeuxOuX-XhAyQA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_7sHH0C_CEeuxOuX-XhAyQA" type="3008" element="_7rHCQC_CEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_7sHH0y_CEeuxOuX-XhAyQA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_7sHH1C_CEeuxOuX-XhAyQA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_7sHu4S_CEeuxOuX-XhAyQA" type="3007" element="_7rHpUC_CEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_7sIV8C_CEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_7sIV8S_CEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_7sIV8i_CEeuxOuX-XhAyQA" type="3003" element="_7rHpUS_CEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_7sIV8y_CEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sIV9C_CEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7sHu4i_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sHu4y_CEeuxOuX-XhAyQA" x="27" y="44" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_St7_gC_VEeuxOuX-XhAyQA" type="3007" element="_StxAYC_VEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_St8mkC_VEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_St8mkS_VEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_St90sC_VEeuxOuX-XhAyQA" type="3003" element="_StxncC_VEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_St90sS_VEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_St90si_VEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_St7_gS_VEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_St7_gi_VEeuxOuX-XhAyQA" x="262" y="44" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_aTfmMC_WEeuxOuX-XhAyQA" type="3007" element="_aTWcQC_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_aTfmMy_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_aTfmNC_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_aTgNQC_WEeuxOuX-XhAyQA" type="3003" element="_aTWcQS_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_aTgNQS_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTgNQi_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_aTfmMS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTfmMi_WEeuxOuX-XhAyQA" x="142" y="44" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_j324YC_WEeuxOuX-XhAyQA" type="3007" element="_j3uVgC_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_j33fcC_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_j33fcS_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_j34GgC_WEeuxOuX-XhAyQA" type="3003" element="_j3uVgS_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_j34GgS_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j34Ggi_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_j324YS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j324Yi_WEeuxOuX-XhAyQA" x="387" y="44" width="80" height="80"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_7sHH1S_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_7sHH1i_CEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_7sHu4C_CEeuxOuX-XhAyQA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_7sHH0S_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sHH0i_CEeuxOuX-XhAyQA" width="591" height="152"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_7r0M5S_CEeuxOuX-XhAyQA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_7r0M5i_CEeuxOuX-XhAyQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_7r0M4S_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7r0M4i_CEeuxOuX-XhAyQA" x="13" y="420"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_fuhHoC_aEeuxOuX-XhAyQA" type="2002" element="_fuU6YS_aEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_fuhHoy_aEeuxOuX-XhAyQA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_fuhHpC_aEeuxOuX-XhAyQA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_fuhusy_aEeuxOuX-XhAyQA" type="3008" element="_fuVhcC_aEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_fuiVwC_aEeuxOuX-XhAyQA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_fuiVwS_aEeuxOuX-XhAyQA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_fui80C_aEeuxOuX-XhAyQA" type="3007" element="_fuWvkC_aEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_fui80y_aEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_fui81C_aEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_fukK8C_aEeuxOuX-XhAyQA" type="3003" element="_fuWvkS_aEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_fukK8S_aEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fukK8i_aEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_fui80S_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fui80i_aEeuxOuX-XhAyQA" x="29" y="31" width="100" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_fui81S_aEeuxOuX-XhAyQA" type="3007" element="_fuXWoS_aEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_fui82C_aEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_fui82S_aEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_fukyAC_aEeuxOuX-XhAyQA" type="3003" element="_fuXWoi_aEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_fukyAS_aEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fukyAi_aEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_fui81i_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fui81y_aEeuxOuX-XhAyQA" x="160" y="31" width="100" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_fui82i_aEeuxOuX-XhAyQA" type="3007" element="_fuX9sS_aEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_fujj4C_aEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_fujj4S_aEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_fukyAy_aEeuxOuX-XhAyQA" type="3003" element="_fuX9si_aEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_fukyBC_aEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fukyBS_aEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_fui82y_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fui83C_aEeuxOuX-XhAyQA" x="320" y="31" width="100" height="100"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_fuiVwi_aEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_fuiVwy_aEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_fuiVxC_aEeuxOuX-XhAyQA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fuhutC_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhutS_aEeuxOuX-XhAyQA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fuiVxS_aEeuxOuX-XhAyQA" type="3009" element="_fuX9tC_aEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_fuiVyC_aEeuxOuX-XhAyQA" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_fuiVyS_aEeuxOuX-XhAyQA" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_1_vuAC_aEeuxOuX-XhAyQA" type="3010" element="_1_eoQS_aEeuxOuX-XhAyQA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_1_vuAS_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_1_vuAi_aEeuxOuX-XhAyQA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_fuiVyi_aEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_fuiVyy_aEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_fuiVzC_aEeuxOuX-XhAyQA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fuiVxi_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuiVxy_aEeuxOuX-XhAyQA" x="429" width="170" height="172"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_fuhHpS_aEeuxOuX-XhAyQA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_fuhHpi_aEeuxOuX-XhAyQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_fuhHoS_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhHoi_aEeuxOuX-XhAyQA" x="-355" y="-225"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_7rgq4i_CEeuxOuX-XhAyQA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_7sLZQC_CEeuxOuX-XhAyQA" type="4001" element="_7rLTsC_CEeuxOuX-XhAyQA" source="_7r_MAC_CEeuxOuX-XhAyQA" target="_7rjuMC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7sMnYC_CEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sMnYS_CEeuxOuX-XhAyQA" x="3" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sNOcC_CEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sNOcS_CEeuxOuX-XhAyQA" x="-5" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sOckC_CEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sOckS_CEeuxOuX-XhAyQA" x="-6" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7sLZQS_CEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7sLZQi_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7sLZQy_CEeuxOuX-XhAyQA" points="[-3, 50, 5, -115]$[-7, 135, 1, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7siloC_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sjMsC_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7sjMsS_CEeuxOuX-XhAyQA" type="4001" element="_7rL6xC_CEeuxOuX-XhAyQA" source="_7r_zEC_CEeuxOuX-XhAyQA" target="_7rrC8C_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7sjzwC_CEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sjzwS_CEeuxOuX-XhAyQA" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sjzwi_CEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sjzwy_CEeuxOuX-XhAyQA" x="-4" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sjzxC_CEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sjzxS_CEeuxOuX-XhAyQA" x="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7sjMsi_CEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7sjMsy_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7sjMtC_CEeuxOuX-XhAyQA" points="[0, 50, -1, -115]$[0, 135, -1, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7slo8C_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7slo8S_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7slo8i_CEeuxOuX-XhAyQA" type="4001" element="_7rMh1C_CEeuxOuX-XhAyQA" source="_7sAaIi_CEeuxOuX-XhAyQA" target="_7rsREi_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7smQAC_CEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7smQAS_CEeuxOuX-XhAyQA" x="6" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7smQAi_CEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7smQAy_CEeuxOuX-XhAyQA" x="-6" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7smQBC_CEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7smQBS_CEeuxOuX-XhAyQA" x="-5" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7slo8y_CEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7slo9C_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7slo9S_CEeuxOuX-XhAyQA" points="[1, 50, -4, -115]$[4, 135, -1, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sm3EC_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sm3ES_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7sm3Ei_CEeuxOuX-XhAyQA" type="4001" element="_7rMh2S_CEeuxOuX-XhAyQA" source="_7sBoQC_CEeuxOuX-XhAyQA" target="_7rrqAi_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7sm3Fi_CEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sm3Fy_CEeuxOuX-XhAyQA" x="4" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sneIC_CEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sneIS_CEeuxOuX-XhAyQA" x="-6" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sneIi_CEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sneIy_CEeuxOuX-XhAyQA" x="-5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7sm3Ey_CEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7sm3FC_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7sm3FS_CEeuxOuX-XhAyQA" points="[0, 50, -1, -115]$[0, 135, -1, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sneJC_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sneJS_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_7soFMC_CEeuxOuX-XhAyQA" type="4001" element="_7rNI4i_CEeuxOuX-XhAyQA" source="_7sHu4S_CEeuxOuX-XhAyQA" target="_7rjuMC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_7soFNC_CEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7soFNS_CEeuxOuX-XhAyQA" x="-54" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7soFNi_CEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7soFNy_CEeuxOuX-XhAyQA" x="-10" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_7sosQC_CEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7sosQS_CEeuxOuX-XhAyQA" x="-8" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_7soFMS_CEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_7soFMi_CEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7soFMy_CEeuxOuX-XhAyQA" points="[-2, -40, 8, 190]$[-9, -200, 1, 30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sosQi_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7sosQy_CEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_blnK0C_VEeuxOuX-XhAyQA" type="4001" element="_blfPDS_VEeuxOuX-XhAyQA" source="_St7_gC_VEeuxOuX-XhAyQA" target="_7rsREi_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_blnK1C_VEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_blnK1S_VEeuxOuX-XhAyQA" x="9" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_blnK1i_VEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_blnK1y_VEeuxOuX-XhAyQA" x="-3" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_blnK2C_VEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_blnK2S_VEeuxOuX-XhAyQA" x="-8" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_blnK0S_VEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_blnK0i_VEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_blnK0y_VEeuxOuX-XhAyQA" points="[9, -40, -52, 206]$[53, -216, -8, 30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_blnx4C_VEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_blnx4S_VEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ce2DcC_WEeuxOuX-XhAyQA" type="4001" element="_cetglC_WEeuxOuX-XhAyQA" source="_aTfmMC_WEeuxOuX-XhAyQA" target="_7rrC8C_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_ce2qgC_WEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce2qgS_WEeuxOuX-XhAyQA" x="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ce2qgi_WEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce2qgy_WEeuxOuX-XhAyQA" x="-11" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ce2qhC_WEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ce2qhS_WEeuxOuX-XhAyQA" x="20"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ce2DcS_WEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ce2Dci_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ce2Dcy_WEeuxOuX-XhAyQA" points="[2, -40, -14, 206]$[14, -216, -2, 30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce3RkC_WEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce3RkS_WEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_lji-IC_WEeuxOuX-XhAyQA" type="4001" element="_ljbpdC_WEeuxOuX-XhAyQA" source="_j324YC_WEeuxOuX-XhAyQA" target="_7rrqAi_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_ljjlMC_WEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljjlMS_WEeuxOuX-XhAyQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ljjlMi_WEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljjlMy_WEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ljjlNC_WEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ljjlNS_WEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_lji-IS_WEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_lji-Ii_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lji-Iy_WEeuxOuX-XhAyQA" points="[22, -40, -74, 134]$[79, -144, -17, 30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ljkMQC_WEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ljkMQS_WEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fumAIC_aEeuxOuX-XhAyQA" type="4001" element="_fueEYi_aEeuxOuX-XhAyQA" source="_fui80C_aEeuxOuX-XhAyQA" target="_7rjuMC_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_fumAJC_aEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fumAJS_aEeuxOuX-XhAyQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fumAJi_aEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fumAJy_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fumnMC_aEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fumnMS_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fumAIS_aEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fumAIi_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fumAIy_aEeuxOuX-XhAyQA" points="[4, 50, -21, -230]$[22, 250, -3, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fumnMi_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fumnMy_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fumnNC_aEeuxOuX-XhAyQA" type="4001" element="_fuerYi_aEeuxOuX-XhAyQA" source="_fui81S_aEeuxOuX-XhAyQA" target="_7rrC8C_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_funOQC_aEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_funOQS_aEeuxOuX-XhAyQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_funOQi_aEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_funOQy_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_funORC_aEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_funORS_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fumnNS_aEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fumnNi_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fumnNy_aEeuxOuX-XhAyQA" points="[29, 50, -137, -230]$[148, 250, -18, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_funORi_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_funORy_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fun1UC_aEeuxOuX-XhAyQA" type="4001" element="_fuerZy_aEeuxOuX-XhAyQA" source="_fui82i_aEeuxOuX-XhAyQA" target="_7rrqAi_CEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_fun1VC_aEeuxOuX-XhAyQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fun1VS_aEeuxOuX-XhAyQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fun1Vi_aEeuxOuX-XhAyQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fun1Vy_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fun1WC_aEeuxOuX-XhAyQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fun1WS_aEeuxOuX-XhAyQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fun1US_aEeuxOuX-XhAyQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fun1Ui_aEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fun1Uy_aEeuxOuX-XhAyQA" points="[50, 28, -436, -252]$[456, 262, -30, -18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fuocYC_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fuocYS_aEeuxOuX-XhAyQA" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_NF1pkCsqEeuYzoz38pjZFg" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_NF1pkSsqEeuYzoz38pjZFg"/>
-    </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFUsMCsqEeuYzoz38pjZFg" name="Home" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
-      <semanticElements xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_NFay0CsqEeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/inventory.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='InventoryNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='InventoryNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFedMCsqEeuYzoz38pjZFg" name="Lime" width="3" height="3" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7qXbYC_CEeuxOuX-XhAyQA" name="Lime" incomingEdges="_7rLTsC_CEeuxOuX-XhAyQA _7rNI4i_CEeuxOuX-XhAyQA _fueEYi_aEeuxOuX-XhAyQA" width="6" height="6" resizeKind="NSEW">
       <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.0"/>
       <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.0"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_NFfEQCsqEeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFgSYCsqEeuYzoz38pjZFg" name="Ice Cube" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_NFgSYSsqEeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFg5cSsqEeuYzoz38pjZFg" name="Coca Cola" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_NFhggCsqEeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFiHkSsqEeuYzoz38pjZFg" name="Havana Club Rum" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_NFiHkisqEeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_NFjVsCsqEeuYzoz38pjZFg" name="peeepeepoopoo" visible="false" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-      <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-      <ownedStyle xmi:type="diagram:Square" uid="_NFj8wCsqEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node" color="252,233,79">
-        <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='DrinkInstructionNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='DrinkInstructionNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_wCC-uiszEeuYzoz38pjZFg" name="Cuba Libre" childrenPresentation="HorizontalStack">
-      <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-      <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wCC-uyszEeuYzoz38pjZFg" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_7qbs0C_CEeuxOuX-XhAyQA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7qewIS_CEeuxOuX-XhAyQA" name="Ice Cube" incomingEdges="_7rL6xC_CEeuxOuX-XhAyQA _cetglC_WEeuxOuX-XhAyQA _fuerYi_aEeuxOuX-XhAyQA" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
+      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_7qewIi_CEeuxOuX-XhAyQA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7qfXMS_CEeuxOuX-XhAyQA" name="Coca Cola" incomingEdges="_7rMh2S_CEeuxOuX-XhAyQA _ljbpdC_WEeuxOuX-XhAyQA _fuerZy_aEeuxOuX-XhAyQA" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
+      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_7qfXMi_CEeuxOuX-XhAyQA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7qfXNC_CEeuxOuX-XhAyQA" name="Havana Club Rum" incomingEdges="_7rMh1C_CEeuxOuX-XhAyQA _blfPDS_VEeuxOuX-XhAyQA" width="6" height="6" resizeKind="NSEW">
+      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
+      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_7qf-QC_CEeuxOuX-XhAyQA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7qglUC_CEeuxOuX-XhAyQA" name="Cuba Libre" childrenPresentation="HorizontalStack">
+      <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
+      <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7qhMYC_CEeuxOuX-XhAyQA" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_wCDlwyszEeuYzoz38pjZFg" name="Ingredients">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7qjooC_CEeuxOuX-XhAyQA" name="Ingredients">
         <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
         <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wCDlxCszEeuYzoz38pjZFg" labelSize="12" showIcon="false">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7qjooS_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" backgroundColor="246,139,139" foregroundColor="252,233,79">
+          <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_wCEM0SszEeuYzoz38pjZFg" name="Lime: 0.5PCS">
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_7q6N8C_CEeuxOuX-XhAyQA" name="Lime: 0.5piece" outgoingEdges="_7rLTsC_CEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
           <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.0"/>
           <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.0"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_wCEM0iszEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" uid="_7rAUkC_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
             <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_wCEz4CszEeuYzoz38pjZFg" name="Ice Cube: 6.0PCS">
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_7rA7oC_CEeuxOuX-XhAyQA" name="Ice Cube: 6.0piece" outgoingEdges="_7rL6xC_CEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
           <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.1"/>
           <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.1"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_wCEz4SszEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" uid="_7rA7oS_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
             <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_wCEz4iszEeuYzoz38pjZFg" name="Havana Club Rum: 4.0CL">
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_7rBisS_CEeuxOuX-XhAyQA" name="Havana Club Rum: 4.0cl" outgoingEdges="_7rMh1C_CEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
           <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.2"/>
           <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.2"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_wCEz4yszEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" uid="_7rCw0C_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
             <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_wCEz5CszEeuYzoz38pjZFg" name="Coca Cola: 20.0CL">
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_7rDX4S_CEeuxOuX-XhAyQA" name="Coca Cola: 20.0cl" outgoingEdges="_7rMh2S_CEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
           <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.3"/>
           <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.3"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_wCEz5SszEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" uid="_7rDX4i_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
             <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
+        </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3knYQCszEeuYzoz38pjZFg" name="Instructions">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_7rD-8S_CEeuxOuX-XhAyQA" name="Instructions">
         <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
         <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5uAttCszEeuYzoz38pjZFg" labelSize="12" showIcon="false">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7rEmAC_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" backgroundColor="252,233,79" foregroundColor="246,139,139">
+          <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_3knYQSszEeuYzoz38pjZFg" name="peeepeepoopoo when you peep poop and then poo poo for then to bing bong oiwjreg ejrg oei oij oij oij oij oijoij ">
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_1_czEi_aEeuxOuX-XhAyQA" name="Cuba Libre Instructions">
           <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
           <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_3kn_UCszEeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node" color="252,233,79">
+          <ownedStyle xmi:type="diagram:Square" uid="_1_czEy_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="252,233,79">
             <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']"/>
         </ownedElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7rFNES_CEeuxOuX-XhAyQA" name="Inventory: Home" childrenPresentation="HorizontalStack">
+      <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+      <semanticElements xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7rGbMC_CEeuxOuX-XhAyQA" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_7rHCQC_CEeuxOuX-XhAyQA" name="Ingredients">
+        <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+        <semanticElements xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7rHCQS_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_7rHpUC_CEeuxOuX-XhAyQA" name="Lime: 5.0piece" outgoingEdges="_7rNI4i_CEeuxOuX-XhAyQA" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.0"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" uid="_7rHpUS_CEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_StxAYC_VEeuxOuX-XhAyQA" name="Havana Club Rum: 5.0oz" outgoingEdges="_blfPDS_VEeuxOuX-XhAyQA" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.1"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" uid="_StxncC_VEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_aTWcQC_WEeuxOuX-XhAyQA" name="Ice Cube: 10.0cube" outgoingEdges="_cetglC_WEeuxOuX-XhAyQA" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.2"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" uid="_aTWcQS_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_j3uVgC_WEeuxOuX-XhAyQA" name="Coca Cola: 50.0cl" outgoingEdges="_ljbpdC_WEeuxOuX-XhAyQA" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.3"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" uid="_j3uVgS_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7rLTsC_CEeuxOuX-XhAyQA" sourceNode="_7q6N8C_CEeuxOuX-XhAyQA" targetNode="_7qXbYC_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7rL6wC_CEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7rL6wS_CEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7rL6xC_CEeuxOuX-XhAyQA" sourceNode="_7rA7oC_CEeuxOuX-XhAyQA" targetNode="_7qewIS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7rMh0C_CEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7rMh0S_CEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7rMh1C_CEeuxOuX-XhAyQA" sourceNode="_7rBisS_CEeuxOuX-XhAyQA" targetNode="_7qfXNC_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7rMh1S_CEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7rMh1i_CEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7rMh2S_CEeuxOuX-XhAyQA" sourceNode="_7rDX4S_CEeuxOuX-XhAyQA" targetNode="_7qfXMS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7rMh2i_CEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7rMh2y_CEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_7rNI4i_CEeuxOuX-XhAyQA" sourceNode="_7rHpUC_CEeuxOuX-XhAyQA" targetNode="_7qXbYC_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_7rNI4y_CEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_7rNI5C_CEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_blfPDS_VEeuxOuX-XhAyQA" sourceNode="_StxAYC_VEeuxOuX-XhAyQA" targetNode="_7qfXNC_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_blf2EC_VEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_blf2ES_VEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_cetglC_WEeuxOuX-XhAyQA" sourceNode="_aTWcQC_WEeuxOuX-XhAyQA" targetNode="_7qewIS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_cetglS_WEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_cetgli_WEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ljbpdC_WEeuxOuX-XhAyQA" sourceNode="_j3uVgC_WEeuxOuX-XhAyQA" targetNode="_7qfXMS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ljcQcC_WEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ljcQcS_WEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_fuU6YS_aEeuxOuX-XhAyQA" name="Virgin Cuba Libre" childrenPresentation="HorizontalStack">
+      <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+      <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_fuU6Yi_aEeuxOuX-XhAyQA" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_fuVhcC_aEeuxOuX-XhAyQA" name="Ingredients">
+        <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+        <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_fuWIgC_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" backgroundColor="246,139,139" foregroundColor="252,233,79">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_fuWvkC_aEeuxOuX-XhAyQA" name="Lime: 0.5piece" outgoingEdges="_fueEYi_aEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.0"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_fuWvkS_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_fuXWoS_aEeuxOuX-XhAyQA" name="Ice Cube: 6.0piece" outgoingEdges="_fuerYi_aEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.1"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_fuXWoi_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_fuX9sS_aEeuxOuX-XhAyQA" name="Coca Cola: 20.0cl" outgoingEdges="_fuerZy_aEeuxOuX-XhAyQA" width="10" height="10" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.2"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_fuX9si_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="194,239,255">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_fuX9tC_aEeuxOuX-XhAyQA" name="Instructions">
+        <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+        <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_fuYkwC_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" backgroundColor="252,233,79" foregroundColor="246,139,139">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_1_eoQS_aEeuxOuX-XhAyQA" name="Virgin Cuba Libre Instructions">
+          <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+          <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_1_eoQi_aEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node" color="252,233,79">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fueEYi_aEeuxOuX-XhAyQA" sourceNode="_fuWvkC_aEeuxOuX-XhAyQA" targetNode="_7qXbYC_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_fueEYy_aEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_fueEZC_aEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fuerYi_aEeuxOuX-XhAyQA" sourceNode="_fuXWoS_aEeuxOuX-XhAyQA" targetNode="_7qewIS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_fuerYy_aEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_fuerZC_aEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fuerZy_aEeuxOuX-XhAyQA" sourceNode="_fuX9sS_aEeuxOuX-XhAyQA" targetNode="_7qfXMS_CEeuxOuX-XhAyQA">
+      <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.1/@requiredIngredients.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_fufScC_aEeuxOuX-XhAyQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_fufScS_aEeuxOuX-XhAyQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@edgeMappings[name='IngredientEdge']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_NE_VACsqEeuYzoz38pjZFg"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_7qSi4C_CEeuxOuX-XhAyQA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer"/>
     <target xmi:type="cocktail:CocktailParty" href="CocktailParty.xmi#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_h-JwsCs0EeuYzoz38pjZFg">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_h-Ll4Cs0EeuYzoz38pjZFg" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_h-Ll4Ss0EeuYzoz38pjZFg" type="Sirius" element="_h-JwsCs0EeuYzoz38pjZFg" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_h-UIwCs0EeuYzoz38pjZFg" type="2001" element="_h-M0ACs0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-VW4Cs0EeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_h-VW4Ss0EeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_h-ZoVCs0EeuYzoz38pjZFg" type="3014" element="_h-M0ASs0EeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_h-ZoVSs0EeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-ZoVis0EeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-UIwSs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-UIwis0EeuYzoz38pjZFg" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_h-VW4is0EeuYzoz38pjZFg" type="2001" element="_h-NbESs0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-V98Cs0EeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_h-V98Ss0EeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_h-aPYCs0EeuYzoz38pjZFg" type="3014" element="_h-NbEis0EeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_h-aPYSs0EeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-aPYis0EeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-VW4ys0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-VW5Cs0EeuYzoz38pjZFg" x="100" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_h-V98is0EeuYzoz38pjZFg" type="2001" element="_h-PQQCs0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-WlACs0EeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_h-WlASs0EeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_h-a2cCs0EeuYzoz38pjZFg" type="3014" element="_h-P3UCs0EeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_h-a2cSs0EeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-a2cis0EeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-V98ys0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-V99Cs0EeuYzoz38pjZFg" x="200" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_h-WlAis0EeuYzoz38pjZFg" type="2001" element="_h-P3Uis0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-YaMCs0EeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_h-YaMSs0EeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_h-a2cys0EeuYzoz38pjZFg" type="3014" element="_h-P3Uys0EeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_h-a2dCs0EeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-a2dSs0EeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-WlAys0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-WlBCs0EeuYzoz38pjZFg" x="300" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_h-ZBQCs0EeuYzoz38pjZFg" type="2001" element="_h-P3VSs0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-ZBQys0EeuYzoz38pjZFg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_h-ZBRCs0EeuYzoz38pjZFg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_h-bdgCs0EeuYzoz38pjZFg" type="3014" element="_h-QeYCs0EeuYzoz38pjZFg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_h-bdgSs0EeuYzoz38pjZFg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-bdgis0EeuYzoz38pjZFg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-ZBQSs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-ZBQis0EeuYzoz38pjZFg" x="400" width="30" height="30"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_h-ZBRSs0EeuYzoz38pjZFg" type="2002" element="_h-QeYis0EeuYzoz38pjZFg">
-          <children xmi:type="notation:Node" xmi:id="_h-ZoUCs0EeuYzoz38pjZFg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_h-ZoUSs0EeuYzoz38pjZFg" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_h-bdgys0EeuYzoz38pjZFg" type="3009" element="_h-QeZSs0EeuYzoz38pjZFg">
-              <children xmi:type="notation:Node" xmi:id="_h-bdhis0EeuYzoz38pjZFg" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_h-bdhys0EeuYzoz38pjZFg" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_h-crpCs0EeuYzoz38pjZFg" type="3010" element="_h-RFcSs0EeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_h-crpSs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_h-crpis0EeuYzoz38pjZFg"/>
+  <diagram:DSemanticDiagram uid="_KKrIgC_WEeuxOuX-XhAyQA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_KKuL0C_WEeuxOuX-XhAyQA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_KKuL0S_WEeuxOuX-XhAyQA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_KKvZ8C_WEeuxOuX-XhAyQA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_KKvZ8S_WEeuxOuX-XhAyQA" type="Sirius" element="_KKrIgC_WEeuxOuX-XhAyQA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_MqjEQC_WEeuxOuX-XhAyQA" type="2002" element="_MnUKEC_WEeuxOuX-XhAyQA">
+          <children xmi:type="notation:Node" xmi:id="_MqjEQy_WEeuxOuX-XhAyQA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_MqjERC_WEeuxOuX-XhAyQA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_MqjERy_WEeuxOuX-XhAyQA" type="3008" element="_MnVYMC_WEeuxOuX-XhAyQA">
+              <children xmi:type="notation:Node" xmi:id="_MqjrUC_WEeuxOuX-XhAyQA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_MqjrUS_WEeuxOuX-XhAyQA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_MqjrVS_WEeuxOuX-XhAyQA" type="3007" element="_MnV_QS_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_MqjrWC_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_MqjrWS_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_MqkSZS_WEeuxOuX-XhAyQA" type="3003" element="_MnWmUC_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_MqkSZi_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqkSZy_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_MqjrVi_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqjrVy_WEeuxOuX-XhAyQA" x="29" y="31" width="80" height="80"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_h-crpys0EeuYzoz38pjZFg" type="3010" element="_h-STkCs0EeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_h-crqCs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_h-crqSs0EeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_MqkSYC_WEeuxOuX-XhAyQA" type="3007" element="_MnXNYC_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_MqkSYy_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_MqkSZC_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_MqkSaC_WEeuxOuX-XhAyQA" type="3003" element="_MnXNYS_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_MqkSaS_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqkSai_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_MqkSYS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqkSYi_WEeuxOuX-XhAyQA" x="139" y="31" width="80" height="80"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_h-dSsCs0EeuYzoz38pjZFg" type="3010" element="_h-STkis0EeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_h-dSsSs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_h-dSsis0EeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_aThbYC_WEeuxOuX-XhAyQA" type="3007" element="_aTeYFy_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_aTiCcC_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_aTiCcS_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_aTipgC_WEeuxOuX-XhAyQA" type="3003" element="_aTe_IC_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_aTipgS_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTipgi_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_aThbYS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aThbYi_WEeuxOuX-XhAyQA" x="110" y="55" width="80" height="80"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_h-dSsys0EeuYzoz38pjZFg" type="3010" element="_h-S6oCs0EeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_h-dStCs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_h-dStSs0EeuYzoz38pjZFg"/>
+                <children xmi:type="notation:Node" xmi:id="_j357sC_WEeuxOuX-XhAyQA" type="3007" element="_j31DNC_WEeuxOuX-XhAyQA">
+                  <children xmi:type="notation:Node" xmi:id="_j36iwC_WEeuxOuX-XhAyQA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_j36iwS_WEeuxOuX-XhAyQA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_j37J0C_WEeuxOuX-XhAyQA" type="3003" element="_j31qQC_WEeuxOuX-XhAyQA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_j37J0S_WEeuxOuX-XhAyQA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j37J0i_WEeuxOuX-XhAyQA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_j357sS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j357si_WEeuxOuX-XhAyQA" x="220" y="95" width="80" height="80"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_h-bdiCs0EeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_h-bdiSs0EeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:DrawerStyle" xmi:id="_h-cEkCs0EeuYzoz38pjZFg"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_MqjrUi_WEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_MqjrUy_WEeuxOuX-XhAyQA"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_MqjrVC_WEeuxOuX-XhAyQA"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_h-bdhCs0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-bdhSs0EeuYzoz38pjZFg"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_MqjESC_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqjESS_WEeuxOuX-XhAyQA"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_h-cEkSs0EeuYzoz38pjZFg" type="3009" element="_h-S6ois0EeuYzoz38pjZFg">
-              <children xmi:type="notation:Node" xmi:id="_h-cElCs0EeuYzoz38pjZFg" type="5004"/>
-              <children xmi:type="notation:Node" xmi:id="_h-croCs0EeuYzoz38pjZFg" type="7003">
-                <children xmi:type="notation:Node" xmi:id="_h-dStis0EeuYzoz38pjZFg" type="3010" element="_h-S6pSs0EeuYzoz38pjZFg">
-                  <styles xmi:type="notation:FontStyle" xmi:id="_h-dStys0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_h-d5wCs0EeuYzoz38pjZFg"/>
-                </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_h-croSs0EeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_h-crois0EeuYzoz38pjZFg"/>
-                <styles xmi:type="notation:DrawerStyle" xmi:id="_h-croys0EeuYzoz38pjZFg"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_h-cEkis0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-cEkys0EeuYzoz38pjZFg" x="40"/>
-            </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_h-ZoUis0EeuYzoz38pjZFg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_h-ZoUys0EeuYzoz38pjZFg"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_MqjERS_WEeuxOuX-XhAyQA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_MqjERi_WEeuxOuX-XhAyQA"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_h-ZBRis0EeuYzoz38pjZFg" fontName="Segoe UI" fontHeight="20"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h-ZBRys0EeuYzoz38pjZFg" x="500"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_MqjEQS_WEeuxOuX-XhAyQA" fontName="Segoe UI" fontHeight="20" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MqjEQi_WEeuxOuX-XhAyQA" x="90" y="50"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_h-Ll4is0EeuYzoz38pjZFg"/>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_KKvZ8i_WEeuxOuX-XhAyQA"/>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_h-ThsSs0EeuYzoz38pjZFg" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_h-Thsis0EeuYzoz38pjZFg"/>
-    </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_h-M0ACs0EeuYzoz38pjZFg" name="Home" width="3" height="3" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MnUKEC_WEeuxOuX-XhAyQA" name="Inventory: Home" childrenPresentation="HorizontalStack">
       <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
       <semanticElements xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_h-M0ASs0EeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/inventory.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='InventoryNode']/@style"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MnUKES_WEeuxOuX-XhAyQA" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='InventoryNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_h-NbESs0EeuYzoz38pjZFg" name="Lime" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.0"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.0"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_h-NbEis0EeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_h-PQQCs0EeuYzoz38pjZFg" name="Ice Cube" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.1"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_h-P3UCs0EeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_h-P3Uis0EeuYzoz38pjZFg" name="Coca Cola" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.2"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_h-P3Uys0EeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_h-P3VSs0EeuYzoz38pjZFg" name="Havana Club Rum" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
-      <semanticElements xmi:type="cocktail:Product" href="CocktailParty.xmi#//@cocktailProducts.3"/>
-      <ownedStyle xmi:type="diagram:CustomStyle" uid="_h-QeYCs0EeuYzoz38pjZFg" labelSize="12" iconPath="/tdt4250.project.design/resources/product.png" labelPosition="node">
-        <description xmi:type="style:CustomStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_h-QeYis0EeuYzoz38pjZFg" name="Cuba Libre" childrenPresentation="HorizontalStack">
-      <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-      <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_h-QeYys0EeuYzoz38pjZFg" labelSize="20" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_h-QeZSs0EeuYzoz38pjZFg" name="Ingredients">
-        <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_h-QeZis0EeuYzoz38pjZFg" labelSize="12" showIcon="false">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@style"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MnVYMC_WEeuxOuX-XhAyQA" name="Ingredients">
+        <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+        <semanticElements xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MnVYMS_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_h-RFcSs0EeuYzoz38pjZFg" name="Lime: 0.5PCS">
-          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.0"/>
-          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.0"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_h-RFcis0EeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_MnV_QS_WEeuxOuX-XhAyQA" name="Lime: 5.0piece" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.0"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_MnWmUC_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_h-STkCs0EeuYzoz38pjZFg" name="Ice Cube: 6.0PCS">
-          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.1"/>
-          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.1"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_h-STkSs0EeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_MnXNYC_WEeuxOuX-XhAyQA" name="Havana Club Rum: 5.0oz" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.1"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_MnXNYS_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_h-STkis0EeuYzoz38pjZFg" name="Havana Club Rum: 4.0CL">
-          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.2"/>
-          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.2"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_h-STkys0EeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_aTeYFy_WEeuxOuX-XhAyQA" name="Ice Cube: 10.0cube" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.2"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_aTe_IC_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_h-S6oCs0EeuYzoz38pjZFg" name="Coca Cola: 20.0CL">
-          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.3"/>
-          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@drinkRegister.0/@requiredIngredients.3"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_h-S6oSs0EeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" uid="_j31DNC_WEeuxOuX-XhAyQA" name="Coca Cola: 50.0cl" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.3"/>
+          <semanticElements xmi:type="cocktail:DrinkIngredient" href="CocktailParty.xmi#//@inventories.0/@availableIngredients.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_j31qQC_WEeuxOuX-XhAyQA" labelSize="12" showIcon="false" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
-        </ownedElements>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_h-S6ois0EeuYzoz38pjZFg" name="Instructions">
-        <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_h-S6oys0EeuYzoz38pjZFg" labelSize="12" showIcon="false">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" uid="_h-S6pSs0EeuYzoz38pjZFg" name="peeepeepoopoo when you peep poop and then poo poo for then to bing bong oiwjreg ejrg oei oij oij oij oij oijoij ">
-          <target xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-          <semanticElements xmi:type="cocktail:Drink" href="CocktailParty.xmi#//@drinkRegister.0"/>
-          <ownedStyle xmi:type="diagram:Square" uid="_h-ThsCs0EeuYzoz38pjZFg" labelSize="12" showIcon="false" labelPosition="node" color="252,233,79">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkInstructionsContainer']/@subNodeMappings[name='DrinkInstructionNode']"/>
-        </ownedElements>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']"/>
+        </ownedDiagramElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_h-JwsSs0EeuYzoz38pjZFg"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer"/>
-    <target xmi:type="cocktail:CocktailParty" href="CocktailParty.xmi#/"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_KKrIgS_WEeuxOuX-XhAyQA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/tdt4250.project.design/description/cocktail.odesign#//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']/@defaultLayer"/>
+    <target xmi:type="cocktail:Inventory" href="CocktailParty.xmi#//@inventories.0"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

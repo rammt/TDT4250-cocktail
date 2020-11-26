@@ -6,7 +6,12 @@
     xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore"
     xsi:schemaLocation="platform:/plugin/tdt4250.project.model/model/cocktail.ecore cocktail.ecore">
   <inventories
-      name="Home"/>
+      name="Home">
+    <availableIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="5.0"/>
+  </inventories>
   <drinkRegister
       name="Cuba Libre"
       strength="MEDIUM">
@@ -18,11 +23,11 @@
         amount="6.0"/>
     <requiredIngredients
         product="//@cocktailProducts.3"
-        amountType="CL"
+        amountType="cl"
         amount="4.0"/>
     <requiredIngredients
         product="//@cocktailProducts.2"
-        amountType="CL"
+        amountType="cl"
         amount="20.0"/>
   </drinkRegister>
   <cocktailProducts
