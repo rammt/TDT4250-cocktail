@@ -4,7 +4,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Light rum",
-            "vol": "0"
+            "vol": "45"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -29,7 +29,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Bourbon",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -44,17 +44,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Gin",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Tequila",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -69,17 +69,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Campari",
-            "vol": "0"
+            "vol": "25"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Sweet Vermouth",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Blended whiskey",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -94,7 +94,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Dry Vermouth",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -104,7 +104,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Triple sec",
-            "vol": "0"
+            "vol": "39"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -134,12 +134,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ginger ale",
-            "vol": "0"
+            "vol": "8"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Apricot brandy",
-            "vol": "0"
+            "vol": "24"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -149,17 +149,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Southern Comfort",
-            "vol": "0"
+            "vol": "35"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Amaretto",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Sloe gin",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -169,17 +169,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Yellow Chartreuse",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lemon peel",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Creme de Cacao",
-            "vol": "0"
+            "vol": "24"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -194,12 +194,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Brandy",
-            "vol": "0"
+            "vol": "36"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lemon vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -214,17 +214,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Kummel",
-            "vol": "0"
+            "vol": "14"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Dark rum",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Kahlua",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -254,12 +254,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Apple brandy",
-            "vol": "0"
+            "vol": "47"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Applejack",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -269,17 +269,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Wine",
-            "vol": "0"
+            "vol": "14"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Benedictine",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Champagne",
-            "vol": "0"
+            "vol": "18"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -289,17 +289,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Grand Marnier",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Bitters",
-            "vol": "0"
+            "vol": "48"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Scotch",
-            "vol": "0"
+            "vol": "9"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -339,7 +339,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Blue Curacao",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -348,13 +348,13 @@
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
-            "name": "A\u00f1ejo rum",
-            "vol": "0"
+            "name": "Añejo rum",
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Tia maria",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -364,7 +364,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Maraschino liqueur",
-            "vol": "0"
+            "vol": "32"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -379,7 +379,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cachaca",
-            "vol": "0"
+            "vol": "39"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -389,17 +389,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cognac",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cherry brandy",
-            "vol": "0"
+            "vol": "24"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Port",
-            "vol": "0"
+            "vol": "46"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -409,7 +409,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Dubonnet Rouge",
-            "vol": "0"
+            "vol": "13"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -449,12 +449,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Irish whiskey",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Peach brandy",
-            "vol": "0"
+            "vol": "7"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -464,12 +464,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Green Chartreuse",
-            "vol": "0"
+            "vol": "55"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Drambuie",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -484,7 +484,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Red wine",
-            "vol": "0"
+            "vol": "15"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -504,7 +504,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lime vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -514,7 +514,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Rum",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -524,7 +524,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "151 proof rum",
-            "vol": "0"
+            "vol": "76"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -534,7 +534,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ricard",
-            "vol": "0"
+            "vol": "45"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -544,27 +544,27 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Curacao",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Anisette",
-            "vol": "0"
+            "vol": "13"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cointreau",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Strawberry schnapps",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Anis",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -574,7 +574,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Creme de Cassis",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -644,7 +644,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Asafoetida",
-            "vol": "0"
+            "vol": "12"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -664,12 +664,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Aperol",
-            "vol": "0"
+            "vol": "11"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cantaloupe",
-            "vol": "0"
+            "vol": "59"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -744,7 +744,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Absolut Citron",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -759,7 +759,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Peach Vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -769,17 +769,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ouzo",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Baileys irish cream",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
-            "name": "J\u00e4germeister",
-            "vol": "0"
+            "name": "Jägermeister",
+            "vol": "35"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -789,12 +789,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Grain alcohol",
-            "vol": "0"
+            "vol": "60"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Spiced rum",
-            "vol": "0"
+            "vol": "37"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -829,12 +829,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Anise",
-            "vol": "0"
+            "vol": "41"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Licorice root",
-            "vol": "0"
+            "vol": "16"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -844,7 +844,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Apricot",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -859,22 +859,22 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Glycerine",
-            "vol": "0"
+            "vol": "12"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Angelica root",
-            "vol": "0"
+            "vol": "13"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Almond",
-            "vol": "0"
+            "vol": "10"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Allspice",
-            "vol": "0"
+            "vol": "41"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -904,7 +904,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Johnnie Walker",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -929,17 +929,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Rye whiskey",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Everclear",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Kool-Aid",
-            "vol": "0"
+            "vol": "14"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -954,7 +954,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Fresca",
-            "vol": "0"
+            "vol": "14"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -964,7 +964,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Firewater",
-            "vol": "0"
+            "vol": "7"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -979,12 +979,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lager",
-            "vol": "0"
+            "vol": "5"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cider",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -994,7 +994,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Frangelico",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1004,22 +1004,22 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Whiskey",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Hot Damn",
-            "vol": "0"
+            "vol": "13"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Midori melon liqueur",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Beer",
-            "vol": "0"
+            "vol": "5"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1029,12 +1029,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "White rum",
-            "vol": "0"
+            "vol": "37"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Pisco",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1044,37 +1044,37 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Goldschlager",
-            "vol": "0"
+            "vol": "44"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ale",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Guinness stout",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Chocolate liqueur",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Sambuca",
-            "vol": "0"
+            "vol": "38"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Erin Cream",
-            "vol": "0"
+            "vol": "18"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Advocaat",
-            "vol": "0"
+            "vol": "15"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1109,7 +1109,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Sarsaparilla",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1129,12 +1129,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Jack Daniels",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Jim Beam",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1149,7 +1149,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Absolut Vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1159,37 +1159,37 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Coconut liqueur",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Crown Royal",
-            "vol": "0"
+            "vol": "14"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Vermouth",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Chambord raspberry liqueur",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Godiva liqueur",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Absolut Kurant",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Pisang Ambon",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1204,7 +1204,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cherry Heering",
-            "vol": "0"
+            "vol": "24"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1214,27 +1214,27 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Creme de Banane",
-            "vol": "0"
+            "vol": "25"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Malibu rum",
-            "vol": "0"
+            "vol": "21"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Dark Creme de Cacao",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Vanilla vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Wild Turkey",
-            "vol": "0"
+            "vol": "50"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1244,17 +1244,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Candy",
-            "vol": "0"
+            "vol": "8"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Banana liqueur",
-            "vol": "0"
+            "vol": "25"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Kiwi liqueur",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1269,22 +1269,22 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Jello",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Fruit punch",
-            "vol": "0"
+            "vol": "12"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cranberry vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Apfelkorn",
-            "vol": "0"
+            "vol": "41"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1294,42 +1294,42 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Corona",
-            "vol": "0"
+            "vol": "5"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Bacardi Limon",
-            "vol": "0"
+            "vol": "32"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Yukon Jack",
-            "vol": "0"
+            "vol": "50"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Coconut rum",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Tropicana",
-            "vol": "0"
+            "vol": "5"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Cherries",
-            "vol": "0"
+            "vol": "7"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Root beer",
-            "vol": "0"
+            "vol": "15"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Aquavit",
-            "vol": "0"
+            "vol": "42"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1339,17 +1339,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Kirschwasser",
-            "vol": "0"
+            "vol": "11"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Strawberry liqueur",
-            "vol": "0"
+            "vol": "15"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Black Sambuca",
-            "vol": "0"
+            "vol": "30"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1359,7 +1359,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Zima",
-            "vol": "0"
+            "vol": "13"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1369,7 +1369,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Orange Curacao",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1379,17 +1379,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Absinthe",
-            "vol": "0"
+            "vol": "74"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Whisky",
-            "vol": "0"
+            "vol": "47"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Tennessee whiskey",
-            "vol": "0"
+            "vol": "44"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1399,7 +1399,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Melon liqueur",
-            "vol": "0"
+            "vol": "25"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1414,7 +1414,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Rumple Minze",
-            "vol": "0"
+            "vol": "50"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1424,7 +1424,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Gold tequila",
-            "vol": "0"
+            "vol": "35"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1434,17 +1434,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Maui",
-            "vol": "0"
+            "vol": "4"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Raspberry vodka",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Triple Sec",
-            "vol": "0"
+            "vol": "39"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1474,7 +1474,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "maraschino liqueur",
-            "vol": "0"
+            "vol": "32"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1494,12 +1494,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "St. Germain",
-            "vol": "0"
+            "vol": "20"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Angostura Bitters",
-            "vol": "0"
+            "vol": "48"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1514,7 +1514,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "gin",
-            "vol": "0"
+            "vol": "46"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1524,7 +1524,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Apricot Brandy",
-            "vol": "0"
+            "vol": "24"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1549,7 +1549,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Maraschino Liqueur",
-            "vol": "0"
+            "vol": "32"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1564,27 +1564,27 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Prosecco",
-            "vol": "0"
+            "vol": "11"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Creme de Mure",
-            "vol": "0"
+            "vol": "18"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Dark Rum",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ginger Beer",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Raspberry Liqueur",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1614,12 +1614,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lillet Blanc",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "White Rum",
-            "vol": "0"
+            "vol": "37"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1694,17 +1694,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Gold rum",
-            "vol": "0"
+            "vol": "55"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Pernod",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Ginger beer",
-            "vol": "0"
+            "vol": "6"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1714,17 +1714,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Rosemary",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Mezcal",
-            "vol": "0"
+            "vol": "47"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Lillet",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1744,22 +1744,22 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Bailey",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Jagermeister",
-            "vol": "0"
+            "vol": "35"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Sweet and Sour",
-            "vol": "0"
+            "vol": "16"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Passoa",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1769,7 +1769,7 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Rosso Vermouth",
-            "vol": "0"
+            "vol": "17"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1779,12 +1779,12 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Irish Whiskey",
-            "vol": "0"
+            "vol": "43"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Blended Scotch",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
@@ -1799,17 +1799,17 @@
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Islay single malt Scotch",
-            "vol": "0"
+            "vol": "40"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "Falernum",
-            "vol": "0"
+            "vol": "11"
         },
         {
             "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
             "name": "blackstrap rum",
-            "vol": "0"
+            "vol": "7"
         }
     ],
     "drinkRegister": [
