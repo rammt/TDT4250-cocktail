@@ -38,8 +38,19 @@ We chose to use Python for the refactoring of the original cocktail API. The res
 Follow the installation steps to get the project running and follow the user guide to test the DSL features.
 
 ### Installation
+1. Clone the repo
+2. Using Eclipse, open the 3 projects contained under eclipse-projects
+3. Run a new Eclipse application, using tdt4250.project.model and tdt4250.project.design as plug-ins for the application
+4. Open the tdt4250.project.design.examples folder in this new Eclipse application
+5. This folder should contain a representation file, where the viewpoints are located
 
 #### Dependencies
+The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which later can be translated to an instance of type .xmi, which is easier to handle with representations. As such, a few dependencies must be downloaded.
 
+1. Open Eclipse
+2. Click Help > Install New Software
+3. From the URI http://ghillairet.github.io/p2, install the bundles "Jackson" and "emfjson bundles"
+4. All required dependencies should be installed after the prompted Eclipse restart
 
 ### User Guide
+The project offers three different viewpoints. A complete cocktail party viewpoint, filled with all potential products, drinks and inventories. From this viewpoint you may double click inventories or drinks to view their respective viewpoints, inventory viewpoint and drink viewpoint. From the inventory viewpoint, you are able to see which drinks you can make with your current inventory, as well as alter your current stock. In the drinks viewpoint, you are able to read the instructions for creating the drink, and view which ingredients are neccessary to make it. From the main viewpoint, you are also able to add new products, drinks and inventories. 
