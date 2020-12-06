@@ -11,6 +11,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 import tdt4250.project.model.cocktail.CocktailPackage;
 import tdt4250.project.model.cocktail.CocktailParty;
@@ -90,8 +91,8 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 	 */
 	public EList<Inventory> getInventories() {
 		if (inventories == null) {
-			inventories = new EObjectContainmentEList<Inventory>(Inventory.class, this,
-					CocktailPackage.COCKTAIL_PARTY__INVENTORIES);
+			inventories = new EObjectContainmentWithInverseEList<Inventory>(Inventory.class, this,
+					CocktailPackage.COCKTAIL_PARTY__INVENTORIES, CocktailPackage.INVENTORY__PARTY);
 		}
 		return inventories;
 	}
@@ -120,6 +121,21 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 					CocktailPackage.COCKTAIL_PARTY__COCKTAIL_PRODUCTS);
 		}
 		return cocktailProducts;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case CocktailPackage.COCKTAIL_PARTY__INVENTORIES:
+			return ((InternalEList<InternalEObject>) (InternalEList<?>) getInventories()).basicAdd(otherEnd, msgs);
+		}
+		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
 
 	/**

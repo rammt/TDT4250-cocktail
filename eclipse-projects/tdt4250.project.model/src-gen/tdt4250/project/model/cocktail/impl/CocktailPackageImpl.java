@@ -369,6 +369,15 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getInventory_Party() {
+		return (EReference) inventoryEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EEnum getAmountType() {
 		return amountTypeEEnum;
 	}
@@ -455,6 +464,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		createEReference(inventoryEClass, INVENTORY__AVAILABLE_INGREDIENTS);
 		createEAttribute(inventoryEClass, INVENTORY__NAME);
 		createEAttribute(inventoryEClass, INVENTORY__ID);
+		createEReference(inventoryEClass, INVENTORY__PARTY);
 
 		// Create enums
 		amountTypeEEnum = createEEnum(AMOUNT_TYPE);
@@ -504,9 +514,9 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 
 		initEClass(cocktailPartyEClass, CocktailParty.class, "CocktailParty", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCocktailParty_Inventories(), this.getInventory(), null, "inventories", null, 0, -1,
-				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
-				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getCocktailParty_Inventories(), this.getInventory(), this.getInventory_Party(), "inventories",
+				null, 0, -1, CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCocktailParty_DrinkRegister(), this.getDrink(), null, "drinkRegister", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -543,12 +553,15 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		initEClass(inventoryEClass, Inventory.class, "Inventory", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getInventory_AvailableIngredients(), this.getDrinkIngredient(), null, "availableIngredients",
-				null, 0, -1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
-				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+				null, 0, -1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getInventory_Name(), ecorePackage.getEString(), "name", null, 1, 1, Inventory.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getInventory_Id(), ecorePackage.getEInt(), "id", null, 0, 1, Inventory.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getInventory_Party(), this.getCocktailParty(), this.getCocktailParty_Inventories(), "party",
+				null, 0, 1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(amountTypeEEnum, AmountType.class, "AmountType");

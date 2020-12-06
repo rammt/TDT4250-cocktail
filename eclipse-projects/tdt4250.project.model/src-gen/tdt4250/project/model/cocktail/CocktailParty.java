@@ -27,11 +27,13 @@ public interface CocktailParty extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Inventories</b></em>' containment reference list.
 	 * The list contents are of type {@link tdt4250.project.model.cocktail.Inventory}.
+	 * It is bidirectional and its opposite is '{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Inventories</em>' containment reference list.
 	 * @see tdt4250.project.model.cocktail.CocktailPackage#getCocktailParty_Inventories()
-	 * @model containment="true"
+	 * @see tdt4250.project.model.cocktail.Inventory#getParty
+	 * @model opposite="party" containment="true"
 	 * @generated
 	 */
 	EList<Inventory> getInventories();

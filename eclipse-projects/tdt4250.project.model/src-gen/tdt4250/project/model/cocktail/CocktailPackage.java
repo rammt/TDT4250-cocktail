@@ -307,7 +307,7 @@ public interface CocktailPackage extends EPackage {
 	int INVENTORY = 4;
 
 	/**
-	 * The feature id for the '<em><b>Available Ingredients</b></em>' reference list.
+	 * The feature id for the '<em><b>Available Ingredients</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -334,13 +334,22 @@ public interface CocktailPackage extends EPackage {
 	int INVENTORY__ID = 2;
 
 	/**
+	 * The feature id for the '<em><b>Party</b></em>' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INVENTORY__PARTY = 3;
+
+	/**
 	 * The number of structural features of the '<em>Inventory</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int INVENTORY_FEATURE_COUNT = 3;
+	int INVENTORY_FEATURE_COUNT = 4;
 
 	/**
 	 * The number of operations of the '<em>Inventory</em>' class.
@@ -595,10 +604,10 @@ public interface CocktailPackage extends EPackage {
 	EClass getInventory();
 
 	/**
-	 * Returns the meta object for the reference list '{@link tdt4250.project.model.cocktail.Inventory#getAvailableIngredients <em>Available Ingredients</em>}'.
+	 * Returns the meta object for the containment reference list '{@link tdt4250.project.model.cocktail.Inventory#getAvailableIngredients <em>Available Ingredients</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Available Ingredients</em>'.
+	 * @return the meta object for the containment reference list '<em>Available Ingredients</em>'.
 	 * @see tdt4250.project.model.cocktail.Inventory#getAvailableIngredients()
 	 * @see #getInventory()
 	 * @generated
@@ -626,6 +635,17 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getInventory_Id();
+
+	/**
+	 * Returns the meta object for the container reference '{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the container reference '<em>Party</em>'.
+	 * @see tdt4250.project.model.cocktail.Inventory#getParty()
+	 * @see #getInventory()
+	 * @generated
+	 */
+	EReference getInventory_Party();
 
 	/**
 	 * Returns the meta object for enum '{@link tdt4250.project.model.cocktail.AmountType <em>Amount Type</em>}'.
@@ -854,7 +874,7 @@ public interface CocktailPackage extends EPackage {
 		EClass INVENTORY = eINSTANCE.getInventory();
 
 		/**
-		 * The meta object literal for the '<em><b>Available Ingredients</b></em>' reference list feature.
+		 * The meta object literal for the '<em><b>Available Ingredients</b></em>' containment reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -876,6 +896,14 @@ public interface CocktailPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute INVENTORY__ID = eINSTANCE.getInventory_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>Party</b></em>' container reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference INVENTORY__PARTY = eINSTANCE.getInventory_Party();
 
 		/**
 		 * The meta object literal for the '{@link tdt4250.project.model.cocktail.AmountType <em>Amount Type</em>}' enum.
