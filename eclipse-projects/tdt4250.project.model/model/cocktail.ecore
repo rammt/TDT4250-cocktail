@@ -8,7 +8,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CocktailParty">
     <eStructuralFeatures xsi:type="ecore:EReference" name="inventories" upperBound="-1"
-        eType="#//Inventory" containment="true"/>
+        eType="#//Inventory" containment="true" eOpposite="#//Inventory/party"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="drinkRegister" upperBound="-1"
         eType="#//Drink" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="cocktailProducts" upperBound="-1"
@@ -92,6 +92,8 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
         iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="party" eType="#//CocktailParty"
+        eOpposite="#//CocktailParty/inventories"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="PriceGroupType">
     <eLiterals name="LOW"/>

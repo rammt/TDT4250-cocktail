@@ -15,7 +15,7 @@ import org.emfjson.jackson.resource.JsonResourceFactory;
 import tdt4250.project.model.cocktail.*;
 
 
-public class LoadResourceToXMI {
+public class InstanceTester {
 
 	public static void main(String[] args) throws IOException {
 		ResourceSet resourceSet = new ResourceSetImpl();
@@ -24,13 +24,13 @@ public class LoadResourceToXMI {
 		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("xmi", new  XMIResourceFactoryImpl());
 		
 		
-		Resource resource = resourceSet.createResource(URI.createFileURI("resources/data.json"));
+		Resource resource = resourceSet.createResource(URI.createFileURI("resources/CocktailParty.xmi"));
 		resource.load(null);
 		
 		CocktailParty cp = (CocktailParty) resource.getContents().get(0);
 		
-		Resource xmiResource = resourceSet.createResource(URI.createFileURI("resources/CocktailParty.xmi"));
-		xmiResource.getContents().add(cp);
-		xmiResource.save(Collections.EMPTY_MAP);
+		Inventory inv = cp.getInventories().get(0);
+		
+		System.out.println(inv.getParty());
 	}
 }

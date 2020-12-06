@@ -1,529 +1,69 @@
-<?xml version="1.0" encoding="ASCII"?>
-<cocktail:CocktailParty xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore">
-  <drinkRegister id="11000" name="Mojito" instructions="Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.">
-    <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.2" amountType="tsp" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.3" amountType="unknown" amount="2.0"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<cocktail:CocktailParty xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cocktail="platform:/plugin/tdt4250.project.model/model/cocktail.ecore" xsi:schemaLocation="platform:/plugin/tdt4250.project.model/model/cocktail.ecore cocktail.ecore">
+<inventories
+      name="Home">
+    <availableIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="5.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.3"
+        amount="5.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.1"
+        amountType="cube"
+        amount="10.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="50.0"/>
+  </inventories>
+  <drinkRegister
+      name="Cuba Libre"
+      strength="MEDIUM"
+      instructions="Cuba Libre Instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.3"
+        amountType="cl"
+        amount="4.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
   </drinkRegister>
-  <drinkRegister id="11001" name="Old Fashioned" instructions="Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.&#xD;&#xA;Fill the glass with ice cubes and add whiskey.&#xD;&#xA;&#xD;&#xA;Garnish with orange twist, and a cocktail cherry.">
-    <requiredIngredients product="//@cocktailProducts.5" amountType="cl" amount="4.5"/>
-    <requiredIngredients product="//@cocktailProducts.6" amountType="dash" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.2" amountType="cube" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.7" amountType="dash"/>
+  <drinkRegister
+      id="1"
+      name="Virgin Cuba Libre"
+      instructions="Virgin Cuba Libre Instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
   </drinkRegister>
-  <drinkRegister id="11002" name="Long Island Tea" instructions="Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.">
-    <requiredIngredients product="//@cocktailProducts.8" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.0" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.9" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.10" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.12" amountType="splash" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11003" name="Negroni" instructions="Stir into glass over ice, garnish and serve.">
-    <requiredIngredients product="//@cocktailProducts.9" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.13" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.14" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11004" name="Whiskey Sour" instructions="Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.">
-    <requiredIngredients product="//@cocktailProducts.15" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.17" amountType="unknown" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.11" amountType="slice" amount="0.5"/>
-  </drinkRegister>
-  <drinkRegister id="11005" name="Dry Martini" instructions="Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.">
-    <requiredIngredients product="//@cocktailProducts.9" amount="1.66"/>
-    <requiredIngredients product="//@cocktailProducts.18" amount="0.33"/>
-    <requiredIngredients product="//@cocktailProducts.19" amountType="unknown" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11006" name="Daiquiri" instructions="Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.">
-    <requiredIngredients product="//@cocktailProducts.0" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11007" name="Margarita" instructions="Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.">
-    <requiredIngredients product="//@cocktailProducts.10" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.21" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11008" name="Manhattan" instructions="Stirred over ice, strained into a chilled glass, garnished, and served up.">
-    <requiredIngredients product="//@cocktailProducts.14" amount="0.75"/>
-    <requiredIngredients product="//@cocktailProducts.5" amount="2.5"/>
-    <requiredIngredients product="//@cocktailProducts.6" amountType="dash"/>
-    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.24" amountType="unknown" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.25" amountType="twist" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11009" name="Moscow Mule" instructions="Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.">
-    <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.21" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.26" amount="8.0"/>
-  </drinkRegister>
-  <drinkRegister id="11010" name="After Dinner Cocktail" instructions="Shake all ingredients (except lime wedge) with ice and strain into a cocktail glass. Add the wedge of lime and serve.">
-    <requiredIngredients product="//@cocktailProducts.27" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.20" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11011" name="After Supper Cocktail" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.20" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.27" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.28" amountType="tsp" amount="0.5"/>
-  </drinkRegister>
-  <drinkRegister id="11012" name="Alabama Slammer" instructions="Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve.">
-    <requiredIngredients product="//@cocktailProducts.29" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.30" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.31" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.28" amountType="dash" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11013" name="Alaska Cocktail" instructions="Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist of lemon and serve.">
-    <requiredIngredients product="//@cocktailProducts.32" amountType="dash" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.9" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.33" amount="0.75"/>
-    <requiredIngredients product="//@cocktailProducts.34" amountType="unknown"/>
-  </drinkRegister>
-  <drinkRegister id="11014" name="Alexander" instructions="Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.">
-    <requiredIngredients product="//@cocktailProducts.9" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.35" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.36" amount="2.0"/>
-  </drinkRegister>
-  <drinkRegister id="11016" name="Brandy Alexander" instructions="Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.">
-    <requiredIngredients product="//@cocktailProducts.38" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.35" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.36" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11019" name="Alfie Cocktail" instructions="Combine and shake all ingredients with ice, strain into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.39" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.20" amountType="dash" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.40" amountType="tablespoon" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11020" name="Algonquin" instructions="Combine and shake all ingredients with ice, strain contents into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.15" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.18" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.40" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11021" name="Allegheny" instructions="Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.">
-    <requiredIngredients product="//@cocktailProducts.18" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.5" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.41" amountType="tsp" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.28" amountType="tsp" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.34" amountType="twist" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11022" name="Allies Cocktail" instructions="Stir all ingredients with ice, strain contents into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.18" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.9" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.42" amountType="tsp" amount="0.5"/>
-  </drinkRegister>
-  <drinkRegister id="11023" name="Almeria" instructions="In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.">
-    <requiredIngredients product="//@cocktailProducts.43" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.44" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11024" name="Almond Joy" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.30" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.35" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.36" amount="2.0"/>
-  </drinkRegister>
-  <drinkRegister id="11025" name="Amaretto And Cream" instructions="Shake well with cracked ice, strain contents into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.36" amount="1.5"/>
-  </drinkRegister>
-  <drinkRegister id="11026" name="Amaretto Mist" instructions="Pour amaretto in an old-fashioned glass over crushed ice. Add the wedge of lime and serve. (A wedge of lemon may be substituted for lime, if preferred.)">
-    <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11027" name="Amaretto Rose" instructions="Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.">
-    <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.21" amount="0.5"/>
-  </drinkRegister>
-  <drinkRegister id="11028" name="Amaretto Stinger" instructions="Shake ingredients well with cracked ice, strain into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.47" amount="0.75"/>
-  </drinkRegister>
-  <drinkRegister id="11029" name="Amaretto Tea" instructions="Pour hot tea into a pousse-cafe glass, using a spoon in glass to prevent cracking. Add amaretto, but do not stir. Top with chilled whipped cream and serve.">
-    <requiredIngredients product="//@cocktailProducts.48" amount="6.0"/>
-    <requiredIngredients product="//@cocktailProducts.30" amount="2.0"/>
-    <requiredIngredients product="//@cocktailProducts.49" amountType="unknown"/>
-  </drinkRegister>
-  <drinkRegister id="11034" name="Angel Face" instructions="Shake all ingredients with ice and strain contents into a cocktail glass.">
-    <requiredIngredients product="//@cocktailProducts.27" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.50" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.9" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11046" name="Applecar" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
-    <requiredIngredients product="//@cocktailProducts.51" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.20" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.28" amount="1.0"/>
-  </drinkRegister>
-  <drinkRegister id="11050" name="Apricot Lady" instructions="In a shaker half-filled with ice cubes, combine the rum, apricot brandy, triple sec, lemon juice, and egg white. Shake well. Strain into an old-fashioned glass almost filled with ice cubes. Garnish with the orange slice.">
-    <requiredIngredients product="//@cocktailProducts.0" amount="1.5"/>
-    <requiredIngredients product="//@cocktailProducts.27" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.20" amountType="tsp" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.28" amount="0.5"/>
-    <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.52" amountType="unknown" amount="1.0"/>
-  </drinkRegister>
-  <cocktailProducts name="Light rum"/>
-  <cocktailProducts name="Lime"/>
-  <cocktailProducts name="Sugar"/>
-  <cocktailProducts name="Mint"/>
-  <cocktailProducts name="Soda water"/>
-  <cocktailProducts name="Bourbon"/>
-  <cocktailProducts name="Angostura bitters"/>
-  <cocktailProducts name="Water"/>
-  <cocktailProducts name="Vodka"/>
-  <cocktailProducts name="Gin"/>
-  <cocktailProducts name="Tequila"/>
-  <cocktailProducts name="Lemon"/>
-  <cocktailProducts name="Coca-Cola"/>
-  <cocktailProducts name="Campari"/>
-  <cocktailProducts name="Sweet Vermouth"/>
-  <cocktailProducts name="Blended whiskey"/>
-  <cocktailProducts name="Powdered sugar"/>
-  <cocktailProducts name="Cherry"/>
-  <cocktailProducts name="Dry Vermouth"/>
-  <cocktailProducts name="Olive"/>
-  <cocktailProducts name="Triple sec"/>
-  <cocktailProducts name="Lime juice"/>
-  <cocktailProducts name="Salt"/>
-  <cocktailProducts name="Ice"/>
-  <cocktailProducts name="Maraschino cherry"/>
-  <cocktailProducts name="Orange peel"/>
-  <cocktailProducts name="Ginger ale"/>
-  <cocktailProducts name="Apricot brandy"/>
-  <cocktailProducts name="Lemon juice"/>
-  <cocktailProducts name="Southern Comfort"/>
-  <cocktailProducts name="Amaretto"/>
-  <cocktailProducts name="Sloe gin"/>
-  <cocktailProducts name="Orange bitters"/>
-  <cocktailProducts name="Yellow Chartreuse"/>
-  <cocktailProducts name="Lemon peel"/>
-  <cocktailProducts name="Creme de Cacao"/>
-  <cocktailProducts name="Light cream"/>
-  <cocktailProducts name="Nutmeg"/>
-  <cocktailProducts name="Brandy"/>
-  <cocktailProducts name="Lemon vodka"/>
-  <cocktailProducts name="Pineapple juice"/>
-  <cocktailProducts name="Blackberry brandy"/>
-  <cocktailProducts name="Kummel"/>
-  <cocktailProducts name="Dark rum"/>
-  <cocktailProducts name="Kahlua"/>
-  <cocktailProducts name="Egg white"/>
-  <cocktailProducts name="Club soda"/>
-  <cocktailProducts name="White Creme de Menthe"/>
-  <cocktailProducts name="Tea"/>
-  <cocktailProducts name="Whipped cream"/>
-  <cocktailProducts name="Apple brandy"/>
-  <cocktailProducts name="Applejack"/>
-  <cocktailProducts name="Orange"/>
-  <cocktailProducts name="Wine"/>
-  <cocktailProducts name="Benedictine"/>
-  <cocktailProducts name="Champagne"/>
-  <cocktailProducts name="Green Creme de Menthe"/>
-  <cocktailProducts name="Grand Marnier"/>
-  <cocktailProducts name="Bitters"/>
-  <cocktailProducts name="Scotch"/>
-  <cocktailProducts name="Banana"/>
-  <cocktailProducts name="Carbonated water"/>
-  <cocktailProducts name="Coffee liqueur"/>
-  <cocktailProducts name="Tomato juice"/>
-  <cocktailProducts name="Tabasco sauce"/>
-  <cocktailProducts name="Celery salt"/>
-  <cocktailProducts name="Worcestershire sauce"/>
-  <cocktailProducts name="Blue Curacao"/>
-  <cocktailProducts name="Lemonade"/>
-  <cocktailProducts name="A&#xf1;ejo rum"/>
-  <cocktailProducts name="Tia maria"/>
-  <cocktailProducts name="Orange juice"/>
-  <cocktailProducts name="Maraschino liqueur"/>
-  <cocktailProducts name="Grenadine"/>
-  <cocktailProducts name="Egg"/>
-  <cocktailProducts name="Cachaca"/>
-  <cocktailProducts name="Egg yolk"/>
-  <cocktailProducts name="Cognac"/>
-  <cocktailProducts name="Cherry brandy"/>
-  <cocktailProducts name="Port"/>
-  <cocktailProducts name="Chocolate ice-cream"/>
-  <cocktailProducts name="Dubonnet Rouge"/>
-  <cocktailProducts name="Sugar syrup"/>
-  <cocktailProducts name="Pineapple"/>
-  <cocktailProducts name="Tonic water"/>
-  <cocktailProducts name="Orange spiral"/>
-  <cocktailProducts name="Strawberries"/>
-  <cocktailProducts name="Heavy cream"/>
-  <cocktailProducts name="Galliano"/>
-  <cocktailProducts name="Irish whiskey"/>
-  <cocktailProducts name="Peach brandy"/>
-  <cocktailProducts name="Sweet and sour"/>
-  <cocktailProducts name="Green Chartreuse"/>
-  <cocktailProducts name="Drambuie"/>
-  <cocktailProducts name="Orgeat syrup"/>
-  <cocktailProducts name="Grapefruit juice"/>
-  <cocktailProducts name="Red wine"/>
-  <cocktailProducts name="Raspberry syrup"/>
-  <cocktailProducts name="Sherry"/>
-  <cocktailProducts name="Coffee brandy"/>
-  <cocktailProducts name="Lime vodka"/>
-  <cocktailProducts name="Lemon-lime soda"/>
-  <cocktailProducts name="Rum"/>
-  <cocktailProducts name="Milk"/>
-  <cocktailProducts name="151 proof rum"/>
-  <cocktailProducts name="Lime peel"/>
-  <cocktailProducts name="Ricard"/>
-  <cocktailProducts name="Peychaud bitters"/>
-  <cocktailProducts name="Curacao"/>
-  <cocktailProducts name="Anisette"/>
-  <cocktailProducts name="Cointreau"/>
-  <cocktailProducts name="Strawberry schnapps"/>
-  <cocktailProducts name="Anis"/>
-  <cocktailProducts name="Maple syrup"/>
-  <cocktailProducts name="Creme de Cassis"/>
-  <cocktailProducts name="Grape juice"/>
-  <cocktailProducts name="Cream"/>
-  <cocktailProducts name="Apple juice"/>
-  <cocktailProducts name="Carrot"/>
-  <cocktailProducts name="Passion fruit juice"/>
-  <cocktailProducts name="Yoghurt"/>
-  <cocktailProducts name="Honey"/>
-  <cocktailProducts name="Chocolate syrup"/>
-  <cocktailProducts name="Apple"/>
-  <cocktailProducts name="Fruit juice"/>
-  <cocktailProducts name="Fruit"/>
-  <cocktailProducts name="Mint syrup"/>
-  <cocktailProducts name="Cumin seed"/>
-  <cocktailProducts name="Asafoetida"/>
-  <cocktailProducts name="Mango"/>
-  <cocktailProducts name="Ginger"/>
-  <cocktailProducts name="Cayenne pepper"/>
-  <cocktailProducts name="Aperol"/>
-  <cocktailProducts name="Cantaloupe"/>
-  <cocktailProducts name="Berries"/>
-  <cocktailProducts name="Grapes"/>
-  <cocktailProducts name="Kiwi"/>
-  <cocktailProducts name="Papaya"/>
-  <cocktailProducts name="Cocoa powder"/>
-  <cocktailProducts name="Cornstarch"/>
-  <cocktailProducts name="Chocolate"/>
-  <cocktailProducts name="Cinnamon"/>
-  <cocktailProducts name="Vanilla"/>
-  <cocktailProducts name="Butter"/>
-  <cocktailProducts name="Vanilla extract"/>
-  <cocktailProducts name="Half-and-half"/>
-  <cocktailProducts name="Marshmallows"/>
-  <cocktailProducts name="Espresso"/>
-  <cocktailProducts name="Absolut Citron"/>
-  <cocktailProducts name="Peach schnapps"/>
-  <cocktailProducts name="Cranberry juice"/>
-  <cocktailProducts name="Peach Vodka"/>
-  <cocktailProducts name="Sirup of roses"/>
-  <cocktailProducts name="Ouzo"/>
-  <cocktailProducts name="Baileys irish cream"/>
-  <cocktailProducts name="J&#xe4;germeister"/>
-  <cocktailProducts name="Coffee"/>
-  <cocktailProducts name="Grain alcohol"/>
-  <cocktailProducts name="Spiced rum"/>
-  <cocktailProducts name="Cardamom"/>
-  <cocktailProducts name="Cloves"/>
-  <cocktailProducts name="Black pepper"/>
-  <cocktailProducts name="Coriander"/>
-  <cocktailProducts name="Whipping cream"/>
-  <cocktailProducts name="Condensed milk"/>
-  <cocktailProducts name="Anise"/>
-  <cocktailProducts name="Licorice root"/>
-  <cocktailProducts name="Wormwood"/>
-  <cocktailProducts name="Apricot"/>
-  <cocktailProducts name="Almond flavoring"/>
-  <cocktailProducts name="Food coloring"/>
-  <cocktailProducts name="Glycerine"/>
-  <cocktailProducts name="Angelica root"/>
-  <cocktailProducts name="Almond"/>
-  <cocktailProducts name="Allspice"/>
-  <cocktailProducts name="Marjoram leaves"/>
-  <cocktailProducts name="Caramel coloring"/>
-  <cocktailProducts name="Cranberries"/>
-  <cocktailProducts name="Peppermint extract"/>
-  <cocktailProducts name="Coconut syrup"/>
-  <cocktailProducts name="Johnnie Walker"/>
-  <cocktailProducts name="Fennel seeds"/>
-  <cocktailProducts name="Brown sugar"/>
-  <cocktailProducts name="Guava juice"/>
-  <cocktailProducts name="Apple cider"/>
-  <cocktailProducts name="Rye whiskey"/>
-  <cocktailProducts name="Everclear"/>
-  <cocktailProducts name="Kool-Aid"/>
-  <cocktailProducts name="Carbonated soft drink"/>
-  <cocktailProducts name="Sherbet"/>
-  <cocktailProducts name="Fresca"/>
-  <cocktailProducts name="Peach nectar"/>
-  <cocktailProducts name="Firewater"/>
-  <cocktailProducts name="Absolut Peppar"/>
-  <cocktailProducts name="Cherry liqueur"/>
-  <cocktailProducts name="Lager"/>
-  <cocktailProducts name="Cider"/>
-  <cocktailProducts name="Blackcurrant cordial"/>
-  <cocktailProducts name="Frangelico"/>
-  <cocktailProducts name="Sour mix"/>
-  <cocktailProducts name="Whiskey"/>
-  <cocktailProducts name="Hot Damn"/>
-  <cocktailProducts name="Midori melon liqueur"/>
-  <cocktailProducts name="Beer"/>
-  <cocktailProducts name="Dr. Pepper"/>
-  <cocktailProducts name="White rum"/>
-  <cocktailProducts name="Pisco"/>
-  <cocktailProducts name="Irish cream"/>
-  <cocktailProducts name="Goldschlager"/>
-  <cocktailProducts name="Ale"/>
-  <cocktailProducts name="Guinness stout"/>
-  <cocktailProducts name="Chocolate liqueur"/>
-  <cocktailProducts name="Sambuca"/>
-  <cocktailProducts name="Erin Cream"/>
-  <cocktailProducts name="Advocaat"/>
-  <cocktailProducts name="Passion fruit syrup"/>
-  <cocktailProducts name="Vanilla ice-cream"/>
-  <cocktailProducts name="Oreo cookie"/>
-  <cocktailProducts name="Sprite"/>
-  <cocktailProducts name="Pink lemonade"/>
-  <cocktailProducts name="Iced tea"/>
-  <cocktailProducts name="Sarsaparilla"/>
-  <cocktailProducts name="7-Up"/>
-  <cocktailProducts name="Apple schnapps"/>
-  <cocktailProducts name="Peppermint schnapps"/>
-  <cocktailProducts name="Jack Daniels"/>
-  <cocktailProducts name="Jim Beam"/>
-  <cocktailProducts name="Pina colada mix"/>
-  <cocktailProducts name="Daiquiri mix"/>
-  <cocktailProducts name="Absolut Vodka"/>
-  <cocktailProducts name="Butterscotch schnapps"/>
-  <cocktailProducts name="Coconut liqueur"/>
-  <cocktailProducts name="Crown Royal"/>
-  <cocktailProducts name="Vermouth"/>
-  <cocktailProducts name="Chambord raspberry liqueur"/>
-  <cocktailProducts name="Godiva liqueur"/>
-  <cocktailProducts name="Absolut Kurant"/>
-  <cocktailProducts name="Pisang Ambon"/>
-  <cocktailProducts name="Bitter lemon"/>
-  <cocktailProducts name="Turkish apple tea"/>
-  <cocktailProducts name="Cherry Heering"/>
-  <cocktailProducts name="Hot chocolate"/>
-  <cocktailProducts name="Creme de Banane"/>
-  <cocktailProducts name="Malibu rum"/>
-  <cocktailProducts name="Dark Creme de Cacao"/>
-  <cocktailProducts name="Vanilla vodka"/>
-  <cocktailProducts name="Wild Turkey"/>
-  <cocktailProducts name="Grape soda"/>
-  <cocktailProducts name="Candy"/>
-  <cocktailProducts name="Banana liqueur"/>
-  <cocktailProducts name="Kiwi liqueur"/>
-  <cocktailProducts name="Peachtree schnapps"/>
-  <cocktailProducts name="Surge"/>
-  <cocktailProducts name="Jello"/>
-  <cocktailProducts name="Fruit punch"/>
-  <cocktailProducts name="Cranberry vodka"/>
-  <cocktailProducts name="Apfelkorn"/>
-  <cocktailProducts name="Schweppes Russchian"/>
-  <cocktailProducts name="Corona"/>
-  <cocktailProducts name="Bacardi Limon"/>
-  <cocktailProducts name="Yukon Jack"/>
-  <cocktailProducts name="Coconut rum"/>
-  <cocktailProducts name="Tropicana"/>
-  <cocktailProducts name="Cherries"/>
-  <cocktailProducts name="Root beer"/>
-  <cocktailProducts name="Aquavit"/>
-  <cocktailProducts name="Chocolate milk"/>
-  <cocktailProducts name="Kirschwasser"/>
-  <cocktailProducts name="Strawberry liqueur"/>
-  <cocktailProducts name="Black Sambuca"/>
-  <cocktailProducts name="Blackcurrant squash"/>
-  <cocktailProducts name="Zima"/>
-  <cocktailProducts name="Pepsi Cola"/>
-  <cocktailProducts name="Orange Curacao"/>
-  <cocktailProducts name="Cream of coconut"/>
-  <cocktailProducts name="Absinthe"/>
-  <cocktailProducts name="Whisky"/>
-  <cocktailProducts name="Tennessee whiskey"/>
-  <cocktailProducts name="Limeade"/>
-  <cocktailProducts name="Melon liqueur"/>
-  <cocktailProducts name="Mountain Dew"/>
-  <cocktailProducts name="Corn syrup"/>
-  <cocktailProducts name="Rumple Minze"/>
-  <cocktailProducts name="Lime juice cordial"/>
-  <cocktailProducts name="Gold tequila"/>
-  <cocktailProducts name="Blueberry schnapps"/>
-  <cocktailProducts name="Maui"/>
-  <cocktailProducts name="Raspberry vodka"/>
-  <cocktailProducts name="Triple Sec"/>
-  <cocktailProducts name="Cherry Grenadine"/>
-  <cocktailProducts name="Lemon Juice"/>
-  <cocktailProducts name="Agave Syrup"/>
-  <cocktailProducts name="demerara Sugar"/>
-  <cocktailProducts name="lemon juice"/>
-  <cocktailProducts name="maraschino liqueur"/>
-  <cocktailProducts name="Olive Brine"/>
-  <cocktailProducts name="Lime Juice"/>
-  <cocktailProducts name="Pineapple Syrup"/>
-  <cocktailProducts name="St. Germain"/>
-  <cocktailProducts name="Angostura Bitters"/>
-  <cocktailProducts name="Pepper"/>
-  <cocktailProducts name="Lavender"/>
-  <cocktailProducts name="gin"/>
-  <cocktailProducts name="Peach Bitters"/>
-  <cocktailProducts name="Apricot Brandy"/>
-  <cocktailProducts name="Orange Juice"/>
-  <cocktailProducts name="Egg Yolk"/>
-  <cocktailProducts name="orange juice"/>
-  <cocktailProducts name="Grapefruit Juice"/>
-  <cocktailProducts name="Maraschino Liqueur"/>
-  <cocktailProducts name="Coconut milk"/>
-  <cocktailProducts name="Pineapple Juice"/>
-  <cocktailProducts name="Prosecco"/>
-  <cocktailProducts name="Creme de Mure"/>
-  <cocktailProducts name="Dark Rum"/>
-  <cocktailProducts name="Ginger Beer"/>
-  <cocktailProducts name="Raspberry Liqueur"/>
-  <cocktailProducts name="pineapple juice"/>
-  <cocktailProducts name="Sugar Syrup"/>
-  <cocktailProducts name="Soda Water"/>
-  <cocktailProducts name="Agave syrup"/>
-  <cocktailProducts name="Tomato Juice"/>
-  <cocktailProducts name="Lillet Blanc"/>
-  <cocktailProducts name="White Rum"/>
-  <cocktailProducts name="Vanilla Ice-Cream"/>
-  <cocktailProducts name="Whipped Cream"/>
-  <cocktailProducts name="caramel sauce"/>
-  <cocktailProducts name="chocolate sauce"/>
-  <cocktailProducts name="Mini-snickers bars"/>
-  <cocktailProducts name="Cranberry Juice"/>
-  <cocktailProducts name="Egg White"/>
-  <cocktailProducts name="Fresh Lemon Juice"/>
-  <cocktailProducts name="Fresh Lime Juice"/>
-  <cocktailProducts name="lemon"/>
-  <cocktailProducts name="Chocolate Sauce"/>
-  <cocktailProducts name="Salted Chocolate"/>
-  <cocktailProducts name="Maraschino Cherry"/>
-  <cocktailProducts name="Blackberries"/>
-  <cocktailProducts name="Gold rum"/>
-  <cocktailProducts name="Pernod"/>
-  <cocktailProducts name="Ginger beer"/>
-  <cocktailProducts name="Tonic Water"/>
-  <cocktailProducts name="Rosemary"/>
-  <cocktailProducts name="Mezcal"/>
-  <cocktailProducts name="Lillet"/>
-  <cocktailProducts name="Orange Peel"/>
-  <cocktailProducts name="Orange Bitters"/>
-  <cocktailProducts name="Grape Soda"/>
-  <cocktailProducts name="Bailey"/>
-  <cocktailProducts name="Jagermeister"/>
-  <cocktailProducts name="Sweet and Sour"/>
-  <cocktailProducts name="Passoa"/>
-  <cocktailProducts name="Elderflower cordial"/>
-  <cocktailProducts name="Rosso Vermouth"/>
-  <cocktailProducts name="Hot Chocolate"/>
-  <cocktailProducts name="Irish Whiskey"/>
-  <cocktailProducts name="Blended Scotch"/>
-  <cocktailProducts name="Honey syrup"/>
-  <cocktailProducts name="Ginger Syrup"/>
-  <cocktailProducts name="Islay single malt Scotch"/>
-  <cocktailProducts name="Falernum"/>
-  <cocktailProducts name="blackstrap rum"/>
+  <cocktailProducts
+      name="Lime"/>
+  <cocktailProducts
+      name="Ice Cube"/>
+  <cocktailProducts
+      name="Coca Cola"/>
+  <cocktailProducts
+      name="Havana Club Rum"
+      vol="40.0"/>
 </cocktail:CocktailParty>

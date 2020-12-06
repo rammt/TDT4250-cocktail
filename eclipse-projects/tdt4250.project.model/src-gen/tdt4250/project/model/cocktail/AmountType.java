@@ -461,13 +461,13 @@ public enum AmountType implements Enumerator {
 	 */
 	LONG(49, "long", "long"),
 	/**
-	* The '<em><b>Unknown</b></em>' literal object.
-	* <!-- begin-user-doc -->
+	 * The '<em><b>Unknown</b></em>' literal object.
+	 * <!-- begin-user-doc -->
 	* <!-- end-user-doc -->
-	* @see #UNKNOWN_VALUE
-	* @generated
-	* @ordered
-	*/
+	 * @see #UNKNOWN_VALUE
+	 * @generated
+	 * @ordered
+	 */
 	UNKNOWN(0, "unknown", "unknown");
 
 	/**

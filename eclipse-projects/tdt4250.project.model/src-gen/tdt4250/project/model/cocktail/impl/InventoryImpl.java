@@ -6,16 +6,20 @@ import java.util.Collection;
 
 import org.eclipse.emf.common.notify.Notification;
 
+import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
-import org.eclipse.emf.ecore.util.EObjectResolvingEList;
-
+import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.EcoreUtil;
+import org.eclipse.emf.ecore.util.InternalEList;
 import tdt4250.project.model.cocktail.CocktailPackage;
+import tdt4250.project.model.cocktail.CocktailParty;
 import tdt4250.project.model.cocktail.DrinkIngredient;
 import tdt4250.project.model.cocktail.Inventory;
 
@@ -30,13 +34,14 @@ import tdt4250.project.model.cocktail.Inventory;
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getAvailableIngredients <em>Available Ingredients</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getId <em>Id</em>}</li>
+ *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getParty <em>Party</em>}</li>
  * </ul>
  *
  * @generated
  */
 public class InventoryImpl extends MinimalEObjectImpl.Container implements Inventory {
 	/**
-	 * The cached value of the '{@link #getAvailableIngredients() <em>Available Ingredients</em>}' reference list.
+	 * The cached value of the '{@link #getAvailableIngredients() <em>Available Ingredients</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getAvailableIngredients()
@@ -111,7 +116,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 */
 	public EList<DrinkIngredient> getAvailableIngredients() {
 		if (availableIngredients == null) {
-			availableIngredients = new EObjectResolvingEList<DrinkIngredient>(DrinkIngredient.class, this,
+			availableIngredients = new EObjectContainmentEList<DrinkIngredient>(DrinkIngredient.class, this,
 					CocktailPackage.INVENTORY__AVAILABLE_INGREDIENTS);
 		}
 		return availableIngredients;
@@ -164,6 +169,98 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public CocktailParty getParty() {
+		if (eContainerFeatureID() != CocktailPackage.INVENTORY__PARTY)
+			return null;
+		return (CocktailParty) eInternalContainer();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetParty(CocktailParty newParty, NotificationChain msgs) {
+		msgs = eBasicSetContainer((InternalEObject) newParty, CocktailPackage.INVENTORY__PARTY, msgs);
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setParty(CocktailParty newParty) {
+		if (newParty != eInternalContainer()
+				|| (eContainerFeatureID() != CocktailPackage.INVENTORY__PARTY && newParty != null)) {
+			if (EcoreUtil.isAncestor(this, newParty))
+				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
+			NotificationChain msgs = null;
+			if (eInternalContainer() != null)
+				msgs = eBasicRemoveFromContainer(msgs);
+			if (newParty != null)
+				msgs = ((InternalEObject) newParty).eInverseAdd(this, CocktailPackage.COCKTAIL_PARTY__INVENTORIES,
+						CocktailParty.class, msgs);
+			msgs = basicSetParty(newParty, msgs);
+			if (msgs != null)
+				msgs.dispatch();
+		} else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, CocktailPackage.INVENTORY__PARTY, newParty,
+					newParty));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case CocktailPackage.INVENTORY__PARTY:
+			if (eInternalContainer() != null)
+				msgs = eBasicRemoveFromContainer(msgs);
+			return basicSetParty((CocktailParty) otherEnd, msgs);
+		}
+		return super.eInverseAdd(otherEnd, featureID, msgs);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+		case CocktailPackage.INVENTORY__AVAILABLE_INGREDIENTS:
+			return ((InternalEList<?>) getAvailableIngredients()).basicRemove(otherEnd, msgs);
+		case CocktailPackage.INVENTORY__PARTY:
+			return basicSetParty(null, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public NotificationChain eBasicRemoveFromContainerFeature(NotificationChain msgs) {
+		switch (eContainerFeatureID()) {
+		case CocktailPackage.INVENTORY__PARTY:
+			return eInternalContainer().eInverseRemove(this, CocktailPackage.COCKTAIL_PARTY__INVENTORIES,
+					CocktailParty.class, msgs);
+		}
+		return super.eBasicRemoveFromContainerFeature(msgs);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -173,6 +270,8 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 			return getName();
 		case CocktailPackage.INVENTORY__ID:
 			return getId();
+		case CocktailPackage.INVENTORY__PARTY:
+			return getParty();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -196,6 +295,9 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 		case CocktailPackage.INVENTORY__ID:
 			setId((Integer) newValue);
 			return;
+		case CocktailPackage.INVENTORY__PARTY:
+			setParty((CocktailParty) newValue);
+			return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -217,6 +319,9 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 		case CocktailPackage.INVENTORY__ID:
 			setId(ID_EDEFAULT);
 			return;
+		case CocktailPackage.INVENTORY__PARTY:
+			setParty((CocktailParty) null);
+			return;
 		}
 		super.eUnset(featureID);
 	}
@@ -235,6 +340,8 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		case CocktailPackage.INVENTORY__ID:
 			return id != ID_EDEFAULT;
+		case CocktailPackage.INVENTORY__PARTY:
+			return getParty() != null;
 		}
 		return super.eIsSet(featureID);
 	}
