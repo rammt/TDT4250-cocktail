@@ -1,0 +1,2993 @@
+{
+    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//CocktailParty",
+    "cocktailProducts": [
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Light rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sugar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mint",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Soda water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Bourbon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Angostura bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Gin",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tequila",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coca-Cola",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Campari",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sweet Vermouth",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blended whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Powdered sugar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherry",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dry Vermouth",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Olive",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Triple sec",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Salt",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maraschino cherry",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange peel",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ginger ale",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apricot brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Southern Comfort",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Amaretto",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sloe gin",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Yellow Chartreuse",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon peel",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Creme de Cacao",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Light cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Nutmeg",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pineapple juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blackberry brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kummel",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dark rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kahlua",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Egg white",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Club soda",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "White Creme de Menthe",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tea",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Whipped cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apple brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Applejack",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Wine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Benedictine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Champagne",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Green Creme de Menthe",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grand Marnier",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Scotch",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Banana",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Carbonated water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coffee liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tomato juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tabasco sauce",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Celery salt",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Worcestershire sauce",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blue Curacao",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemonade",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "A\u00f1ejo rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tia maria",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maraschino liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grenadine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Egg",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cachaca",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Egg yolk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cognac",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherry brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Port",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate ice-cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dubonnet Rouge",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sugar syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pineapple",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tonic water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange spiral",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Strawberries",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Heavy cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Galliano",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Irish whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peach brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sweet and sour",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Green Chartreuse",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Drambuie",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orgeat syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grapefruit juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Red wine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Raspberry syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sherry",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coffee brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon-lime soda",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Milk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "151 proof rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime peel",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ricard",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peychaud bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Curacao",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Anisette",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cointreau",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Strawberry schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Anis",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maple syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Creme de Cassis",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grape juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apple juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Carrot",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Passion fruit juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Yoghurt",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Honey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apple",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fruit juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fruit",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mint syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cumin seed",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Asafoetida",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mango",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ginger",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cayenne pepper",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Aperol",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cantaloupe",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Berries",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grapes",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kiwi",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Papaya",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cocoa powder",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cornstarch",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cinnamon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vanilla",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Butter",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vanilla extract",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Half-and-half",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Marshmallows",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Espresso",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Absolut Citron",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peach schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cranberry juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peach Vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sirup of roses",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ouzo",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Baileys irish cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "J\u00e4germeister",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coffee",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grain alcohol",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Spiced rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cardamom",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cloves",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Black pepper",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coriander",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Whipping cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Condensed milk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Anise",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Licorice root",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Wormwood",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apricot",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Almond flavoring",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Food coloring",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Glycerine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Angelica root",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Almond",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Allspice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Marjoram leaves",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Caramel coloring",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cranberries",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peppermint extract",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coconut syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Johnnie Walker",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fennel seeds",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Brown sugar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Guava juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apple cider",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Rye whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Everclear",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kool-Aid",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Carbonated soft drink",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sherbet",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fresca",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peach nectar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Firewater",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Absolut Peppar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherry liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lager",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cider",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blackcurrant cordial",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Frangelico",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sour mix",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Hot Damn",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Midori melon liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Beer",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dr. Pepper",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "White rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pisco",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Irish cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Goldschlager",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ale",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Guinness stout",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sambuca",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Erin Cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Advocaat",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Passion fruit syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vanilla ice-cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Oreo cookie",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sprite",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pink lemonade",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Iced tea",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sarsaparilla",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "7-Up",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apple schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peppermint schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Jack Daniels",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Jim Beam",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pina colada mix",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Daiquiri mix",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Absolut Vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Butterscotch schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coconut liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Crown Royal",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vermouth",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chambord raspberry liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Godiva liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Absolut Kurant",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pisang Ambon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Bitter lemon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Turkish apple tea",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherry Heering",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Hot chocolate",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Creme de Banane",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Malibu rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dark Creme de Cacao",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vanilla vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Wild Turkey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grape soda",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Candy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Banana liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kiwi liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peachtree schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Surge",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Jello",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fruit punch",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cranberry vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apfelkorn",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Schweppes Russchian",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Corona",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Bacardi Limon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Yukon Jack",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coconut rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tropicana",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherries",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Root beer",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Aquavit",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate milk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Kirschwasser",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Strawberry liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Black Sambuca",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blackcurrant squash",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Zima",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pepsi Cola",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange Curacao",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cream of coconut",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Absinthe",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Whisky",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tennessee whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Limeade",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Melon liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mountain Dew",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Corn syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Rumple Minze",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime juice cordial",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Gold tequila",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blueberry schnapps",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maui",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Raspberry vodka",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Triple Sec",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cherry Grenadine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lemon Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Agave Syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "demerara Sugar",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "lemon juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "maraschino liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Olive Brine",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lime Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pineapple Syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "St. Germain",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Angostura Bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pepper",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lavender",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "gin",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Peach Bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Apricot Brandy",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Egg Yolk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "orange juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grapefruit Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maraschino Liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Coconut milk",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pineapple Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Prosecco",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Creme de Mure",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Dark Rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ginger Beer",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Raspberry Liqueur",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "pineapple juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sugar Syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Soda Water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Agave syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tomato Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lillet Blanc",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "White Rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Vanilla Ice-Cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Whipped Cream",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "caramel sauce",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "chocolate sauce",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mini-snickers bars",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Cranberry Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Egg White",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fresh Lemon Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Fresh Lime Juice",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "lemon",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Chocolate Sauce",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Salted Chocolate",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Maraschino Cherry",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blackberries",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Gold rum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Pernod",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ginger beer",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Tonic Water",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Rosemary",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Mezcal",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Lillet",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange Peel",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Orange Bitters",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Grape Soda",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Bailey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Jagermeister",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Sweet and Sour",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Passoa",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Elderflower cordial",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Rosso Vermouth",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Hot Chocolate",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Irish Whiskey",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Blended Scotch",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Honey syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Ginger Syrup",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Islay single malt Scotch",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "Falernum",
+            "vol": "0"
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+            "name": "blackstrap rum",
+            "vol": "0"
+        }
+    ],
+    "drinkRegister": [
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11000",
+            "name": "Mojito",
+            "instructions": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.0"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.1"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.2"
+                    },
+                    "amount": 2.0,
+                    "amountType": "tsp"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.3"
+                    },
+                    "amount": 2.0,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11001",
+            "name": "Old Fashioned",
+            "instructions": "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.\r\nFill the glass with ice cubes and add whiskey.\r\n\r\nGarnish with orange twist, and a cocktail cherry.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.5"
+                    },
+                    "amount": 4.5,
+                    "amountType": "cl"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.6"
+                    },
+                    "amount": 2.0,
+                    "amountType": "dash"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.2"
+                    },
+                    "amount": 1.0,
+                    "amountType": "cube"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.7"
+                    },
+                    "amount": null,
+                    "amountType": "dash"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11002",
+            "name": "Long Island Tea",
+            "instructions": "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.8"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.0"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.10"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.11"
+                    },
+                    "amount": 0.5,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.12"
+                    },
+                    "amount": 1.0,
+                    "amountType": "splash"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11003",
+            "name": "Negroni",
+            "instructions": "Stir into glass over ice, garnish and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.13"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.14"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11004",
+            "name": "Whiskey Sour",
+            "instructions": "Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.15"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.11"
+                    },
+                    "amount": 0.5,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.16"
+                    },
+                    "amount": 0.5,
+                    "amountType": "tsp"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.17"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.11"
+                    },
+                    "amount": 0.5,
+                    "amountType": "slice"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11005",
+            "name": "Dry Martini",
+            "instructions": "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 1.66,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.18"
+                    },
+                    "amount": 0.33,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.19"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11006",
+            "name": "Daiquiri",
+            "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.0"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.1"
+                    },
+                    "amount": 0.5,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.16"
+                    },
+                    "amount": 1.0,
+                    "amountType": "tsp"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11007",
+            "name": "Margarita",
+            "instructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.10"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.21"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11008",
+            "name": "Manhattan",
+            "instructions": "Stirred over ice, strained into a chilled glass, garnished, and served up.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.14"
+                    },
+                    "amount": 0.75,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.5"
+                    },
+                    "amount": 2.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.6"
+                    },
+                    "amount": null,
+                    "amountType": "dash"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.23"
+                    },
+                    "amount": 2.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.24"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.25"
+                    },
+                    "amount": 1.0,
+                    "amountType": "twist"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11009",
+            "name": "Moscow Mule",
+            "instructions": "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.8"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.21"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.26"
+                    },
+                    "amount": 8.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11010",
+            "name": "After Dinner Cocktail",
+            "instructions": "Shake all ingredients (except lime wedge) with ice and strain into a cocktail glass. Add the wedge of lime and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.27"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.1"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.1"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11011",
+            "name": "After Supper Cocktail",
+            "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.27"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.28"
+                    },
+                    "amount": 0.5,
+                    "amountType": "tsp"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11012",
+            "name": "Alabama Slammer",
+            "instructions": "Pour all ingredients (except for lemon juice) over ice in a highball glass. Stir, add a dash of lemon juice, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.29"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.31"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.28"
+                    },
+                    "amount": 1.0,
+                    "amountType": "dash"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11013",
+            "name": "Alaska Cocktail",
+            "instructions": "Stir all ingredients with ice, strain contents into a cocktail glass. Drop in a twist of lemon and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.32"
+                    },
+                    "amount": 2.0,
+                    "amountType": "dash"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.33"
+                    },
+                    "amount": 0.75,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.34"
+                    },
+                    "amount": null,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11014",
+            "name": "Alexander",
+            "instructions": "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.35"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.36"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11016",
+            "name": "Brandy Alexander",
+            "instructions": "Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.38"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.35"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.36"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11019",
+            "name": "Alfie Cocktail",
+            "instructions": "Combine and shake all ingredients with ice, strain into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.39"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 1.0,
+                    "amountType": "dash"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.40"
+                    },
+                    "amount": 1.0,
+                    "amountType": "tablespoon"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11020",
+            "name": "Algonquin",
+            "instructions": "Combine and shake all ingredients with ice, strain contents into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.15"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.18"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.40"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11021",
+            "name": "Allegheny",
+            "instructions": "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.18"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.5"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.41"
+                    },
+                    "amount": 1.5,
+                    "amountType": "tsp"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.28"
+                    },
+                    "amount": 1.5,
+                    "amountType": "tsp"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.34"
+                    },
+                    "amount": 1.0,
+                    "amountType": "twist"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11022",
+            "name": "Allies Cocktail",
+            "instructions": "Stir all ingredients with ice, strain contents into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.18"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.42"
+                    },
+                    "amount": 0.5,
+                    "amountType": "tsp"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11023",
+            "name": "Almeria",
+            "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.43"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.44"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.45"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11024",
+            "name": "Almond Joy",
+            "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.35"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.36"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11025",
+            "name": "Amaretto And Cream",
+            "instructions": "Shake well with cracked ice, strain contents into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.36"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11026",
+            "name": "Amaretto Mist",
+            "instructions": "Pour amaretto in an old-fashioned glass over crushed ice. Add the wedge of lime and serve. (A wedge of lemon may be substituted for lime, if preferred.)",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.1"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11027",
+            "name": "Amaretto Rose",
+            "instructions": "Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.21"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11028",
+            "name": "Amaretto Stinger",
+            "instructions": "Shake ingredients well with cracked ice, strain into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.47"
+                    },
+                    "amount": 0.75,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11029",
+            "name": "Amaretto Tea",
+            "instructions": "Pour hot tea into a pousse-cafe glass, using a spoon in glass to prevent cracking. Add amaretto, but do not stir. Top with chilled whipped cream and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.48"
+                    },
+                    "amount": 6.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.30"
+                    },
+                    "amount": 2.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.49"
+                    },
+                    "amount": null,
+                    "amountType": "unknown"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11034",
+            "name": "Angel Face",
+            "instructions": "Shake all ingredients with ice and strain contents into a cocktail glass.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.27"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.50"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.9"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11046",
+            "name": "Applecar",
+            "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.51"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.28"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                }
+            ]
+        },
+        {
+            "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+            "id": "11050",
+            "name": "Apricot Lady",
+            "instructions": "In a shaker half-filled with ice cubes, combine the rum, apricot brandy, triple sec, lemon juice, and egg white. Shake well. Strain into an old-fashioned glass almost filled with ice cubes. Garnish with the orange slice.",
+            "requiredIngredients": [
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.0"
+                    },
+                    "amount": 1.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.27"
+                    },
+                    "amount": 1.0,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.20"
+                    },
+                    "amount": 1.0,
+                    "amountType": "tsp"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.28"
+                    },
+                    "amount": 0.5,
+                    "amountType": "oz"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.45"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                },
+                {
+                    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+                    "product": {
+                        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+                        "$ref": "//@cocktailProducts.52"
+                    },
+                    "amount": 1.0,
+                    "amountType": "unknown"
+                }
+            ]
+        }
+    ]
+}

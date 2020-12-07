@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InstanceTester
+Bundle-SymbolicName: instanceTester
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: instanceTester
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: tdt4250.project.model;bundle-version="0.1.0",
+ org.eclipse.emf.ecore,
+ org.emfjson.jackson

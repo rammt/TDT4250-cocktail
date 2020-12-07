@@ -18,6 +18,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getAvailableIngredients <em>Available Ingredients</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getId <em>Id</em>}</li>
+ *   <li>{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}</li>
  * </ul>
  *
  * @see tdt4250.project.model.cocktail.CocktailPackage#getInventory()
@@ -26,13 +27,13 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface Inventory extends EObject {
 	/**
-	 * Returns the value of the '<em><b>Available Ingredients</b></em>' reference list.
+	 * Returns the value of the '<em><b>Available Ingredients</b></em>' containment reference list.
 	 * The list contents are of type {@link tdt4250.project.model.cocktail.DrinkIngredient}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Available Ingredients</em>' reference list.
+	 * @return the value of the '<em>Available Ingredients</em>' containment reference list.
 	 * @see tdt4250.project.model.cocktail.CocktailPackage#getInventory_AvailableIngredients()
-	 * @model
+	 * @model containment="true"
 	 * @generated
 	 */
 	EList<DrinkIngredient> getAvailableIngredients();
@@ -80,5 +81,29 @@ public interface Inventory extends EObject {
 	 * @generated
 	 */
 	void setId(int value);
+
+	/**
+	 * Returns the value of the '<em><b>Party</b></em>' container reference.
+	 * It is bidirectional and its opposite is '{@link tdt4250.project.model.cocktail.CocktailParty#getInventories <em>Inventories</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Party</em>' container reference.
+	 * @see #setParty(CocktailParty)
+	 * @see tdt4250.project.model.cocktail.CocktailPackage#getInventory_Party()
+	 * @see tdt4250.project.model.cocktail.CocktailParty#getInventories
+	 * @model opposite="inventories" transient="false"
+	 * @generated
+	 */
+	CocktailParty getParty();
+
+	/**
+	 * Sets the value of the '{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Party</em>' container reference.
+	 * @see #getParty()
+	 * @generated
+	 */
+	void setParty(CocktailParty value);
 
 } // Inventory

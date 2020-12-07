@@ -369,6 +369,15 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getInventory_Party() {
+		return (EReference) inventoryEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EEnum getAmountType() {
 		return amountTypeEEnum;
 	}
@@ -455,6 +464,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		createEReference(inventoryEClass, INVENTORY__AVAILABLE_INGREDIENTS);
 		createEAttribute(inventoryEClass, INVENTORY__NAME);
 		createEAttribute(inventoryEClass, INVENTORY__ID);
+		createEReference(inventoryEClass, INVENTORY__PARTY);
 
 		// Create enums
 		amountTypeEEnum = createEEnum(AMOUNT_TYPE);
@@ -504,13 +514,13 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 
 		initEClass(cocktailPartyEClass, CocktailParty.class, "CocktailParty", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getCocktailParty_Inventories(), this.getInventory(), null, "inventories", null, 0, 1,
+		initEReference(getCocktailParty_Inventories(), this.getInventory(), this.getInventory_Party(), "inventories",
+				null, 0, -1, CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getCocktailParty_DrinkRegister(), this.getDrink(), null, "drinkRegister", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCocktailParty_DrinkRegister(), this.getDrink(), null, "drinkRegister", null, 0, 1,
-				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
-				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getCocktailParty_CocktailProducts(), this.getProduct(), null, "cocktailProducts", null, 0, 1,
+		initEReference(getCocktailParty_CocktailProducts(), this.getProduct(), null, "cocktailProducts", null, 0, -1,
 				CocktailParty.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
@@ -543,18 +553,68 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		initEClass(inventoryEClass, Inventory.class, "Inventory", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getInventory_AvailableIngredients(), this.getDrinkIngredient(), null, "availableIngredients",
-				null, 0, -1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
-				IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+				null, 0, -1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getInventory_Name(), ecorePackage.getEString(), "name", null, 1, 1, Inventory.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getInventory_Id(), ecorePackage.getEInt(), "id", null, 0, 1, Inventory.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getInventory_Party(), this.getCocktailParty(), this.getCocktailParty_Inventories(), "party",
+				null, 0, 1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
+				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(amountTypeEEnum, AmountType.class, "AmountType");
-		addEEnumLiteral(amountTypeEEnum, AmountType.PCS);
+		addEEnumLiteral(amountTypeEEnum, AmountType.OZ);
+		addEEnumLiteral(amountTypeEEnum, AmountType.TSP);
 		addEEnumLiteral(amountTypeEEnum, AmountType.CL);
-		addEEnumLiteral(amountTypeEEnum, AmountType.GRAMS);
+		addEEnumLiteral(amountTypeEEnum, AmountType.DASH);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CUBE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.SPLASH);
+		addEEnumLiteral(amountTypeEEnum, AmountType.SLICE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.TWIST);
+		addEEnumLiteral(amountTypeEEnum, AmountType.TABLESPOON);
+		addEEnumLiteral(amountTypeEEnum, AmountType.DROP);
+		addEEnumLiteral(amountTypeEEnum, AmountType.WEDGE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.WHOLE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.PIECE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CUP);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CHUNK);
+		addEEnumLiteral(amountTypeEEnum, AmountType.PART);
+		addEEnumLiteral(amountTypeEEnum, AmountType.LARGE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.LB);
+		addEEnumLiteral(amountTypeEEnum, AmountType.FROZEN);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CAN);
+		addEEnumLiteral(amountTypeEEnum, AmountType.L);
+		addEEnumLiteral(amountTypeEEnum, AmountType.PINCH);
+		addEEnumLiteral(amountTypeEEnum, AmountType.GAL);
+		addEEnumLiteral(amountTypeEEnum, AmountType.GROUND);
+		addEEnumLiteral(amountTypeEEnum, AmountType.INCH);
+		addEEnumLiteral(amountTypeEEnum, AmountType.QT);
+		addEEnumLiteral(amountTypeEEnum, AmountType.GR);
+		addEEnumLiteral(amountTypeEEnum, AmountType.STICK);
+		addEEnumLiteral(amountTypeEEnum, AmountType.STRIP);
+		addEEnumLiteral(amountTypeEEnum, AmountType.BEATEN);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CRUSHED);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CUBES);
+		addEEnumLiteral(amountTypeEEnum, AmountType.BOTTLE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.ML);
+		addEEnumLiteral(amountTypeEEnum, AmountType.CRACKED);
+		addEEnumLiteral(amountTypeEEnum, AmountType.ONE_INCH);
+		addEEnumLiteral(amountTypeEEnum, AmountType.KG);
+		addEEnumLiteral(amountTypeEEnum, AmountType.PINT);
+		addEEnumLiteral(amountTypeEEnum, AmountType.RIPE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.DL);
+		addEEnumLiteral(amountTypeEEnum, AmountType.SCOOP);
+		addEEnumLiteral(amountTypeEEnum, AmountType.MEASURE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.GLASS);
+		addEEnumLiteral(amountTypeEEnum, AmountType.PACKAGE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.HANDFUL);
+		addEEnumLiteral(amountTypeEEnum, AmountType.JIGGER);
+		addEEnumLiteral(amountTypeEEnum, AmountType.SPRIG);
+		addEEnumLiteral(amountTypeEEnum, AmountType.LEAVE);
+		addEEnumLiteral(amountTypeEEnum, AmountType.LONG);
+		addEEnumLiteral(amountTypeEEnum, AmountType.UNKNOWN);
 
 		initEEnum(priceGroupTypeEEnum, PriceGroupType.class, "PriceGroupType");
 		addEEnumLiteral(priceGroupTypeEEnum, PriceGroupType.LOW);

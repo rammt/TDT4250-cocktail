@@ -410,15 +410,15 @@ public class DrinkImpl extends MinimalEObjectImpl.Container implements Drink {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String toString() {
 		if (eIsProxy())
 			return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (id: ");
+		StringBuilder result = new StringBuilder("");
+		result.append("\nDrink: (id: ");
 		result.append(id);
 		result.append(", name: ");
 		result.append(name);
@@ -428,7 +428,13 @@ public class DrinkImpl extends MinimalEObjectImpl.Container implements Drink {
 		result.append(priceGroup);
 		result.append(", instructions: ");
 		result.append(instructions);
-		result.append(')');
+		result.append(")\n");
+		for (int i = 0; i < this.getRequiredIngredients().size(); i++) {
+			result.append("Ingredient ");
+			result.append(i + 1);
+			result.append(": ");
+			result.append(this.getRequiredIngredients().get(i));
+		}
 		return result.toString();
 	}
 

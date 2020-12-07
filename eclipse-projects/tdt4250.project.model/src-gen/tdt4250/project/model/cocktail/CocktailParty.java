@@ -2,6 +2,7 @@
  */
 package tdt4250.project.model.cocktail;
 
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -24,69 +25,41 @@ import org.eclipse.emf.ecore.EObject;
  */
 public interface CocktailParty extends EObject {
 	/**
-	 * Returns the value of the '<em><b>Inventories</b></em>' containment reference.
+	 * Returns the value of the '<em><b>Inventories</b></em>' containment reference list.
+	 * The list contents are of type {@link tdt4250.project.model.cocktail.Inventory}.
+	 * It is bidirectional and its opposite is '{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Inventories</em>' containment reference.
-	 * @see #setInventories(Inventory)
+	 * @return the value of the '<em>Inventories</em>' containment reference list.
 	 * @see tdt4250.project.model.cocktail.CocktailPackage#getCocktailParty_Inventories()
-	 * @model containment="true"
+	 * @see tdt4250.project.model.cocktail.Inventory#getParty
+	 * @model opposite="party" containment="true"
 	 * @generated
 	 */
-	Inventory getInventories();
+	EList<Inventory> getInventories();
 
 	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.CocktailParty#getInventories <em>Inventories</em>}' containment reference.
+	 * Returns the value of the '<em><b>Drink Register</b></em>' containment reference list.
+	 * The list contents are of type {@link tdt4250.project.model.cocktail.Drink}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Inventories</em>' containment reference.
-	 * @see #getInventories()
-	 * @generated
-	 */
-	void setInventories(Inventory value);
-
-	/**
-	 * Returns the value of the '<em><b>Drink Register</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Drink Register</em>' containment reference.
-	 * @see #setDrinkRegister(Drink)
+	 * @return the value of the '<em>Drink Register</em>' containment reference list.
 	 * @see tdt4250.project.model.cocktail.CocktailPackage#getCocktailParty_DrinkRegister()
 	 * @model containment="true"
 	 * @generated
 	 */
-	Drink getDrinkRegister();
+	EList<Drink> getDrinkRegister();
 
 	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.CocktailParty#getDrinkRegister <em>Drink Register</em>}' containment reference.
+	 * Returns the value of the '<em><b>Cocktail Products</b></em>' containment reference list.
+	 * The list contents are of type {@link tdt4250.project.model.cocktail.Product}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Drink Register</em>' containment reference.
-	 * @see #getDrinkRegister()
-	 * @generated
-	 */
-	void setDrinkRegister(Drink value);
-
-	/**
-	 * Returns the value of the '<em><b>Cocktail Products</b></em>' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Cocktail Products</em>' containment reference.
-	 * @see #setCocktailProducts(Product)
+	 * @return the value of the '<em>Cocktail Products</em>' containment reference list.
 	 * @see tdt4250.project.model.cocktail.CocktailPackage#getCocktailParty_CocktailProducts()
 	 * @model containment="true"
 	 * @generated
 	 */
-	Product getCocktailProducts();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.CocktailParty#getCocktailProducts <em>Cocktail Products</em>}' containment reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Cocktail Products</em>' containment reference.
-	 * @see #getCocktailProducts()
-	 * @generated
-	 */
-	void setCocktailProducts(Product value);
+	EList<Product> getCocktailProducts();
 
 } // CocktailParty

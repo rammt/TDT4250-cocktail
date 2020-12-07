@@ -289,3 +289,16 @@ f2.write(json_string)
 f2.close()
 
 f.close()
+
+# Generate enums for units
+f3 = open("enumUnits.txt", "w")
+f3.write("")
+f3.close()
+enums[0] = "unknown"
+f3 = open("enumUnits.txt", "a")
+f3.write('<eClassifiers xsi:type="ecore:EEnum" name="AmountType">\n')
+for k in range(len(enums)):
+  f3.write('  <eLiterals name="' + enums[k] + '" value="' + str(k) + '"/>\n')
+
+f3.write('</eClassifiers>\n')
+f3.close()

@@ -49,7 +49,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * @generated
 	 * @ordered
 	 */
-	protected static final AmountType AMOUNT_TYPE_EDEFAULT = AmountType.PCS;
+	protected static final AmountType AMOUNT_TYPE_EDEFAULT = AmountType.OZ;
 
 	/**
 	 * The cached value of the '{@link #getAmountType() <em>Amount Type</em>}' attribute.
@@ -267,19 +267,21 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @generated
+	 * @generated NOT
 	 */
 	@Override
 	public String toString() {
 		if (eIsProxy())
 			return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (amountType: ");
+		StringBuilder result = new StringBuilder("");
+		result.append("(product: ");
+		result.append(this.getProduct().getName());
+		result.append(", amountType: ");
 		result.append(amountType);
 		result.append(", amount: ");
 		result.append(amount);
-		result.append(')');
+		result.append(")\n");
 		return result.toString();
 	}
 
