@@ -23,8 +23,7 @@
         amount="50.0"/>
   </inventories>
   <inventories
-      name="Warehouse"
-      id="1"/>
+      name="Warehouse"/>
   <drinkRegister
       name="Cuba Libre"
       strength="MEDIUM"
@@ -47,7 +46,6 @@
         amount="20.0"/>
   </drinkRegister>
   <drinkRegister
-      id="1"
       name="Virgin Cuba Libre"
       instructions="Virgin Cuba Libre Instructions">
     <requiredIngredients
@@ -64,7 +62,6 @@
         amount="20.0"/>
   </drinkRegister>
   <drinkRegister
-      id="2"
       name="Coke n Mint/w straw"
       instructions="Some instructions">
     <requiredIngredients
@@ -89,7 +86,6 @@
         amount="1.0"/>
   </drinkRegister>
   <drinkRegister
-      id="2"
       name="Coke n Mint"
       instructions="Some instructions">
     <requiredIngredients

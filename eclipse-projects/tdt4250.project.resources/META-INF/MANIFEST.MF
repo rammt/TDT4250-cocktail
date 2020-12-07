@@ -6,6 +6,5 @@ Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: instanceTester
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: tdt4250.project.model;bundle-version="0.1.0",
- org.emfjson.jackson.source;bundle-version="1.2.0",
  org.eclipse.emf.ecore,
  org.emfjson.jackson

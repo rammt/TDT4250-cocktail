@@ -31,6 +31,35 @@ public class InstanceTester {
 		
 		Inventory inv = cp.getInventories().get(0);
 		
-		System.out.println(inv.getParty());
+		System.out.println(getCreatableDrinksForInventory(inv));
+	}
+	
+	
+	public static List<Drink> getCreatableDrinksForInventory(Inventory inv) {
+		List<Drink> creatableDrinks = new ArrayList<>();
+		List<Drink> drinkList = inv.getParty().getDrinkRegister();
+		List<DrinkIngredient> inventoryIngredients = inv.getAvailableIngredients();
+		
+		for (Drink drink: drinkList) {
+			if (drink.getRequiredIngredients().stream().allMatch(drinkDI -> {
+				return inventoryIngredients.stream().anyMatch(invDI -> {
+					return isAvailableIngredient(invDI, drinkDI);
+				});
+			})) {
+				creatableDrinks.add(drink);
+			};
+		}
+		
+		return creatableDrinks;
+	}
+	
+	private static boolean isAvailableIngredient(DrinkIngredient inventoryDI, DrinkIngredient drinkDI) {
+		if (inventoryDI.getProduct().equals(drinkDI.getProduct())){
+			if (inventoryDI.getAmountType().equals(drinkDI.getAmountType())) {
+				return inventoryDI.getAmount() >= drinkDI.getAmount();
+			}
+		}
+		
+		return false;
 	}
 }
