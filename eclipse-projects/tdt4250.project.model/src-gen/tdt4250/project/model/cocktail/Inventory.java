@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getAvailableIngredients <em>Available Ingredients</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getName <em>Name</em>}</li>
- *   <li>{@link tdt4250.project.model.cocktail.Inventory#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}</li>
  * </ul>
  *
@@ -59,28 +58,6 @@ public interface Inventory extends EObject {
 	 * @generated
 	 */
 	void setName(String value);
-
-	/**
-	 * Returns the value of the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Id</em>' attribute.
-	 * @see #setId(int)
-	 * @see tdt4250.project.model.cocktail.CocktailPackage#getInventory_Id()
-	 * @model id="true"
-	 * @generated
-	 */
-	int getId();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.Inventory#getId <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Id</em>' attribute.
-	 * @see #getId()
-	 * @generated
-	 */
-	void setId(int value);
 
 	/**
 	 * Returns the value of the '<em><b>Party</b></em>' container reference.

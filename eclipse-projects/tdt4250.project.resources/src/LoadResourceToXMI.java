@@ -31,3 +31,4 @@ public class LoadResourceToXMI {
 		xmiResource.save(Collections.EMPTY_MAP);
 	}
 }
+	

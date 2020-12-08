@@ -15,11 +15,10 @@ import org.eclipse.emf.ecore.EObject;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link tdt4250.project.model.cocktail.Drink#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Drink#getName <em>Name</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Drink#getRequiredIngredients <em>Required Ingredients</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Drink#getStrength <em>Strength</em>}</li>
- *   <li>{@link tdt4250.project.model.cocktail.Drink#getPriceGroup <em>Price Group</em>}</li>
+ *   <li>{@link tdt4250.project.model.cocktail.Drink#getComplexity <em>Complexity</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.Drink#getInstructions <em>Instructions</em>}</li>
  * </ul>
  *
@@ -28,28 +27,6 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Drink extends EObject {
-	/**
-	 * Returns the value of the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Id</em>' attribute.
-	 * @see #setId(int)
-	 * @see tdt4250.project.model.cocktail.CocktailPackage#getDrink_Id()
-	 * @model id="true" required="true"
-	 * @generated
-	 */
-	int getId();
-
-	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.Drink#getId <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Id</em>' attribute.
-	 * @see #getId()
-	 * @generated
-	 */
-	void setId(int value);
-
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -110,29 +87,29 @@ public interface Drink extends EObject {
 	void setStrength(StrengthType value);
 
 	/**
-	 * Returns the value of the '<em><b>Price Group</b></em>' attribute.
-	 * The literals are from the enumeration {@link tdt4250.project.model.cocktail.PriceGroupType}.
+	 * Returns the value of the '<em><b>Complexity</b></em>' attribute.
+	 * The literals are from the enumeration {@link tdt4250.project.model.cocktail.ComplexityType}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Price Group</em>' attribute.
-	 * @see tdt4250.project.model.cocktail.PriceGroupType
-	 * @see #setPriceGroup(PriceGroupType)
-	 * @see tdt4250.project.model.cocktail.CocktailPackage#getDrink_PriceGroup()
-	 * @model required="true"
+	 * @return the value of the '<em>Complexity</em>' attribute.
+	 * @see tdt4250.project.model.cocktail.ComplexityType
+	 * @see #setComplexity(ComplexityType)
+	 * @see tdt4250.project.model.cocktail.CocktailPackage#getDrink_Complexity()
+	 * @model required="true" derived="true"
 	 * @generated
 	 */
-	PriceGroupType getPriceGroup();
+	ComplexityType getComplexity();
 
 	/**
-	 * Sets the value of the '{@link tdt4250.project.model.cocktail.Drink#getPriceGroup <em>Price Group</em>}' attribute.
+	 * Sets the value of the '{@link tdt4250.project.model.cocktail.Drink#getComplexity <em>Complexity</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Price Group</em>' attribute.
-	 * @see tdt4250.project.model.cocktail.PriceGroupType
-	 * @see #getPriceGroup()
+	 * @param value the new value of the '<em>Complexity</em>' attribute.
+	 * @see tdt4250.project.model.cocktail.ComplexityType
+	 * @see #getComplexity()
 	 * @generated
 	 */
-	void setPriceGroup(PriceGroupType value);
+	void setComplexity(ComplexityType value);
 
 	/**
 	 * Returns the value of the '<em><b>Instructions</b></em>' attribute.

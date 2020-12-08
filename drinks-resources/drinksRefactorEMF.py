@@ -12,7 +12,7 @@ data = json.load(f)
 products = []
 for ingredient in data["ingredients"]:
   product = {
-    "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+    "eClass": "platform:/resource/tdt4250.project.model/model/cocktail.ecore#//Product",
     "name": ingredient,
     "vol": "0"
   }
@@ -53,9 +53,9 @@ for drink in data["drinks"]:
         ref = "//@cocktailProducts." + str(productIndex)
 
     requiredIngredient = {
-      "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
+      "eClass": "platform:/resource/tdt4250.project.model/model/cocktail.ecore#//DrinkIngredient",
       "product": {
-        "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Product",
+        "eClass": "platform:/resource/tdt4250.project.model/model/cocktail.ecore#//Product",
         "$ref": ref
       },
       "amount": amount,
@@ -63,7 +63,7 @@ for drink in data["drinks"]:
     }
     requiredIngredients.append(requiredIngredient)
   drink = {
-    "eClass" : "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//Drink",
+    "eClass" : "platform:/resource/tdt4250.project.model/model/cocktail.ecore#//Drink",
     "id" : drink["id"],
     "name" : drink["name"],
     "instructions" : drink["instructions"],
@@ -74,7 +74,7 @@ for drink in data["drinks"]:
 
 # Convert drinks to JSON
 result = {
-  "eClass": "platform:/plugin/tdt4250.project.model/model/cocktail.ecore#//CocktailParty",
+  "eClass": "platform:/resource/tdt4250.project.model/model/cocktail.ecore#//CocktailParty",
   "cocktailProducts": products,
   "drinkRegister" : drinks
 }

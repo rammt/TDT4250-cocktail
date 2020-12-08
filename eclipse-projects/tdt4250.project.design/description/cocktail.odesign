@@ -10,18 +10,18 @@
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
           </style>
         </nodeMappings>
-        <edgeMappings name="IngredientEdge" sourceMapping="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode'] //@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']" targetMapping="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']" targetFinderExpression="aql:self.product ">
-          <style lineStyle="dash" routingStyle="tree">
+        <edgeMappings name="IngredientEdge" sourceMapping="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']" targetMapping="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']" targetFinderExpression="aql:self.product ">
+          <style lineStyle="dash">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription labelSize="12">
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="InventoryContainer" domainClass="cocktail::Inventory" childrenPresentation="HorizontalStack">
-          <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Inventory">
+        <containerMappings name="InventoryContainer" doubleClickDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='InventoryDoubleClick']" domainClass="cocktail::Inventory" childrenPresentation="HorizontalStack">
+          <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Inventory" childrenPresentation="List">
             <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.availableIngredients" domainClass="cocktail::DrinkIngredient">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType.name" sizeComputationExpression="8" labelPosition="node" resizeKind="NSEW">
+              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + ' ' +self.amountType" sizeComputationExpression="8" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
@@ -44,37 +44,45 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="DrinkContainer" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
-          <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink">
-            <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.requiredIngredients" domainClass="cocktail::DrinkIngredient">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+        <containerMappings name="DrinkContainer" doubleClickDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DrinkDoubleClick']" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
+          <subContainerMappings name="DrinkIngredientInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
+            <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="List">
+              <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.requiredIngredients" domainClass="cocktail::DrinkIngredient">
+                <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Ingredients">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
               </style>
-            </subNodeMappings>
-            <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Ingredients">
+            </subContainerMappings>
+            <subContainerMappings name="DrinkInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="List">
+              <subNodeMappings name="DrinkInstructionNode" semanticCandidatesExpression="aql:self" domainClass="cocktail::Drink">
+                <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:instructions" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Instructions">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql: 'Strength: ' + self.strength + ', Complexity: ' + self.complexity">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
-              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
-              <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
-            </style>
-          </subContainerMappings>
-          <subContainerMappings name="DrinkInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="List">
-            <subNodeMappings name="DrinkInstructionNode" semanticCandidatesExpression="aql:self" domainClass="cocktail::Drink">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:instructions" labelPosition="node" resizeKind="NSEW">
-                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
-              </style>
-            </subNodeMappings>
-            <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Instructions">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelFormat>bold</labelFormat>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
               <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
             </style>
           </subContainerMappings>
@@ -86,6 +94,56 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </containerMappings>
+        <toolSections name="ParentCreatorTools">
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="DrinkDoubleClick" mappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Drink%20Diagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ProductCreator" nodeMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@nodeMappings[name='ProductNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::Product" referenceName="cocktailProducts"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="InventoryDoubleClick" mappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Inventory%20Diagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="InventoryContainerCreator" containerMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='InventoryContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::Inventory" referenceName="inventories">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="InventoryName"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="DrinkContainerCreator" containerMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::Drink" referenceName="drinkRegister">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="DrinkName"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="ChildCreatorTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DrinkIngredientCreator" nodeMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientInstructionsContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::DrinkIngredient" referenceName="requiredIngredients"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Inventory Diagram" titleExpression="aql:'Drinks available from inventory ' + self.name" domainClass="cocktail::Inventory" enablePopupBars="true">
@@ -93,7 +151,7 @@
         <containerMappings name="InventoryContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Inventory" childrenPresentation="HorizontalStack">
           <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Inventory" childrenPresentation="List">
             <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.availableIngredients" domainClass="cocktail::DrinkIngredient">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType" sizeComputationExpression="8" labelPosition="node" resizeKind="NSEW">
+              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + ' ' + self.amountType" sizeComputationExpression="8" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
@@ -169,36 +227,44 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Drink Diagram" titleExpression="aql:'Cocktail view for ' + self.name" domainClass="cocktail::Drink" enablePopupBars="true">
       <defaultLayer name="Default">
         <containerMappings name="DrinkContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
-          <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink">
-            <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.requiredIngredients" domainClass="cocktail::DrinkIngredient">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+          <subContainerMappings name="DrinkIngredientInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="HorizontalStack">
+            <subContainerMappings name="DrinkIngredientsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink">
+              <subNodeMappings name="DrinkIngredientNode" semanticCandidatesExpression="aql:self.requiredIngredients" domainClass="cocktail::DrinkIngredient">
+                <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.product.name + ': ' + self.amount + self.amountType" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Ingredients">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
               </style>
-            </subNodeMappings>
-            <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Ingredients">
+            </subContainerMappings>
+            <subContainerMappings name="DrinkInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="List">
+              <subNodeMappings name="DrinkInstructionNode" semanticCandidatesExpression="aql:self" domainClass="cocktail::Drink">
+                <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:instructions" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Instructions">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="aql: 'Strength: ' + self.strength + ', Complexity: ' + self.complexity">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelFormat>bold</labelFormat>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
-              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
-              <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
-            </style>
-          </subContainerMappings>
-          <subContainerMappings name="DrinkInstructionsContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Drink" childrenPresentation="List">
-            <subNodeMappings name="DrinkInstructionNode" semanticCandidatesExpression="aql:self" domainClass="cocktail::Drink">
-              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="feature:instructions" labelPosition="node" resizeKind="NSEW">
-                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
-              </style>
-            </subNodeMappings>
-            <style xsi:type="style:FlatContainerStyleDescription" labelSize="12" showIcon="false" labelExpression="Instructions">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelFormat>bold</labelFormat>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
               <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
             </style>
           </subContainerMappings>

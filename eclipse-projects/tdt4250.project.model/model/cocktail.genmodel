@@ -4,7 +4,7 @@
     modelDirectory="/tdt4250.project.model/src-gen" creationIcons="false"
     editDirectory="/tdt4250.project.model.edit/src-gen" editorDirectory="/tdt4250.project.model.editor/src-gen"
     modelPluginID="tdt4250.project.model" modelName="Cocktail" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
-    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
     copyrightFields="false" operationReflection="true" importOrganizing="true">
   <foreignModel>cocktail.ecore</foreignModel>
   <testsDirectory xsi:nil="true"/>
@@ -62,11 +62,11 @@
       <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//AmountType/long"/>
       <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//AmountType/unknown"/>
     </genEnums>
-    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cocktail.ecore#//PriceGroupType">
-      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//PriceGroupType/LOW"/>
-      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//PriceGroupType/MEDIUM"/>
-      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//PriceGroupType/HIGH"/>
-      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//PriceGroupType/EXTRAVAGANT"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cocktail.ecore#//ComplexityType">
+      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//ComplexityType/LOW"/>
+      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//ComplexityType/MEDIUM"/>
+      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//ComplexityType/HIGH"/>
+      <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//ComplexityType/EXTRAVAGANT"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="cocktail.ecore#//StrengthType">
       <genEnumLiterals ecoreEnumLiteral="cocktail.ecore#//StrengthType/NON_ALCOHOLIC"/>
@@ -91,17 +91,15 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//DrinkIngredient/amount"/>
     </genClasses>
     <genClasses ecoreClass="cocktail.ecore#//Drink">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/id"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/name"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cocktail.ecore#//Drink/requiredIngredients"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/strength"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/priceGroup"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/complexity"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Drink/instructions"/>
     </genClasses>
     <genClasses ecoreClass="cocktail.ecore#//Inventory">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cocktail.ecore#//Inventory/availableIngredients"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Inventory/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cocktail.ecore#//Inventory/id"/>
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference cocktail.ecore#//Inventory/party"/>
     </genClasses>
   </genPackages>

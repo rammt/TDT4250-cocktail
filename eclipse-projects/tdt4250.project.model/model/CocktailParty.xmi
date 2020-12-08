@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cocktail:CocktailParty xmi:version="2.0"
+	xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:cocktail="platform:/resource/tdt4250.project.model/model/cocktail.ecore">
+	<inventories
+      name="Home">
+    <availableIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="5.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.3"
+        amountType="cl"
+        amount="5.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="10.0"/>
+    <availableIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="50.0"/>
+  </inventories>
+  <inventories
+      name="Warehouse"/>
+  <drinkRegister
+      name="Cuba Libre"
+      strength="MEDIUM"
+      instructions="Cuba Libre Instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.3"
+        amountType="cl"
+        amount="4.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
+  </drinkRegister>
+  <drinkRegister
+      name="Virgin Cuba Libre"
+      instructions="Virgin Cuba Libre Instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
+  </drinkRegister>
+  <drinkRegister
+      name="Coke n Mint/w straw"
+      instructions="Some instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.4"
+        amountType="piece"
+        amount="3.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.5"
+        amountType="piece"
+        amount="1.0"/>
+  </drinkRegister>
+  <drinkRegister
+      name="Coke n Mint"
+      instructions="Some instructions">
+    <requiredIngredients
+        product="//@cocktailProducts.0"
+        amountType="piece"
+        amount="0.5"/>
+    <requiredIngredients
+        product="//@cocktailProducts.1"
+        amountType="piece"
+        amount="6.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.2"
+        amountType="cl"
+        amount="20.0"/>
+    <requiredIngredients
+        product="//@cocktailProducts.4"
+        amountType="piece"
+        amount="3.0"/>
+  </drinkRegister>
+  <cocktailProducts
+      name="Lime"/>
+  <cocktailProducts
+      name="Ice Cube"/>
+  <cocktailProducts
+      name="Coca Cola"/>
+  <cocktailProducts
+      name="Havana Club Rum"
+      vol="40.0"/>
+  <cocktailProducts
+      name="Mint"/>
+  <cocktailProducts
+      name="Straw"/>
+</cocktail:CocktailParty>

@@ -33,7 +33,6 @@ import tdt4250.project.model.cocktail.Inventory;
  * <ul>
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getAvailableIngredients <em>Available Ingredients</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getName <em>Name</em>}</li>
- *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getId <em>Id</em>}</li>
  *   <li>{@link tdt4250.project.model.cocktail.impl.InventoryImpl#getParty <em>Party</em>}</li>
  * </ul>
  *
@@ -71,26 +70,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	protected String name = NAME_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #getId() <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getId()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int ID_EDEFAULT = 0;
-
-	/**
-	 * The cached value of the '{@link #getId() <em>Id</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getId()
-	 * @generated
-	 * @ordered
-	 */
-	protected int id = ID_EDEFAULT;
-
-	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -114,6 +93,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<DrinkIngredient> getAvailableIngredients() {
 		if (availableIngredients == null) {
 			availableIngredients = new EObjectContainmentEList<DrinkIngredient>(DrinkIngredient.class, this,
@@ -127,6 +107,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getName() {
 		return name;
 	}
@@ -136,6 +117,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
@@ -148,27 +130,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public int getId() {
-		return id;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setId(int newId) {
-		int oldId = id;
-		id = newId;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, CocktailPackage.INVENTORY__ID, oldId, id));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public CocktailParty getParty() {
 		if (eContainerFeatureID() != CocktailPackage.INVENTORY__PARTY)
 			return null;
@@ -190,6 +152,7 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParty(CocktailParty newParty) {
 		if (newParty != eInternalContainer()
 				|| (eContainerFeatureID() != CocktailPackage.INVENTORY__PARTY && newParty != null)) {
@@ -268,8 +231,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 			return getAvailableIngredients();
 		case CocktailPackage.INVENTORY__NAME:
 			return getName();
-		case CocktailPackage.INVENTORY__ID:
-			return getId();
 		case CocktailPackage.INVENTORY__PARTY:
 			return getParty();
 		}
@@ -292,9 +253,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 		case CocktailPackage.INVENTORY__NAME:
 			setName((String) newValue);
 			return;
-		case CocktailPackage.INVENTORY__ID:
-			setId((Integer) newValue);
-			return;
 		case CocktailPackage.INVENTORY__PARTY:
 			setParty((CocktailParty) newValue);
 			return;
@@ -316,9 +274,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 		case CocktailPackage.INVENTORY__NAME:
 			setName(NAME_EDEFAULT);
 			return;
-		case CocktailPackage.INVENTORY__ID:
-			setId(ID_EDEFAULT);
-			return;
 		case CocktailPackage.INVENTORY__PARTY:
 			setParty((CocktailParty) null);
 			return;
@@ -338,8 +293,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 			return availableIngredients != null && !availableIngredients.isEmpty();
 		case CocktailPackage.INVENTORY__NAME:
 			return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-		case CocktailPackage.INVENTORY__ID:
-			return id != ID_EDEFAULT;
 		case CocktailPackage.INVENTORY__PARTY:
 			return getParty() != null;
 		}
@@ -359,8 +312,6 @@ public class InventoryImpl extends MinimalEObjectImpl.Container implements Inven
 		StringBuilder result = new StringBuilder(super.toString());
 		result.append(" (name: ");
 		result.append(name);
-		result.append(", id: ");
-		result.append(id);
 		result.append(')');
 		return result.toString();
 	}

@@ -82,8 +82,8 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 		switch (eDataType.getClassifierID()) {
 		case CocktailPackage.AMOUNT_TYPE:
 			return createAmountTypeFromString(eDataType, initialValue);
-		case CocktailPackage.PRICE_GROUP_TYPE:
-			return createPriceGroupTypeFromString(eDataType, initialValue);
+		case CocktailPackage.COMPLEXITY_TYPE:
+			return createComplexityTypeFromString(eDataType, initialValue);
 		case CocktailPackage.STRENGTH_TYPE:
 			return createStrengthTypeFromString(eDataType, initialValue);
 		case CocktailPackage.AMOUNT:
@@ -103,8 +103,8 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 		switch (eDataType.getClassifierID()) {
 		case CocktailPackage.AMOUNT_TYPE:
 			return convertAmountTypeToString(eDataType, instanceValue);
-		case CocktailPackage.PRICE_GROUP_TYPE:
-			return convertPriceGroupTypeToString(eDataType, instanceValue);
+		case CocktailPackage.COMPLEXITY_TYPE:
+			return convertComplexityTypeToString(eDataType, instanceValue);
 		case CocktailPackage.STRENGTH_TYPE:
 			return convertStrengthTypeToString(eDataType, instanceValue);
 		case CocktailPackage.AMOUNT:
@@ -119,6 +119,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Product createProduct() {
 		ProductImpl product = new ProductImpl();
 		return product;
@@ -129,6 +130,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CocktailParty createCocktailParty() {
 		CocktailPartyImpl cocktailParty = new CocktailPartyImpl();
 		return cocktailParty;
@@ -139,6 +141,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DrinkIngredient createDrinkIngredient() {
 		DrinkIngredientImpl drinkIngredient = new DrinkIngredientImpl();
 		return drinkIngredient;
@@ -149,6 +152,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Drink createDrink() {
 		DrinkImpl drink = new DrinkImpl();
 		return drink;
@@ -159,6 +163,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Inventory createInventory() {
 		InventoryImpl inventory = new InventoryImpl();
 		return inventory;
@@ -191,8 +196,8 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public PriceGroupType createPriceGroupTypeFromString(EDataType eDataType, String initialValue) {
-		PriceGroupType result = PriceGroupType.get(initialValue);
+	public ComplexityType createComplexityTypeFromString(EDataType eDataType, String initialValue) {
+		ComplexityType result = ComplexityType.get(initialValue);
 		if (result == null)
 			throw new IllegalArgumentException(
 					"The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
@@ -204,7 +209,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public String convertPriceGroupTypeToString(EDataType eDataType, Object instanceValue) {
+	public String convertComplexityTypeToString(EDataType eDataType, Object instanceValue) {
 		return instanceValue == null ? null : instanceValue.toString();
 	}
 
@@ -253,6 +258,7 @@ public class CocktailFactoryImpl extends EFactoryImpl implements CocktailFactory
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CocktailPackage getCocktailPackage() {
 		return (CocktailPackage) getEPackage();
 	}

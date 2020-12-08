@@ -98,8 +98,8 @@ public class CocktailValidator extends EObjectValidator {
 			return validateInventory((Inventory) value, diagnostics, context);
 		case CocktailPackage.AMOUNT_TYPE:
 			return validateAmountType((AmountType) value, diagnostics, context);
-		case CocktailPackage.PRICE_GROUP_TYPE:
-			return validatePriceGroupType((PriceGroupType) value, diagnostics, context);
+		case CocktailPackage.COMPLEXITY_TYPE:
+			return validateComplexityType((ComplexityType) value, diagnostics, context);
 		case CocktailPackage.STRENGTH_TYPE:
 			return validateStrengthType((StrengthType) value, diagnostics, context);
 		case CocktailPackage.AMOUNT:
@@ -170,7 +170,7 @@ public class CocktailValidator extends EObjectValidator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public boolean validatePriceGroupType(PriceGroupType priceGroupType, DiagnosticChain diagnostics,
+	public boolean validateComplexityType(ComplexityType complexityType, DiagnosticChain diagnostics,
 			Map<Object, Object> context) {
 		return true;
 	}

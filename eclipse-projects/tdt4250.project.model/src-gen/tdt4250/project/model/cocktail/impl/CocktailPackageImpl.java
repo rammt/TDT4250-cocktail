@@ -16,10 +16,10 @@ import tdt4250.project.model.cocktail.AmountType;
 import tdt4250.project.model.cocktail.CocktailFactory;
 import tdt4250.project.model.cocktail.CocktailPackage;
 import tdt4250.project.model.cocktail.CocktailParty;
+import tdt4250.project.model.cocktail.ComplexityType;
 import tdt4250.project.model.cocktail.Drink;
 import tdt4250.project.model.cocktail.DrinkIngredient;
 import tdt4250.project.model.cocktail.Inventory;
-import tdt4250.project.model.cocktail.PriceGroupType;
 import tdt4250.project.model.cocktail.Product;
 import tdt4250.project.model.cocktail.StrengthType;
 
@@ -79,7 +79,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EEnum priceGroupTypeEEnum = null;
+	private EEnum complexityTypeEEnum = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -153,6 +153,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 
 		// Register package validator
 		EValidator.Registry.INSTANCE.put(theCocktailPackage, new EValidator.Descriptor() {
+			@Override
 			public EValidator getEValidator() {
 				return CocktailValidator.INSTANCE;
 			}
@@ -171,6 +172,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getProduct() {
 		return productEClass;
 	}
@@ -180,6 +182,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getProduct_Name() {
 		return (EAttribute) productEClass.getEStructuralFeatures().get(0);
 	}
@@ -189,6 +192,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getProduct_Vol() {
 		return (EAttribute) productEClass.getEStructuralFeatures().get(1);
 	}
@@ -198,6 +202,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getCocktailParty() {
 		return cocktailPartyEClass;
 	}
@@ -207,6 +212,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCocktailParty_Inventories() {
 		return (EReference) cocktailPartyEClass.getEStructuralFeatures().get(0);
 	}
@@ -216,6 +222,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCocktailParty_DrinkRegister() {
 		return (EReference) cocktailPartyEClass.getEStructuralFeatures().get(1);
 	}
@@ -225,6 +232,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getCocktailParty_CocktailProducts() {
 		return (EReference) cocktailPartyEClass.getEStructuralFeatures().get(2);
 	}
@@ -234,6 +242,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getDrinkIngredient() {
 		return drinkIngredientEClass;
 	}
@@ -243,6 +252,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getDrinkIngredient_Product() {
 		return (EReference) drinkIngredientEClass.getEStructuralFeatures().get(0);
 	}
@@ -252,6 +262,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getDrinkIngredient_AmountType() {
 		return (EAttribute) drinkIngredientEClass.getEStructuralFeatures().get(1);
 	}
@@ -261,6 +272,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getDrinkIngredient_Amount() {
 		return (EAttribute) drinkIngredientEClass.getEStructuralFeatures().get(2);
 	}
@@ -270,6 +282,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getDrink() {
 		return drinkEClass;
 	}
@@ -279,7 +292,8 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getDrink_Id() {
+	@Override
+	public EAttribute getDrink_Name() {
 		return (EAttribute) drinkEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -288,17 +302,9 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getDrink_Name() {
-		return (EAttribute) drinkEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public EReference getDrink_RequiredIngredients() {
-		return (EReference) drinkEClass.getEStructuralFeatures().get(2);
+		return (EReference) drinkEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -306,7 +312,18 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getDrink_Strength() {
+		return (EAttribute) drinkEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getDrink_Complexity() {
 		return (EAttribute) drinkEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -315,7 +332,8 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getDrink_PriceGroup() {
+	@Override
+	public EAttribute getDrink_Instructions() {
 		return (EAttribute) drinkEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -324,15 +342,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getDrink_Instructions() {
-		return (EAttribute) drinkEClass.getEStructuralFeatures().get(5);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public EClass getInventory() {
 		return inventoryEClass;
 	}
@@ -342,6 +352,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EReference getInventory_AvailableIngredients() {
 		return (EReference) inventoryEClass.getEStructuralFeatures().get(0);
 	}
@@ -351,6 +362,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getInventory_Name() {
 		return (EAttribute) inventoryEClass.getEStructuralFeatures().get(1);
 	}
@@ -360,17 +372,9 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EAttribute getInventory_Id() {
-		return (EAttribute) inventoryEClass.getEStructuralFeatures().get(2);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@Override
 	public EReference getInventory_Party() {
-		return (EReference) inventoryEClass.getEStructuralFeatures().get(3);
+		return (EReference) inventoryEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -378,6 +382,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EEnum getAmountType() {
 		return amountTypeEEnum;
 	}
@@ -387,8 +392,9 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EEnum getPriceGroupType() {
-		return priceGroupTypeEEnum;
+	@Override
+	public EEnum getComplexityType() {
+		return complexityTypeEEnum;
 	}
 
 	/**
@@ -396,6 +402,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EEnum getStrengthType() {
 		return strengthTypeEEnum;
 	}
@@ -405,6 +412,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EDataType getAmount() {
 		return amountEDataType;
 	}
@@ -414,6 +422,7 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CocktailFactory getCocktailFactory() {
 		return (CocktailFactory) getEFactoryInstance();
 	}
@@ -453,22 +462,20 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		createEAttribute(drinkIngredientEClass, DRINK_INGREDIENT__AMOUNT);
 
 		drinkEClass = createEClass(DRINK);
-		createEAttribute(drinkEClass, DRINK__ID);
 		createEAttribute(drinkEClass, DRINK__NAME);
 		createEReference(drinkEClass, DRINK__REQUIRED_INGREDIENTS);
 		createEAttribute(drinkEClass, DRINK__STRENGTH);
-		createEAttribute(drinkEClass, DRINK__PRICE_GROUP);
+		createEAttribute(drinkEClass, DRINK__COMPLEXITY);
 		createEAttribute(drinkEClass, DRINK__INSTRUCTIONS);
 
 		inventoryEClass = createEClass(INVENTORY);
 		createEReference(inventoryEClass, INVENTORY__AVAILABLE_INGREDIENTS);
 		createEAttribute(inventoryEClass, INVENTORY__NAME);
-		createEAttribute(inventoryEClass, INVENTORY__ID);
 		createEReference(inventoryEClass, INVENTORY__PARTY);
 
 		// Create enums
 		amountTypeEEnum = createEEnum(AMOUNT_TYPE);
-		priceGroupTypeEEnum = createEEnum(PRICE_GROUP_TYPE);
+		complexityTypeEEnum = createEEnum(COMPLEXITY_TYPE);
 		strengthTypeEEnum = createEEnum(STRENGTH_TYPE);
 
 		// Create data types
@@ -536,8 +543,6 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(drinkEClass, Drink.class, "Drink", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getDrink_Id(), ecorePackage.getEInt(), "id", null, 1, 1, Drink.class, !IS_TRANSIENT,
-				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getDrink_Name(), ecorePackage.getEString(), "name", null, 1, 1, Drink.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getDrink_RequiredIngredients(), this.getDrinkIngredient(), null, "requiredIngredients", null, 1,
@@ -545,8 +550,8 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getDrink_Strength(), this.getStrengthType(), "strength", null, 1, 1, Drink.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
-		initEAttribute(getDrink_PriceGroup(), this.getPriceGroupType(), "priceGroup", null, 1, 1, Drink.class,
-				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getDrink_Complexity(), this.getComplexityType(), "complexity", null, 1, 1, Drink.class,
+				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 		initEAttribute(getDrink_Instructions(), ecorePackage.getEString(), "instructions", null, 0, 1, Drink.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
@@ -557,8 +562,6 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getInventory_Name(), ecorePackage.getEString(), "name", null, 1, 1, Inventory.class,
 				!IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getInventory_Id(), ecorePackage.getEInt(), "id", null, 0, 1, Inventory.class, !IS_TRANSIENT,
-				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getInventory_Party(), this.getCocktailParty(), this.getCocktailParty_Inventories(), "party",
 				null, 0, 1, Inventory.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE,
 				!IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -616,11 +619,11 @@ public class CocktailPackageImpl extends EPackageImpl implements CocktailPackage
 		addEEnumLiteral(amountTypeEEnum, AmountType.LONG);
 		addEEnumLiteral(amountTypeEEnum, AmountType.UNKNOWN);
 
-		initEEnum(priceGroupTypeEEnum, PriceGroupType.class, "PriceGroupType");
-		addEEnumLiteral(priceGroupTypeEEnum, PriceGroupType.LOW);
-		addEEnumLiteral(priceGroupTypeEEnum, PriceGroupType.MEDIUM);
-		addEEnumLiteral(priceGroupTypeEEnum, PriceGroupType.HIGH);
-		addEEnumLiteral(priceGroupTypeEEnum, PriceGroupType.EXTRAVAGANT);
+		initEEnum(complexityTypeEEnum, ComplexityType.class, "ComplexityType");
+		addEEnumLiteral(complexityTypeEEnum, ComplexityType.LOW);
+		addEEnumLiteral(complexityTypeEEnum, ComplexityType.MEDIUM);
+		addEEnumLiteral(complexityTypeEEnum, ComplexityType.HIGH);
+		addEEnumLiteral(complexityTypeEEnum, ComplexityType.EXTRAVAGANT);
 
 		initEEnum(strengthTypeEEnum, StrengthType.class, "StrengthType");
 		addEEnumLiteral(strengthTypeEEnum, StrengthType.NON_ALCOHOLIC);

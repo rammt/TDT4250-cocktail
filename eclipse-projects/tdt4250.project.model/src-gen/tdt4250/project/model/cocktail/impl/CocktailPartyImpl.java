@@ -89,6 +89,7 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Inventory> getInventories() {
 		if (inventories == null) {
 			inventories = new EObjectContainmentWithInverseEList<Inventory>(Inventory.class, this,
@@ -102,6 +103,7 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Drink> getDrinkRegister() {
 		if (drinkRegister == null) {
 			drinkRegister = new EObjectContainmentEList<Drink>(Drink.class, this,
@@ -115,6 +117,7 @@ public class CocktailPartyImpl extends MinimalEObjectImpl.Container implements C
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EList<Product> getCocktailProducts() {
 		if (cocktailProducts == null) {
 			cocktailProducts = new EObjectContainmentEList<Product>(Product.class, this,

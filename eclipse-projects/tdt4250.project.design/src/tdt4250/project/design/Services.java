@@ -34,11 +34,14 @@ public class Services {
 		List<DrinkIngredient> inventoryIngredients = inv.getAvailableIngredients();
 		
 		for (Drink drink: drinkList) {
-			if (drink.getRequiredIngredients().stream().allMatch(drinkDI -> {
+			int amtIngredients = drink.getRequiredIngredients().size();
+			int amtAvailableIngredients = (int) drink.getRequiredIngredients().stream().filter(drinkDI -> {
 				return inventoryIngredients.stream().anyMatch(invDI -> {
 					return isAvailableIngredient(invDI, drinkDI);
 				});
-			})) {
+			}).count();
+			
+			if (amtIngredients - amtAvailableIngredients == 1) {
 				creatableDrinks.add(drink);
 			};
 		}

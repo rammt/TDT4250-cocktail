@@ -105,6 +105,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public Product getProduct() {
 		if (product != null && product.eIsProxy()) {
 			InternalEObject oldProduct = (InternalEObject) product;
@@ -132,6 +133,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setProduct(Product newProduct) {
 		Product oldProduct = product;
 		product = newProduct;
@@ -145,6 +147,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AmountType getAmountType() {
 		return amountType;
 	}
@@ -154,6 +157,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmountType(AmountType newAmountType) {
 		AmountType oldAmountType = amountType;
 		amountType = newAmountType == null ? AMOUNT_TYPE_EDEFAULT : newAmountType;
@@ -167,6 +171,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public float getAmount() {
 		return amount;
 	}
@@ -176,6 +181,7 @@ public class DrinkIngredientImpl extends MinimalEObjectImpl.Container implements
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setAmount(float newAmount) {
 		float oldAmount = amount;
 		amount = newAmount;

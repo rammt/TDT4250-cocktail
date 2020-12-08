@@ -40,7 +40,7 @@ public interface CocktailPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "platform:/plugin/tdt4250.project.model/model/cocktail.ecore";
+	String eNS_URI = "platform:/resource/tdt4250.project.model/model/cocktail.ecore";
 
 	/**
 	 * The package namespace name.
@@ -225,22 +225,13 @@ public interface CocktailPackage extends EPackage {
 	int DRINK = 3;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int DRINK__ID = 0;
-
-	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK__NAME = 1;
+	int DRINK__NAME = 0;
 
 	/**
 	 * The feature id for the '<em><b>Required Ingredients</b></em>' containment reference list.
@@ -249,7 +240,7 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK__REQUIRED_INGREDIENTS = 2;
+	int DRINK__REQUIRED_INGREDIENTS = 1;
 
 	/**
 	 * The feature id for the '<em><b>Strength</b></em>' attribute.
@@ -258,16 +249,16 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK__STRENGTH = 3;
+	int DRINK__STRENGTH = 2;
 
 	/**
-	 * The feature id for the '<em><b>Price Group</b></em>' attribute.
+	 * The feature id for the '<em><b>Complexity</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK__PRICE_GROUP = 4;
+	int DRINK__COMPLEXITY = 3;
 
 	/**
 	 * The feature id for the '<em><b>Instructions</b></em>' attribute.
@@ -276,7 +267,7 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK__INSTRUCTIONS = 5;
+	int DRINK__INSTRUCTIONS = 4;
 
 	/**
 	 * The number of structural features of the '<em>Drink</em>' class.
@@ -285,7 +276,7 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int DRINK_FEATURE_COUNT = 6;
+	int DRINK_FEATURE_COUNT = 5;
 
 	/**
 	 * The number of operations of the '<em>Drink</em>' class.
@@ -325,22 +316,13 @@ public interface CocktailPackage extends EPackage {
 	int INVENTORY__NAME = 1;
 
 	/**
-	 * The feature id for the '<em><b>Id</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INVENTORY__ID = 2;
-
-	/**
 	 * The feature id for the '<em><b>Party</b></em>' container reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int INVENTORY__PARTY = 3;
+	int INVENTORY__PARTY = 2;
 
 	/**
 	 * The number of structural features of the '<em>Inventory</em>' class.
@@ -349,7 +331,7 @@ public interface CocktailPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int INVENTORY_FEATURE_COUNT = 4;
+	int INVENTORY_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Inventory</em>' class.
@@ -371,14 +353,14 @@ public interface CocktailPackage extends EPackage {
 	int AMOUNT_TYPE = 5;
 
 	/**
-	 * The meta object id for the '{@link tdt4250.project.model.cocktail.PriceGroupType <em>Price Group Type</em>}' enum.
+	 * The meta object id for the '{@link tdt4250.project.model.cocktail.ComplexityType <em>Complexity Type</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see tdt4250.project.model.cocktail.PriceGroupType
-	 * @see tdt4250.project.model.cocktail.impl.CocktailPackageImpl#getPriceGroupType()
+	 * @see tdt4250.project.model.cocktail.ComplexityType
+	 * @see tdt4250.project.model.cocktail.impl.CocktailPackageImpl#getComplexityType()
 	 * @generated
 	 */
-	int PRICE_GROUP_TYPE = 6;
+	int COMPLEXITY_TYPE = 6;
 
 	/**
 	 * The meta object id for the '{@link tdt4250.project.model.cocktail.StrengthType <em>Strength Type</em>}' enum.
@@ -528,17 +510,6 @@ public interface CocktailPackage extends EPackage {
 	EClass getDrink();
 
 	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Drink#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see tdt4250.project.model.cocktail.Drink#getId()
-	 * @see #getDrink()
-	 * @generated
-	 */
-	EAttribute getDrink_Id();
-
-	/**
 	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Drink#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -572,15 +543,15 @@ public interface CocktailPackage extends EPackage {
 	EAttribute getDrink_Strength();
 
 	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Drink#getPriceGroup <em>Price Group</em>}'.
+	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Drink#getComplexity <em>Complexity</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Price Group</em>'.
-	 * @see tdt4250.project.model.cocktail.Drink#getPriceGroup()
+	 * @return the meta object for the attribute '<em>Complexity</em>'.
+	 * @see tdt4250.project.model.cocktail.Drink#getComplexity()
 	 * @see #getDrink()
 	 * @generated
 	 */
-	EAttribute getDrink_PriceGroup();
+	EAttribute getDrink_Complexity();
 
 	/**
 	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Drink#getInstructions <em>Instructions</em>}'.
@@ -626,17 +597,6 @@ public interface CocktailPackage extends EPackage {
 	EAttribute getInventory_Name();
 
 	/**
-	 * Returns the meta object for the attribute '{@link tdt4250.project.model.cocktail.Inventory#getId <em>Id</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Id</em>'.
-	 * @see tdt4250.project.model.cocktail.Inventory#getId()
-	 * @see #getInventory()
-	 * @generated
-	 */
-	EAttribute getInventory_Id();
-
-	/**
 	 * Returns the meta object for the container reference '{@link tdt4250.project.model.cocktail.Inventory#getParty <em>Party</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -658,14 +618,14 @@ public interface CocktailPackage extends EPackage {
 	EEnum getAmountType();
 
 	/**
-	 * Returns the meta object for enum '{@link tdt4250.project.model.cocktail.PriceGroupType <em>Price Group Type</em>}'.
+	 * Returns the meta object for enum '{@link tdt4250.project.model.cocktail.ComplexityType <em>Complexity Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for enum '<em>Price Group Type</em>'.
-	 * @see tdt4250.project.model.cocktail.PriceGroupType
+	 * @return the meta object for enum '<em>Complexity Type</em>'.
+	 * @see tdt4250.project.model.cocktail.ComplexityType
 	 * @generated
 	 */
-	EEnum getPriceGroupType();
+	EEnum getComplexityType();
 
 	/**
 	 * Returns the meta object for enum '{@link tdt4250.project.model.cocktail.StrengthType <em>Strength Type</em>}'.
@@ -816,14 +776,6 @@ public interface CocktailPackage extends EPackage {
 		EClass DRINK = eINSTANCE.getDrink();
 
 		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DRINK__ID = eINSTANCE.getDrink_Id();
-
-		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -848,12 +800,12 @@ public interface CocktailPackage extends EPackage {
 		EAttribute DRINK__STRENGTH = eINSTANCE.getDrink_Strength();
 
 		/**
-		 * The meta object literal for the '<em><b>Price Group</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Complexity</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute DRINK__PRICE_GROUP = eINSTANCE.getDrink_PriceGroup();
+		EAttribute DRINK__COMPLEXITY = eINSTANCE.getDrink_Complexity();
 
 		/**
 		 * The meta object literal for the '<em><b>Instructions</b></em>' attribute feature.
@@ -890,14 +842,6 @@ public interface CocktailPackage extends EPackage {
 		EAttribute INVENTORY__NAME = eINSTANCE.getInventory_Name();
 
 		/**
-		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute INVENTORY__ID = eINSTANCE.getInventory_Id();
-
-		/**
 		 * The meta object literal for the '<em><b>Party</b></em>' container reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -916,14 +860,14 @@ public interface CocktailPackage extends EPackage {
 		EEnum AMOUNT_TYPE = eINSTANCE.getAmountType();
 
 		/**
-		 * The meta object literal for the '{@link tdt4250.project.model.cocktail.PriceGroupType <em>Price Group Type</em>}' enum.
+		 * The meta object literal for the '{@link tdt4250.project.model.cocktail.ComplexityType <em>Complexity Type</em>}' enum.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see tdt4250.project.model.cocktail.PriceGroupType
-		 * @see tdt4250.project.model.cocktail.impl.CocktailPackageImpl#getPriceGroupType()
+		 * @see tdt4250.project.model.cocktail.ComplexityType
+		 * @see tdt4250.project.model.cocktail.impl.CocktailPackageImpl#getComplexityType()
 		 * @generated
 		 */
-		EEnum PRICE_GROUP_TYPE = eINSTANCE.getPriceGroupType();
+		EEnum COMPLEXITY_TYPE = eINSTANCE.getComplexityType();
 
 		/**
 		 * The meta object literal for the '{@link tdt4250.project.model.cocktail.StrengthType <em>Strength Type</em>}' enum.
