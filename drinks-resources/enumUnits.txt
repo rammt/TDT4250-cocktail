@@ -35,7 +35,7 @@
   <eLiterals name="bottle" value="33"/>
   <eLiterals name="ml" value="34"/>
   <eLiterals name="cracked" value="35"/>
-  <eLiterals name="one_inch" value="36"/>
+  <eLiterals name="one-inch" value="36"/>
   <eLiterals name="kg" value="37"/>
   <eLiterals name="pint" value="38"/>
   <eLiterals name="ripe" value="39"/>

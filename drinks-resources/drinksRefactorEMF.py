@@ -33,8 +33,8 @@ for drink in data["drinks"]:
     amountType = ingredient["unit"]
     
     # Handle empty units
-    if (ingredient["amount"] == ""):
-      amount = None
+    if (ingredient["amount"] == "" or ingredient["amount"] is None):
+      amount = 0.0
     elif (ingredient["amount"] == "0.75p"):
       amount = 0.75
     elif (ingredient["amount"] == "10-12"):
@@ -43,8 +43,11 @@ for drink in data["drinks"]:
       amount = float(ingredient["amount"])
 
     # Handle empty amount types
-    if (ingredient["unit"] == ""):
+    if (ingredient["unit"] == "" or ingredient["unit"] is None):
       amountType = "unknown"
+
+    if amountType is not None and "-" in amountType:
+      amountType = amountType.replace("-", "_")
 
     # For hvert produkt må det sjekkes hvilken ID produktet har
     for i in range(len(products)):

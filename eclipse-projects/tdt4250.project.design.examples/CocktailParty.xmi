@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <cocktail:CocktailParty xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cocktail="platform:/resource/tdt4250.project.model/model/cocktail.ecore">
-  <inventories name="Inventory"/>
+  <inventories name="InventoryName">
+    <availableIngredients product="//@cocktailProducts.307" amount="20.0"/>
+    <availableIngredients product="//@cocktailProducts.23" amountType="cube" amount="10.0"/>
+  </inventories>
   <drinkRegister name="Mojito" instructions="Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.">
     <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="tsp" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.3" amountType="unknown" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.4" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Old Fashioned" instructions="Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved.&#xD;&#xA;Fill the glass with ice cubes and add whiskey.&#xD;&#xA;&#xD;&#xA;Garnish with orange twist, and a cocktail cherry.">
     <requiredIngredients product="//@cocktailProducts.5" amountType="cl" amount="4.5"/>
@@ -47,6 +51,7 @@
     <requiredIngredients product="//@cocktailProducts.10" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.21" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.22" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Manhattan" instructions="Stirred over ice, strained into a chilled glass, garnished, and served up.">
     <requiredIngredients product="//@cocktailProducts.14" amount="0.75"/>
@@ -88,11 +93,13 @@
     <requiredIngredients product="//@cocktailProducts.9" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.35" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.36" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Brandy Alexander" instructions="Shake all ingredients (except nutmeg) with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.">
     <requiredIngredients product="//@cocktailProducts.38" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.35" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.36" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Alfie Cocktail" instructions="Combine and shake all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.39" amount="1.5"/>
@@ -137,6 +144,7 @@
   <drinkRegister name="Amaretto Rose" instructions="Pour amaretto and lime juice over ice in a collins glass. Fill with club soda and serve.">
     <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.21" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.46" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Amaretto Stinger" instructions="Shake ingredients well with cracked ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.30" amount="1.5"/>
@@ -204,6 +212,8 @@
     <requiredIngredients product="//@cocktailProducts.38" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.9" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.18" amount="0.75"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.34" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Black Russian" instructions="Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.">
     <requiredIngredients product="//@cocktailProducts.62" amount="0.75"/>
@@ -233,6 +243,8 @@
   <drinkRegister name="Blue Lagoon" instructions="Pour vodka and curacao over ice in a highball glass. Fill with lemonade, top with the cherry, and serve.">
     <requiredIngredients product="//@cocktailProducts.8" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.67" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.68" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.17" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Blue Margarita" instructions="Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.10" amount="1.5"/>
@@ -344,6 +356,7 @@
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tablespoon" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.73" amountType="tsp" amount="0.25"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Casa Blanca" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
@@ -376,6 +389,7 @@
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Chocolate Black Russian" instructions="Combine all ingredients in an electric blender and blend at a low speed for a short length of time. Pour into a chilled champagne flute and serve.">
     <requiredIngredients product="//@cocktailProducts.44" amount="1.0"/>
@@ -395,6 +409,7 @@
   <drinkRegister name="Cuba Libre" instructions="Build all ingredients in a Collins glass filled with ice. Garnish with lime wedge.">
     <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.12" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Dragonfly" instructions="In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge.">
     <requiredIngredients product="//@cocktailProducts.9" amount="1.5"/>
@@ -416,6 +431,8 @@
     <requiredIngredients product="//@cocktailProducts.38" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.9" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.14" amount="0.75"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.34" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="English Rose Cocktail" instructions="Rub rim of cocktail glass with lemon juice and dip rim of glass in powdered sugar. Shake all ingredients (except cherry) with ice and strain into sugar-rimmed glass. Top with the cherry and serve.">
     <requiredIngredients product="//@cocktailProducts.27" amount="0.75"/>
@@ -489,6 +506,10 @@
   </drinkRegister>
   <drinkRegister name="Gin Cooler" instructions="Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice and add gin. Fill with carbonated water and stir. Add the lemon peel and the orange spiral so that the end of the orange spiral dangles over rim of glass.">
     <requiredIngredients product="//@cocktailProducts.9" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.16" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.85" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.34" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Gin Daisy" instructions="In a shaker half-filled with ice cubes, combine the wine, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.">
     <requiredIngredients product="//@cocktailProducts.9" amount="2.0"/>
@@ -502,6 +523,7 @@
     <requiredIngredients product="//@cocktailProducts.9" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Gin Sling" instructions="Dissolve powdered sugar in mixture of water and juice of lemon. Add gin. Pour into an old-fashioned glass over ice cubes and stir. Add the twist of orange peel and serve.">
     <requiredIngredients product="//@cocktailProducts.9" amount="2.0"/>
@@ -531,6 +553,7 @@
     <requiredIngredients product="//@cocktailProducts.16" amountType="tablespoon" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.83" amountType="chunk" amount="3.0"/>
     <requiredIngredients product="//@cocktailProducts.86" amountType="unknown" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Gin Swizzle" instructions="In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda.">
     <requiredIngredients product="//@cocktailProducts.21" amount="1.5"/>
@@ -591,6 +614,7 @@
     <requiredIngredients product="//@cocktailProducts.15" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Irish Spring" instructions="Pour all ingredients (except orange slice and cherry) into a collins glass over ice cubes. Garnish with the slice of orange, add the cherry on top, and serve.">
     <requiredIngredients product="//@cocktailProducts.89" amount="1.0"/>
@@ -611,6 +635,7 @@
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.79" amountType="tablespoon" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Jewel Of The Nile" instructions="In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.">
     <requiredIngredients product="//@cocktailProducts.9" amount="1.5"/>
@@ -645,6 +670,7 @@
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Loch Lomond" instructions="In a mixing glass half-filled with ice cubes, combine the Scotch, Drambuie, and vermouth. Stir well. Strain into a cocktail glass. Garnish with the lemon twist.">
     <requiredIngredients product="//@cocktailProducts.59" amount="2.0"/>
@@ -661,7 +687,14 @@
     <requiredIngredients product="//@cocktailProducts.14" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.9" amount="1.5"/>
   </drinkRegister>
-  <drinkRegister name="Lone Tree Cooler" instructions="Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass."/>
+  <drinkRegister name="Lone Tree Cooler" instructions="Stir powdered sugar and 2 oz. carbonated water in a collins glass. Fill glass with ice, add gin and vermouth, and stir. Fill with carbonated water and stir again. Add the twist of lemon peel and the orange spiral so that the end dangles over rim of glass.">
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.9" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.18" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.16" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.85" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.34" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Lord And Lady" instructions="Pour the rum and Tia Maria into an old-fashioned glass almost filled with ice cubes. Stir well.">
     <requiredIngredients product="//@cocktailProducts.43" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.70" amount="0.5"/>
@@ -696,6 +729,7 @@
     <requiredIngredients product="//@cocktailProducts.5" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tablespoon" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Monkey Wrench" instructions="Pour all of the ingredients into an old-fashioned glass almost filled with ice cubes. Stir well.">
     <requiredIngredients product="//@cocktailProducts.0" amount="1.5"/>
@@ -707,11 +741,14 @@
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.96" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.17" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Orange Oasis" instructions="Shake brandy, gin, and orange juice with ice and strain into a highball glass over ice cubes. Fill with ginger ale, stir, and serve.">
     <requiredIngredients product="//@cocktailProducts.78" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.9" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.71" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Orgasm" instructions="Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.35" amount="0.5"/>
@@ -747,6 +784,7 @@
     <requiredIngredients product="//@cocktailProducts.36" amountType="tsp" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.74" amountType="whole" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Quaker's Cocktail" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.0" amount="0.75"/>
@@ -767,6 +805,7 @@
   <drinkRegister name="Queen Charlotte" instructions="Pour red wine and grenadine into a collins glass over ice cubes. Fill with lemon-lime soda, stir, and serve.">
     <requiredIngredients product="//@cocktailProducts.96" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.73" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.101" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Queen Elizabeth" instructions="Stir all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.18" amount="0.5"/>
@@ -783,12 +822,14 @@
     <requiredIngredients product="//@cocktailProducts.9" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.91" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.74" amountType="whole" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.12" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Royal Gin Fizz" instructions="Shake all ingredients (except carbonated water) with ice and strain into a highball glass over two ice cubes. Fill with carbonated water, stir, and serve.">
     <requiredIngredients product="//@cocktailProducts.9" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.74" amountType="whole" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Rum Cobbler" instructions="In an old-fashioned glass, dissolve the sugar in the club soda. Add crushed ice until the glass is almost full. Add the rum. Stir well. Garnish with the cherry and the orange and lemon slices.">
     <requiredIngredients product="//@cocktailProducts.2" amountType="tsp" amount="1.0"/>
@@ -807,6 +848,7 @@
     <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.103" amountType="cup" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Rum Old-fashioned" instructions="Stir powdered sugar, water, and bitters in an old-fashioned glass. When sugar has dissolved add ice cubes and light rum. Add the twist of lime peel, float 151 proof rum on top, and serve.">
     <requiredIngredients product="//@cocktailProducts.0" amount="1.5"/>
@@ -872,6 +914,7 @@
   </drinkRegister>
   <drinkRegister name="Screwdriver" instructions="Mix in a highball glass with ice. Garnish and serve.">
     <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.71" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Shanghai Cocktail" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.0" amount="1.0"/>
@@ -883,12 +926,15 @@
     <requiredIngredients product="//@cocktailProducts.98" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.74" amountType="whole" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.103" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sherry Flip" instructions="Shake all ingredients (except nutmeg) with ice and strain into a whiskey sour glass. Sprinkle nutmeg on top and serve.">
     <requiredIngredients product="//@cocktailProducts.98" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.36" amountType="tsp" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.16" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.74" amountType="whole" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sidecar" instructions="Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.">
     <requiredIngredients product="//@cocktailProducts.77" amount="2.0"/>
@@ -905,6 +951,8 @@
     <requiredIngredients product="//@cocktailProducts.73" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.9" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.91" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.17" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sloe Gin Cocktail" instructions="Stir all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.31" amount="2.0"/>
@@ -933,12 +981,14 @@
     <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.28" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.86" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.22" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Tequila Fizz" instructions="Shake all ingredients (except ginger ale) with ice and strain into a collins glass over ice cubes. Fill with ginger ale, stir, and serve.">
     <requiredIngredients product="//@cocktailProducts.10" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.28" amountType="tablespoon" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.73" amount="0.75"/>
     <requiredIngredients product="//@cocktailProducts.45" amountType="unknown" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Tequila Sour" instructions="Shake tequila, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Add the half-slice of lemon, top with the cherry, and serve.">
     <requiredIngredients product="//@cocktailProducts.10" amount="2.0"/>
@@ -988,6 +1038,7 @@
   <drinkRegister name="Vermouth Cassis" instructions="Stir vermouth and creme de cassis in a highball glass with ice cubes. Fill with carbonated water, stir again, and serve.">
     <requiredIngredients product="//@cocktailProducts.18" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.114" amount="0.75"/>
+    <requiredIngredients product="//@cocktailProducts.61" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Vesuvio" instructions="Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.">
     <requiredIngredients product="//@cocktailProducts.0" amount="1.0"/>
@@ -1014,6 +1065,7 @@
   </drinkRegister>
   <drinkRegister name="Vodka And Tonic" instructions="Pour vodka into a highball glass over ice cubes. Fill with tonic water, stir, and serve.">
     <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.84" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Waikiki Beachcomber" instructions="Shake all ingredients with ice, strain into a cocktail glass, and serve.">
     <requiredIngredients product="//@cocktailProducts.20" amount="0.75"/>
@@ -1027,6 +1079,7 @@
   <drinkRegister name="White Russian" instructions="Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass. Fill with light cream and serve.">
     <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.62" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.36" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Afterglow" instructions="Mix. Serve over ice.">
     <requiredIngredients product="//@cocktailProducts.73" amountType="part" amount="1.0"/>
@@ -1053,9 +1106,12 @@
     <requiredIngredients product="//@cocktailProducts.28" amountType="cl" amount="5.0"/>
     <requiredIngredients product="//@cocktailProducts.71" amountType="cl" amount="15.0"/>
     <requiredIngredients product="//@cocktailProducts.82" amountType="cl" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.4" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Rail Splitter" instructions="Mix sugar syrup with lemon juice in a tall glass. Fill up with ginger ale.">
     <requiredIngredients product="//@cocktailProducts.82" amountType="tsp" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.28" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Banana Milk Shake" instructions="Blend very well, preferably in a household mixer. Serve in a wine glass, garnish with whipped cream and a piece of banana.">
     <requiredIngredients product="//@cocktailProducts.103" amountType="cl" amount="10.0"/>
@@ -1087,6 +1143,7 @@
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.123" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.4" amountType="l" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Fruit Flip-Flop" instructions="Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.">
     <requiredIngredients product="//@cocktailProducts.120" amountType="cup" amount="1.0"/>
@@ -1101,6 +1158,8 @@
   </drinkRegister>
   <drinkRegister name="Just a Moonmint" instructions="Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up.">
     <requiredIngredients product="//@cocktailProducts.103" amountType="cup" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.122" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.126" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Lassi - A South Indian Drink" instructions="Blend in a blender for 3 seconds. Lassi is one of the easiest things to make, and there are many ways of making it. Basically, it is buttermilk (yoghurt whisked with water), and you can choose almost any consistency that you like, from the thinnest to the thickest. Serve cold.">
     <requiredIngredients product="//@cocktailProducts.120" amountType="cup" amount="0.5"/>
@@ -1118,6 +1177,9 @@
   <drinkRegister name="Lassi Raita" instructions="Blend the yoghurt and ice cubes together, until the yoghurt becomes more liquid. Add sugar to taste. The lemon/lime is optional but it gives it a slightly tart taste. Dash of salt. Raita is also good for the summer. Instead of having a traditional salad you can make raita instead.">
     <requiredIngredients product="//@cocktailProducts.120" amountType="cup" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.23" amountType="unknown" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.22" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Lassi - Sweet" instructions="Put all ingredients into a blender and blend until nice and frothy. Serve chilled.">
     <requiredIngredients product="//@cocktailProducts.120" amountType="cup" amount="1.0"/>
@@ -1143,6 +1205,7 @@
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="tablespoon" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.4" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.105" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Imperial Cocktail" instructions="Shake with ice and strain into cocktail glass.">
     <requiredIngredients product="//@cocktailProducts.21" amountType="cl" amount="4.0"/>
@@ -1197,6 +1260,7 @@
   <drinkRegister name="Yoghurt Cooler" instructions="Place all ingredients in the blender jar - cover and whiz on medium speed until well blended. Pour in one tall, 2 medium or 3 small glasses and drink up. Note: Use lots of ice in this one - great on hot days! To add ice: Remove the center of the cover while the blender is on - drop 3 or 4 ice cubs and blend until they're completely crushed.">
     <requiredIngredients product="//@cocktailProducts.120" amountType="cup" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.125" amountType="cup" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Castillian Hot Chocolate" instructions="Shift the cocoa and sugar together into a medium-sized saucepan. Dissolve the cornstarch in the water, and stir into the cocoa and sugar until it is a smooth paste. Begin heating the mixture, stirring it with a whisk, and gradually pour in the milk. Continue stirring with the whisk as you bring the liquid to a simmer. Allow the chocolate to simmer for about 10 minutes, stirring often, until it is thick, glossy and completely smooth. Serve steaming hot in coffee mug. Serves six.">
     <requiredIngredients product="//@cocktailProducts.138" amountType="cup" amount="0.5"/>
@@ -1214,6 +1278,7 @@
   <drinkRegister name="Chocolate Drink" instructions="Melt the bar in a small amount of boiling water. Add milk. Cook over low heat, whipping gently (with a whisk, i would assume) until heated well. Don't let it boil! Serve in coffee mug.">
     <requiredIngredients product="//@cocktailProducts.140" amountType="gr" amount="125.0"/>
     <requiredIngredients product="//@cocktailProducts.103" amountType="l" amount="0.75"/>
+    <requiredIngredients product="//@cocktailProducts.7" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Drinking Chocolate" instructions="Heat the cream and milk with the cinnamon and vanilla bean very slowly for 15-20 minutes. (If you don't have any beans add 1-2 tsp of vanilla after heating). Remove the bean and cinnamon. Add the chocolate. Mix until fully melted. Serve topped with some very dense fresh whipped cream. Serves 1-2 depending upon how much of a glutton you are. For a richer chocolate, use 4 oz of milk, 4 oz of cream, 4 oz of chocolate. Serve in coffee mug.">
     <requiredIngredients product="//@cocktailProducts.87" amount="2.0"/>
@@ -1221,6 +1286,7 @@
     <requiredIngredients product="//@cocktailProducts.141" amountType="stick" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.142" amountType="unknown" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.140" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.49" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Hot Chocolate to Die for" instructions="Melt the chocolate, butter and vanilla in a double boiler. When just smooth stir in the cream.">
     <requiredIngredients product="//@cocktailProducts.140" amount="12.0"/>
@@ -1261,14 +1327,18 @@
     <requiredIngredients product="//@cocktailProducts.148" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="wedge"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.104" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sex on the Beach" instructions="Build all ingredients in a highball glass filled with ice. Garnish with orange slice.">
     <requiredIngredients product="//@cocktailProducts.8" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.149" amount="0.75"/>
+    <requiredIngredients product="//@cocktailProducts.150" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.95" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Autodaf&#xe9;" instructions="Mix and fill up with soda water. Drunk by finns on a sunny day any time of the year and day.">
     <requiredIngredients product="//@cocktailProducts.8" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.21" amountType="dash" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.4" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Gagliardo" instructions="Shake well and serve in a cocktail glass. This is a home cocktail of American/Internet Bar del Pozzo, Pavia, Italy.">
     <requiredIngredients product="//@cocktailProducts.151" amountType="part" amount="5.0"/>
@@ -1294,6 +1364,9 @@
   </drinkRegister>
   <drinkRegister name="Happy Skipper" instructions="Pour Captain Morgan's Spiced Rum over ice, fill glass to top with Ginger Ale. Garnish with lime. Tastes like a cream soda. Named for the Gilligan's Island reference (&quot;The Captain&quot; *in* &quot;Ginger&quot; is a Happy Skipper!)">
     <requiredIngredients product="//@cocktailProducts.158" amountType="cl" amount="1.5"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.1" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Frapp&#xe9;" instructions="Mix together. Blend at highest blender speed for about 1 minute. Pour into a glass and drink with a straw. Notes: This works best if everything is cold (if you make fresh coffee, mix it with the milk and let it sit in the fridge for 1/2 hour. If it is not frothy, add more milk, or even just some more milk powder. The froth gradually turns to liquid at the bottom of the glass, so you will find that you can sit and drink this for about 1/2 hour, with more iced coffee continually appearing at the bottom. Very refreshing.">
     <requiredIngredients product="//@cocktailProducts.156" amountType="cup" amount="0.5"/>
@@ -1319,25 +1392,37 @@
     <requiredIngredients product="//@cocktailProducts.141" amountType="piece" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.161" amountType="whole" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.103" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Melya" instructions="Brew espresso. In a coffee mug, place 1 teaspoon of unsweetened powdered cocoa, then cover a teaspoon with honey and drizzle it into the cup. Stir while the coffee brews, this is the fun part. The cocoa seems to coat the honey without mixing, so you get a dusty, sticky mass that looks as though it will never mix. Then all at once, presto! It looks like dark chocolate sauce. Pour hot espresso over the honey, stirring to dissolve. Serve with cream.">
+    <requiredIngredients product="//@cocktailProducts.147" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.121" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.138" amountType="unknown"/>
   </drinkRegister>
-  <drinkRegister name="Spiking coffee" instructions="Incidentally, a pinch of cinnamon is indeed a nice addition to coffee but true heaven is a cardamom seed. Of course, you serve it in a coffee mug."/>
+  <drinkRegister name="Spiking coffee" instructions="Incidentally, a pinch of cinnamon is indeed a nice addition to coffee but true heaven is a cardamom seed. Of course, you serve it in a coffee mug.">
+    <requiredIngredients product="//@cocktailProducts.156" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.141" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Thai Coffee" instructions="Place the coffee and spices in the filter cone of your coffee maker. Brew coffee as usual, let it cool. In a tall glass, dissolve 1 or 2 teaspoons of sugar in an ounce of the coffee (it's easier to dissolve than if you put it right over ice). Add 5-6 ice cubes and pour coffee to within about 1 inch of the top of the glass. Rest a spoon on top of the coffee and slowly pour whipping cream into the spoon. This will make the cream float on top of the coffee rather than dispersing into it right away.">
     <requiredIngredients product="//@cocktailProducts.156" amountType="tablespoon" amount="6.0"/>
     <requiredIngredients product="//@cocktailProducts.162" amountType="tsp" amount="0.25"/>
     <requiredIngredients product="//@cocktailProducts.159" amountType="whole" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.163" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Thai Iced Coffee" instructions="Prepare a pot of coffee at a good European strength. In the ground coffee, add 2 or 3 freshly ground cardamom pods. Sweeten while hot, then cool quickly. Serve in highball glass over ice, with cream. To get the layered effect, place a spoon atop the coffee and pour the milk carefully into the spoon so that it floats on the top of the coffee.">
     <requiredIngredients product="//@cocktailProducts.156" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.116" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.159" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Thai Iced Tea" instructions="Combine Thai tea (i.e., the powder), boiling water, and sweetened condensed milk, stir until blended. Pour into 2 tall glasses filled with ice cubes. Garnish with mint leaves. Makes 2 servings.">
     <requiredIngredients product="//@cocktailProducts.48" amountType="cup" amount="0.25"/>
     <requiredIngredients product="//@cocktailProducts.7" amountType="cup" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.164" amountType="tsp" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.23" amountType="cubes"/>
+    <requiredIngredients product="//@cocktailProducts.3" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Absinthe #2" instructions="Mix together and let sit a few days. Strain through a coffee filter. To serve mix 1 part absinthe to 4 parts water, add ice, enjoy.">
     <requiredIngredients product="//@cocktailProducts.8" amountType="bottle" amount="1.0"/>
@@ -1391,6 +1476,7 @@
     <requiredIngredients product="//@cocktailProducts.156" amountType="cup" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.142" amountType="unknown" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.8" amountType="cup" amount="1.5"/>
+    <requiredIngredients product="//@cocktailProducts.176" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Cranberry Cordial" instructions="Place the chopped cranberries in a 2 liter jar that has a tight-fitting lid. Add the sugar and rum. Adjust the lid securely and place the jar in a cool, dark place. Invert the jar and shake it every day for six weeks. Strain the cordial into bottles and seal with corks.">
     <requiredIngredients product="//@cocktailProducts.177" amountType="kg" amount="0.5"/>
@@ -1495,6 +1581,21 @@
     <requiredIngredients product="//@cocktailProducts.144" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.102" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
+    <requiredIngredients amountType="unknown">
+      <product href=""/>
+    </requiredIngredients>
+    <requiredIngredients amountType="unknown">
+      <product href=""/>
+    </requiredIngredients>
+    <requiredIngredients amountType="unknown">
+      <product href=""/>
+    </requiredIngredients>
+    <requiredIngredients amountType="unknown">
+      <product href=""/>
+    </requiredIngredients>
+    <requiredIngredients amountType="unknown">
+      <product href=""/>
+    </requiredIngredients>
   </drinkRegister>
   <drinkRegister name="Gluehwein" instructions="Boil sugar and spices in water, leave in the water for 30 minutes. Strain the spiced water and mix with the wine. Heat slowly until short of boiling temperature. (To remove alcohol, let it boil for a while.) You may add lemon or orange juice to taste. Serve in irish coffee cup.">
     <requiredIngredients product="//@cocktailProducts.96" amountType="l" amount="1.0"/>
@@ -1504,7 +1605,12 @@
     <requiredIngredients product="//@cocktailProducts.160" amountType="unknown" amount="3.0"/>
     <requiredIngredients product="//@cocktailProducts.34" amountType="tablespoon" amount="1.0"/>
   </drinkRegister>
-  <drinkRegister name="Holloween Punch" instructions="Take a bunch of grape juice and a bunch of fizzy stuff (club soda, ginger ale, lemonlime, whatever). Mix them in a punch bowl. Take orange sherbet and lime sherbet. Scoop out scoops and float them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still &quot;bubbles&quot; in it in the form of sherbet scoops. Looks horrible, tastes just fine."/>
+  <drinkRegister name="Holloween Punch" instructions="Take a bunch of grape juice and a bunch of fizzy stuff (club soda, ginger ale, lemonlime, whatever). Mix them in a punch bowl. Take orange sherbet and lime sherbet. Scoop out scoops and float them in the punch, let them melt a little so that a nasty film spreads all over the top of the punch but there are still &quot;bubbles&quot; in it in the form of sherbet scoops. Looks horrible, tastes just fine.">
+    <requiredIngredients product="//@cocktailProducts.115" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.188" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.189" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.189" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Mulled Wine" instructions="Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a &quot;coffee temperature&quot; (DO NOT BOIL) then add the brandy.">
     <requiredIngredients product="//@cocktailProducts.7" amountType="cup" amount="3.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="cup" amount="1.0"/>
@@ -1519,6 +1625,8 @@
     <requiredIngredients product="//@cocktailProducts.2" amountType="cup" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.71" amountType="cup" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.28" amountType="cup" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.160" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.141" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sweet Sangria" instructions="Dissolve the sugar in hot water and cool. Peel the citrus fruits and break into wedges. Mix the wine, sugar syrup, fruit, and Fresca in a pitcher and put in the fridge for a few hours. Serve in tall glasses with a straw.">
     <requiredIngredients product="//@cocktailProducts.96" amountType="bottle" amount="2.0"/>
@@ -1527,6 +1635,8 @@
     <requiredIngredients product="//@cocktailProducts.123" amountType="cup" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.52" amountType="wedge"/>
     <requiredIngredients product="//@cocktailProducts.1" amountType="wedge"/>
+    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.190" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Sangria - The World's Best" instructions="Mix wine, sugar and fruit, and let sit in the fridge for 18-24 hours. The mixture will have a somewhat syrupy consistency. Before serving stir in brandy and cut the mixture with soda water until it have a thinner, more wine like consistency. Serve from a pitcher in wine glasses.">
     <requiredIngredients product="//@cocktailProducts.96" amountType="l" amount="1.5"/>
@@ -1535,6 +1645,7 @@
     <requiredIngredients product="//@cocktailProducts.52" amountType="large" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.123" amountType="large" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.38" amount="3.0"/>
+    <requiredIngredients product="//@cocktailProducts.4" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Spiced Peach Punch" instructions="Combine peach nectar, orange juice and brown sugar in a large saucepan. Tie cinnamon and cloves in a small cheesecloth bag. Drop into saucepan. Heat slowly, stirring constantly, until sugar dissolves. Simmer 10 minutes. Stir in lime juice. Serve in hot mugs.">
     <requiredIngredients product="//@cocktailProducts.191" amount="46.0"/>
@@ -1570,7 +1681,11 @@
     <requiredIngredients product="//@cocktailProducts.52" amountType="unknown" amount="3.0"/>
     <requiredIngredients product="//@cocktailProducts.40" amountType="cup" amount="1.0"/>
   </drinkRegister>
-  <drinkRegister name="Bruce's Puce" instructions="In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just like chocolate milk.(Really!)"/>
+  <drinkRegister name="Bruce's Puce" instructions="In a regular-sized shot glass, layer, with a spoon or cherry, the grenadine , the Kahlua , then the Bailey's Irish cream in equal portions. It goes down really smooth ,and you don't even need a chaser. It tastes just like chocolate milk.(Really!)">
+    <requiredIngredients product="//@cocktailProducts.73" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.44" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.154" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Brave Bull Shooter" instructions="Pour Tabasco into bottom of shot glass and fill with tequila.">
     <requiredIngredients product="//@cocktailProducts.10" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.64" amount="0.5"/>
@@ -1591,6 +1706,8 @@
     <requiredIngredients product="//@cocktailProducts.8" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.67" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Diesel" instructions="Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.">
     <requiredIngredients product="//@cocktailProducts.195" amountType="pint" amount="0.5"/>
@@ -1602,12 +1719,14 @@
     <requiredIngredients product="//@cocktailProducts.154" amountType="cl" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.198" amountType="unknown" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.156" amountType="cl" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.116" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Kool-Aid Shot" instructions="Pour into a large glass with ice and stir. Add a little cranberry juice to taste.">
     <requiredIngredients product="//@cocktailProducts.8" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.30" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.31" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.20" amountType="cl" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.150" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="National Aquarium" instructions="Pour all ingredients into a shaker of ice. Shake well. Serve on the rocks.">
     <requiredIngredients product="//@cocktailProducts.102" amount="0.5"/>
@@ -1662,6 +1781,7 @@
     <requiredIngredients product="//@cocktailProducts.206" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.28" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="tablespoon" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Big Red" instructions="Pour ingredients into 1 ounce shot glass">
     <requiredIngredients product="//@cocktailProducts.207" amount="0.5"/>
@@ -1736,9 +1856,12 @@
   </drinkRegister>
   <drinkRegister name="410 Gone" instructions="">
     <requiredIngredients product="//@cocktailProducts.151" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.12" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Tequila Sunrise" instructions="Pour the tequila and orange juice into glass over ice. Add the grenadine, which will sink to the bottom. Stir gently to create the sunrise effect. Garnish and serve.">
     <requiredIngredients product="//@cocktailProducts.10" amountType="measure" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.71" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.73" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Screaming Orgasm" instructions="Pour first vodka, then Bailey's, then Kahlua into a cocktail glass over crushed ice. Stir. Caution: use only high quality vodka. Cheap vodka can cause the Bailey's to curdle. Test your brand of vodka by mixing 1 Tsp each of vodka and Bailey's first.">
     <requiredIngredients product="//@cocktailProducts.8" amount="1.0"/>
@@ -1761,12 +1884,17 @@
     <requiredIngredients product="//@cocktailProducts.43" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.12" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Jelly Bean" instructions="mix equal parts in pony glass-tastes just like a jelly bean!">
     <requiredIngredients product="//@cocktailProducts.41" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.112" amount="1.0"/>
   </drinkRegister>
-  <drinkRegister name="After Five" instructions="1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled"/>
+  <drinkRegister name="After Five" instructions="1. Pour Kahlua into shot glass to about 1/2 full. 2. Using a spoon(inverted), slowly pour in the Peppermint Schnapps until glass is about 3/4 full. Done correctly, the Schnapps will flow under the Kahlua for a clear layer. 3. Again using a spoon, but this time right side up, slowly top off the glass with a layer of Bailey's. Be careful to place the spoon right at the top of the Kahlua layer and to raise it as the glass fills up. Done correctly, this will provide a layer of Bailey's floating over the Kahlua. 4. Toss it down all at once for something like a Peppermint Pattie, WITH A BANG!!! NOTE: Best if all ingredients are chilled">
+    <requiredIngredients product="//@cocktailProducts.224" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.44" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.154" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Midnight Manx" instructions="Fill a mixer with ice and add Baileys, Kahlua, Goldshlager, and cream. Shake for 5 seconds and Strain into a double rocks glass filled with ice. Add chilled coffee Stir and enjoy!">
     <requiredIngredients product="//@cocktailProducts.44" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.154" amount="1.0"/>
@@ -1842,6 +1970,7 @@
     <requiredIngredients product="//@cocktailProducts.62" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.0" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.23" amountType="cubes"/>
+    <requiredIngredients product="//@cocktailProducts.103" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Absolut Summertime" instructions="Add all ingredients except lemon to shaker filled with ice. Cover and shake vigorously. Strain contents into ice filled collins glass. Garnish with lemon.">
     <requiredIngredients product="//@cocktailProducts.148" amount="1.5"/>
@@ -1866,8 +1995,10 @@
     <requiredIngredients product="//@cocktailProducts.19" amountType="unknown" amount="1.0"/>
   </drinkRegister>
   <drinkRegister name="Cafe Savoy" instructions="Fill mug almost to top with coffee.Add milk, triple sec and brandy. Stir.">
+    <requiredIngredients product="//@cocktailProducts.156" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.103" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.38" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Snowball" instructions="Place one ice cube in the glass and add 1 1/2 oz of Advocaat. Fill up the glass with lemonade and decorate with a slice of lemon. Serve at once.">
     <requiredIngredients product="//@cocktailProducts.214" amount="1.5"/>
@@ -1879,6 +2010,7 @@
     <requiredIngredients product="//@cocktailProducts.156" amount="6.0"/>
     <requiredIngredients product="//@cocktailProducts.234" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.138" amountType="tablespoon" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.49" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="747" instructions="pour kaluha, then Baileys, then Frangelico not chilled and not layered -- SERVE!!!">
     <requiredIngredients product="//@cocktailProducts.44" amountType="part" amount="0.33"/>
@@ -1934,6 +2066,7 @@
     <requiredIngredients product="//@cocktailProducts.148" amountType="part" amount="0.66"/>
     <requiredIngredients product="//@cocktailProducts.237" amountType="part" amount="0.33"/>
     <requiredIngredients product="//@cocktailProducts.23" amountType="cubes"/>
+    <requiredIngredients product="//@cocktailProducts.238" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Lunch Box" instructions="Fill a pint glass almost full with beer. Then fill the rest with orange juice (careful not to fill it to the top). Then take the shot of Amaretto and drop it in.">
     <requiredIngredients product="//@cocktailProducts.203" amountType="bottle" amount="0.75"/>
@@ -1946,9 +2079,14 @@
   </drinkRegister>
   <drinkRegister name="Kurant Tea" instructions="Pour Absolut Kurant into a comfortably big tea-cup. Add the not too hot(!) apple tea and, if you like, some sugar. Enjoy!">
     <requiredIngredients product="//@cocktailProducts.236" amountType="cl" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.239" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="unknown"/>
   </drinkRegister>
-  <drinkRegister name="Dirty Nipple" instructions="This is a layered shot - the Bailey's must be on top"/>
+  <drinkRegister name="Dirty Nipple" instructions="This is a layered shot - the Bailey's must be on top">
+    <requiredIngredients product="//@cocktailProducts.44" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.212" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.154" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Darkwood Sling" instructions="There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.">
     <requiredIngredients product="//@cocktailProducts.240" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.4" amountType="part" amount="1.0"/>
@@ -1958,6 +2096,7 @@
   <drinkRegister name="Bailey's Dream Shake" instructions="Blend ingredients for 30 seconds. Definitely refreshing for a hot summer's day !">
     <requiredIngredients product="//@cocktailProducts.154" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.216" amountType="scoop" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.116" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Bumble Bee #1" instructions="This is a layered shot. First pour the Bailey's into the shot glass. Then take an upside down spoon and touch it to the inside wall of the glass. Carefully add the Kahlua. Repeat this process for the Sambuca. If done properly, the alcohol will stay separated and resemble a bumble bee. Enjoy!!!">
     <requiredIngredients product="//@cocktailProducts.154" amount="0.33"/>
@@ -2018,6 +2157,7 @@
   </drinkRegister>
   <drinkRegister name="Cream Soda" instructions="Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.">
     <requiredIngredients product="//@cocktailProducts.158" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="ACID" instructions="Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.">
     <requiredIngredients product="//@cocktailProducts.104" amount="1.0"/>
@@ -2113,6 +2253,7 @@
     <requiredIngredients product="//@cocktailProducts.71" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.117" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.40" amountType="part" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Apello" instructions="Stirr. Grnish with maraschino cherry.">
     <requiredIngredients product="//@cocktailProducts.71" amountType="cl" amount="4.0"/>
@@ -2129,10 +2270,13 @@
   <drinkRegister name="After sex" instructions="Pour the vodka and creme over some ice cubes in a tall glass and fill up with juice. to make it beuty full make the top of the glass with a grenadine and sugar">
     <requiredIngredients product="//@cocktailProducts.8" amountType="cl" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.242" amountType="cl" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.71" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="San Francisco" instructions="Take a tall glass and put in a few ice cubes, fill the vodka over it and fill with juice then the &quot;creme&quot;, to end fill in the grenadine but very carefully at the side of the glass so it will lay down in the bottom. garnish with orange and strawberry.">
     <requiredIngredients product="//@cocktailProducts.8" amountType="cl" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.242" amountType="cl" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.73" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.71" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Amaretto Shake" instructions="Combine all ingredients in a blender and blend at high speed until smooth. Serve in chilled glass garnished with bittersweet chocolate shavings.">
     <requiredIngredients product="//@cocktailProducts.80" amountType="scoop" amount="2.0"/>
@@ -2154,6 +2298,9 @@
     <requiredIngredients product="//@cocktailProducts.104" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.243" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.40" amountType="cl" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.71" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.73" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.263" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Zenmeister" instructions="Mix together and enjoy">
     <requiredIngredients product="//@cocktailProducts.155" amount="0.5"/>
@@ -2164,6 +2311,7 @@
     <requiredIngredients product="//@cocktailProducts.237" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.117" amountType="part" amount="6.0"/>
     <requiredIngredients product="//@cocktailProducts.28" amountType="part" amount="1.5"/>
+    <requiredIngredients product="//@cocktailProducts.68" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="252" instructions="Add both ingredients to shot glass, shoot, and get drunk quick">
     <requiredIngredients product="//@cocktailProducts.104" amountType="cl" amount="2.0"/>
@@ -2175,8 +2323,10 @@
     <requiredIngredients product="//@cocktailProducts.10" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.20" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.8" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.12" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.91" amountType="dash" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.58" amountType="wedge" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Zorro" instructions="add all and pour black coffee and add whipped cream on top.">
     <requiredIngredients product="//@cocktailProducts.212" amountType="cl" amount="2.0"/>
@@ -2206,6 +2356,7 @@
   </drinkRegister>
   <drinkRegister name="Vodka Russian" instructions="Mix it as a ordinary drink .">
     <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.257" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Danbooka" instructions="pour it in and mix it.">
     <requiredIngredients product="//@cocktailProducts.156" amountType="part" amount="3.0"/>
@@ -2230,6 +2381,7 @@
     <requiredIngredients product="//@cocktailProducts.156" amount="8.0"/>
     <requiredIngredients product="//@cocktailProducts.225" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.30" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.49" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Swedish Coffee" instructions="Pour the coffee in an ordinary coffee cup. Add the aquavit. Add sugar by taste. Stir and have a nice evening (morning)">
     <requiredIngredients product="//@cocktailProducts.156" amountType="cup" amount="1.0"/>
@@ -2271,9 +2423,16 @@
     <requiredIngredients product="//@cocktailProducts.267" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.268" amountType="tsp" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.86" amountType="unknown" amount="5.0"/>
+    <requiredIngredients product="//@cocktailProducts.257" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Zoksel" instructions="No specific mixinginstructions, just poor every ingredient in one glass. The lemon goes with it.">
+    <requiredIngredients product="//@cocktailProducts.203" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.264" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.68" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.12" amountType="slice"/>
+    <requiredIngredients product="//@cocktailProducts.222" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.114" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.11" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Fuzzy Asshole" instructions="fill coffe mug half full of coffee. Fill the other half full of Peach Schnapps. Stir and drink while hot.">
     <requiredIngredients product="//@cocktailProducts.156" amountType="unknown" amount="0.5"/>
@@ -2300,6 +2459,7 @@
     <requiredIngredients product="//@cocktailProducts.102" amountType="glass" amount="0.17"/>
     <requiredIngredients product="//@cocktailProducts.156" amountType="glass" amount="0.17"/>
     <requiredIngredients product="//@cocktailProducts.7" amountType="glass" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.49" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Mojito #3" instructions="Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum &amp; fill up with club soda. Top it with Angostura.">
     <requiredIngredients product="//@cocktailProducts.3" amountType="handful" amount="0.5"/>
@@ -2333,9 +2493,15 @@
   </drinkRegister>
   <drinkRegister name="Black Forest Shake" instructions="In a blender put ice cubes, chocolate syrup, cherry brandy, vodka, and milk. Blend very well.">
     <requiredIngredients product="//@cocktailProducts.23" amountType="cubes"/>
+    <requiredIngredients product="//@cocktailProducts.122" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.78" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.8" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.103" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="GG" instructions="Pour the Galliano liqueur over ice. Fill the remainder of the glass with ginger ale and thats all there is to it. You now have a your very own GG.">
     <requiredIngredients product="//@cocktailProducts.88" amountType="cl" amount="10.0"/>
+    <requiredIngredients product="//@cocktailProducts.26" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Radler" instructions="Pour beer into large mug, slowly add the 7-up (or Sprite).">
     <requiredIngredients product="//@cocktailProducts.203" amount="12.0"/>
@@ -2400,7 +2566,12 @@
     <requiredIngredients product="//@cocktailProducts.10" amountType="unknown" amount="0.4"/>
     <requiredIngredients product="//@cocktailProducts.73" amountType="unknown" amount="0.2"/>
   </drinkRegister>
-  <drinkRegister name="Amaretto Sweet &amp; Sour" instructions="Fill the blender with 3/4 ice. Add sweet &amp; sour mix to the top of the ice. Add about 1&quot; of pineapple juice, 1/2&quot; of melon liqeur, and 1/2 to 1/4&quot; of amaretto. Then blend the mix until it is of margaritta consistency or thinner."/>
+  <drinkRegister name="Amaretto Sweet &amp; Sour" instructions="Fill the blender with 3/4 ice. Add sweet &amp; sour mix to the top of the ice. Add about 1&quot; of pineapple juice, 1/2&quot; of melon liqeur, and 1/2 to 1/4&quot; of amaretto. Then blend the mix until it is of margaritta consistency or thinner.">
+    <requiredIngredients product="//@cocktailProducts.30" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.91" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.202" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.40" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Rum Runner" instructions="Mix all ingredients in glass &amp; add ice.">
     <requiredIngredients product="//@cocktailProducts.243" amount="1.5"/>
     <requiredIngredients product="//@cocktailProducts.41" amount="1.0"/>
@@ -2411,6 +2582,7 @@
   <drinkRegister name="H.D." instructions="Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.">
     <requiredIngredients product="//@cocktailProducts.276" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.154" amountType="cl" amount="8.0"/>
+    <requiredIngredients product="//@cocktailProducts.156" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="The Evil Blue Thing" instructions="Pour ingredients into glass, and drop in a blue whale! The blue whale isn't really necessary, but it makes the drink more &quot;fun&quot;.">
     <requiredIngredients product="//@cocktailProducts.35" amount="1.5"/>
@@ -2448,7 +2620,10 @@
     <requiredIngredients product="//@cocktailProducts.8" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.10" amountType="part" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.20" amountType="part" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.125" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
     <requiredIngredients product="//@cocktailProducts.22" amountType="pint" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.124" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Arizona Antifreeze" instructions="Pour all ingredients into shot glass and slam !!!!">
     <requiredIngredients product="//@cocktailProducts.8" amount="0.33"/>
@@ -2463,6 +2638,7 @@
     <requiredIngredients product="//@cocktailProducts.30" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.29" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.23" amountType="cubes"/>
+    <requiredIngredients product="//@cocktailProducts.199" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Avalanche" instructions="Mix in highball glass over ice, shake well.">
     <requiredIngredients product="//@cocktailProducts.232" amountType="cl" amount="4.0"/>
@@ -2494,6 +2670,7 @@
   <drinkRegister name="Kioki Coffee" instructions="Stir. Add whipped cream to the top.">
     <requiredIngredients product="//@cocktailProducts.44" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.38" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.156" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Apple Pie with A Crust" instructions="Just mix the two liquids and sprinkle in the cinnamon. Serve either cold or heated.">
     <requiredIngredients product="//@cocktailProducts.117" amountType="part" amount="3.0"/>
@@ -2508,6 +2685,8 @@
     <requiredIngredients product="//@cocktailProducts.8" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.145" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.278" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.37" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Radioactive Long Island Iced Tea" instructions="Pour all ingredients over ice in a very tall glass. Sip cautiously.">
     <requiredIngredients product="//@cocktailProducts.102" amount="1.0"/>
@@ -2538,6 +2717,7 @@
   </drinkRegister>
   <drinkRegister name="Sweet Tooth" instructions="Put 2 shots Godiva Liquour into a glass, add as much or as little milk as you would like.">
     <requiredIngredients product="//@cocktailProducts.235" amountType="cl" amount="8.0"/>
+    <requiredIngredients product="//@cocktailProducts.103" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Downshift" instructions="Start with the Sprite. Next comes the tequila. After that, add the Minute Maid Fruit Punch, then float the 151. Rocks optional.">
     <requiredIngredients product="//@cocktailProducts.254" amountType="part" amount="2.0"/>
@@ -2576,6 +2756,8 @@
   <drinkRegister name="A True Amaretto Sour" instructions="Rub the rim of an old fashioned glass with lemon, and dip repeatedly into granulated sugar until it has a good &quot;frosted&quot; rim. Shake a jigger of Amaretto with the juice of 1/2 a lemon. Strain into glass and add ice. Garnish with a Marachino Cherry.">
     <requiredIngredients product="//@cocktailProducts.30" amountType="jigger" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.11" amountType="unknown" amount="0.5"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.24" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Kool First Aid" instructions="Add Kool Aid to a double shot glass, and top with rum. Slam and shoot.">
     <requiredIngredients product="//@cocktailProducts.104" amount="2.0"/>
@@ -2643,7 +2825,13 @@
     <requiredIngredients product="//@cocktailProducts.57" amountType="cl" amount="4.0"/>
     <requiredIngredients product="//@cocktailProducts.29" amountType="cl" amount="4.0"/>
   </drinkRegister>
-  <drinkRegister name="501 Blue" instructions="Mix equal amounts into a glass with ice."/>
+  <drinkRegister name="501 Blue" instructions="Mix equal amounts into a glass with ice.">
+    <requiredIngredients product="//@cocktailProducts.67" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.285" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.8" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.199" amountType="unknown"/>
+    <requiredIngredients product="//@cocktailProducts.222" amountType="unknown"/>
+  </drinkRegister>
   <drinkRegister name="Coke and Drops" instructions="Take a glass, pour the Coke in the glass, then you take 7 drops of lemon juice. Granish with a lemon slice on the rim of the glass.">
     <requiredIngredients product="//@cocktailProducts.12" amountType="dl" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.28" amountType="drop" amount="7.0"/>
@@ -2683,6 +2871,7 @@
   <drinkRegister name="Raspberry Cooler" instructions="Pour the raspberry vodka and soda into a highball glass almost filled with ice cubes. Stir well.">
     <requiredIngredients product="//@cocktailProducts.287" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.101" amount="4.0"/>
+    <requiredIngredients product="//@cocktailProducts.23" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Amaretto Sunset" instructions="Shake ingredients in bartender's mixer quickly, just 5 shakes. Strain out ice, serve in glass immediately with a slice of orange.">
     <requiredIngredients product="//@cocktailProducts.20" amountType="jigger" amount="0.5"/>
@@ -2891,6 +3080,7 @@
     <requiredIngredients product="//@cocktailProducts.27" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.28" amountType="tsp" amount="0.5"/>
     <requiredIngredients product="//@cocktailProducts.73" amountType="tsp" amount="1.0"/>
+    <requiredIngredients product="//@cocktailProducts.16" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Barracuda" instructions="Shake pour ingredients with ice. Strain into glass, top with Sparkling wine.">
     <requiredIngredients product="//@cocktailProducts.102" amountType="cl" amount="4.5"/>
@@ -3240,6 +3430,7 @@
     <requiredIngredients product="//@cocktailProducts.111" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.71" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.150" amount="2.0"/>
+    <requiredIngredients product="//@cocktailProducts.46" amountType="unknown"/>
   </drinkRegister>
   <drinkRegister name="Affinity" instructions="In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.">
     <requiredIngredients product="//@cocktailProducts.59" amount="1.5"/>
@@ -3247,66 +3438,66 @@
     <requiredIngredients product="//@cocktailProducts.18" amount="1.0"/>
     <requiredIngredients product="//@cocktailProducts.32" amountType="dash" amount="2.0"/>
   </drinkRegister>
-  <cocktailProducts name="Light rum" vol="45.0"/>
+  <cocktailProducts name="Light rum"/>
   <cocktailProducts name="Lime"/>
   <cocktailProducts name="Sugar"/>
   <cocktailProducts name="Mint"/>
   <cocktailProducts name="Soda water"/>
-  <cocktailProducts name="Bourbon" vol="30.0"/>
+  <cocktailProducts name="Bourbon"/>
   <cocktailProducts name="Angostura bitters"/>
   <cocktailProducts name="Water"/>
-  <cocktailProducts name="Vodka" vol="40.0"/>
-  <cocktailProducts name="Gin" vol="40.0"/>
-  <cocktailProducts name="Tequila" vol="40.0"/>
+  <cocktailProducts name="Vodka"/>
+  <cocktailProducts name="Gin"/>
+  <cocktailProducts name="Tequila"/>
   <cocktailProducts name="Lemon"/>
   <cocktailProducts name="Coca-Cola"/>
-  <cocktailProducts name="Campari" vol="25.0"/>
-  <cocktailProducts name="Sweet Vermouth" vol="40.0"/>
-  <cocktailProducts name="Blended whiskey" vol="43.0"/>
+  <cocktailProducts name="Campari"/>
+  <cocktailProducts name="Sweet Vermouth"/>
+  <cocktailProducts name="Blended whiskey"/>
   <cocktailProducts name="Powdered sugar"/>
   <cocktailProducts name="Cherry"/>
-  <cocktailProducts name="Dry Vermouth" vol="20.0"/>
+  <cocktailProducts name="Dry Vermouth"/>
   <cocktailProducts name="Olive"/>
-  <cocktailProducts name="Triple sec" vol="39.0"/>
+  <cocktailProducts name="Triple sec"/>
   <cocktailProducts name="Lime juice"/>
   <cocktailProducts name="Salt"/>
   <cocktailProducts name="Ice"/>
   <cocktailProducts name="Maraschino cherry"/>
   <cocktailProducts name="Orange peel"/>
-  <cocktailProducts name="Ginger ale" vol="8.0"/>
-  <cocktailProducts name="Apricot brandy" vol="24.0"/>
+  <cocktailProducts name="Ginger ale"/>
+  <cocktailProducts name="Apricot brandy"/>
   <cocktailProducts name="Lemon juice"/>
-  <cocktailProducts name="Southern Comfort" vol="35.0"/>
-  <cocktailProducts name="Amaretto" vol="30.0"/>
-  <cocktailProducts name="Sloe gin" vol="30.0"/>
+  <cocktailProducts name="Southern Comfort"/>
+  <cocktailProducts name="Amaretto"/>
+  <cocktailProducts name="Sloe gin"/>
   <cocktailProducts name="Orange bitters"/>
-  <cocktailProducts name="Yellow Chartreuse" vol="43.0"/>
-  <cocktailProducts name="Lemon peel" vol="6.0"/>
-  <cocktailProducts name="Creme de Cacao" vol="24.0"/>
+  <cocktailProducts name="Yellow Chartreuse"/>
+  <cocktailProducts name="Lemon peel"/>
+  <cocktailProducts name="Creme de Cacao"/>
   <cocktailProducts name="Light cream"/>
   <cocktailProducts name="Nutmeg"/>
-  <cocktailProducts name="Brandy" vol="36.0"/>
-  <cocktailProducts name="Lemon vodka" vol="40.0"/>
+  <cocktailProducts name="Brandy"/>
+  <cocktailProducts name="Lemon vodka"/>
   <cocktailProducts name="Pineapple juice"/>
   <cocktailProducts name="Blackberry brandy"/>
-  <cocktailProducts name="Kummel" vol="14.0"/>
-  <cocktailProducts name="Dark rum" vol="40.0"/>
-  <cocktailProducts name="Kahlua" vol="20.0"/>
+  <cocktailProducts name="Kummel"/>
+  <cocktailProducts name="Dark rum"/>
+  <cocktailProducts name="Kahlua"/>
   <cocktailProducts name="Egg white"/>
   <cocktailProducts name="Club soda"/>
   <cocktailProducts name="White Creme de Menthe"/>
   <cocktailProducts name="Tea"/>
   <cocktailProducts name="Whipped cream"/>
-  <cocktailProducts name="Apple brandy" vol="47.0"/>
-  <cocktailProducts name="Applejack" vol="40.0"/>
+  <cocktailProducts name="Apple brandy"/>
+  <cocktailProducts name="Applejack"/>
   <cocktailProducts name="Orange"/>
-  <cocktailProducts name="Wine" vol="14.0"/>
-  <cocktailProducts name="Benedictine" vol="40.0"/>
-  <cocktailProducts name="Champagne" vol="18.0"/>
+  <cocktailProducts name="Wine"/>
+  <cocktailProducts name="Benedictine"/>
+  <cocktailProducts name="Champagne"/>
   <cocktailProducts name="Green Creme de Menthe"/>
-  <cocktailProducts name="Grand Marnier" vol="40.0"/>
-  <cocktailProducts name="Bitters" vol="48.0"/>
-  <cocktailProducts name="Scotch" vol="9.0"/>
+  <cocktailProducts name="Grand Marnier"/>
+  <cocktailProducts name="Bitters"/>
+  <cocktailProducts name="Scotch"/>
   <cocktailProducts name="Banana"/>
   <cocktailProducts name="Carbonated water"/>
   <cocktailProducts name="Coffee liqueur"/>
@@ -3314,21 +3505,21 @@
   <cocktailProducts name="Tabasco sauce"/>
   <cocktailProducts name="Celery salt"/>
   <cocktailProducts name="Worcestershire sauce"/>
-  <cocktailProducts name="Blue Curacao" vol="20.0"/>
+  <cocktailProducts name="Blue Curacao"/>
   <cocktailProducts name="Lemonade"/>
-  <cocktailProducts name="A&#xf1;ejo rum" vol="40.0"/>
-  <cocktailProducts name="Tia maria" vol="20.0"/>
+  <cocktailProducts name="A&#xf1;ejo rum"/>
+  <cocktailProducts name="Tia maria"/>
   <cocktailProducts name="Orange juice"/>
-  <cocktailProducts name="Maraschino liqueur" vol="32.0"/>
+  <cocktailProducts name="Maraschino liqueur"/>
   <cocktailProducts name="Grenadine"/>
   <cocktailProducts name="Egg"/>
-  <cocktailProducts name="Cachaca" vol="39.0"/>
+  <cocktailProducts name="Cachaca"/>
   <cocktailProducts name="Egg yolk"/>
-  <cocktailProducts name="Cognac" vol="40.0"/>
-  <cocktailProducts name="Cherry brandy" vol="24.0"/>
-  <cocktailProducts name="Port" vol="46.0"/>
+  <cocktailProducts name="Cognac"/>
+  <cocktailProducts name="Cherry brandy"/>
+  <cocktailProducts name="Port"/>
   <cocktailProducts name="Chocolate ice-cream"/>
-  <cocktailProducts name="Dubonnet Rouge" vol="13.0"/>
+  <cocktailProducts name="Dubonnet Rouge"/>
   <cocktailProducts name="Sugar syrup"/>
   <cocktailProducts name="Pineapple"/>
   <cocktailProducts name="Tonic water"/>
@@ -3336,32 +3527,32 @@
   <cocktailProducts name="Strawberries"/>
   <cocktailProducts name="Heavy cream"/>
   <cocktailProducts name="Galliano"/>
-  <cocktailProducts name="Irish whiskey" vol="43.0"/>
-  <cocktailProducts name="Peach brandy" vol="7.0"/>
+  <cocktailProducts name="Irish whiskey"/>
+  <cocktailProducts name="Peach brandy"/>
   <cocktailProducts name="Sweet and sour"/>
-  <cocktailProducts name="Green Chartreuse" vol="55.0"/>
-  <cocktailProducts name="Drambuie" vol="40.0"/>
+  <cocktailProducts name="Green Chartreuse"/>
+  <cocktailProducts name="Drambuie"/>
   <cocktailProducts name="Orgeat syrup"/>
   <cocktailProducts name="Grapefruit juice"/>
-  <cocktailProducts name="Red wine" vol="15.0"/>
+  <cocktailProducts name="Red wine"/>
   <cocktailProducts name="Raspberry syrup"/>
   <cocktailProducts name="Sherry"/>
   <cocktailProducts name="Coffee brandy"/>
-  <cocktailProducts name="Lime vodka" vol="40.0"/>
+  <cocktailProducts name="Lime vodka"/>
   <cocktailProducts name="Lemon-lime soda"/>
-  <cocktailProducts name="Rum" vol="40.0"/>
+  <cocktailProducts name="Rum"/>
   <cocktailProducts name="Milk"/>
-  <cocktailProducts name="151 proof rum" vol="76.0"/>
+  <cocktailProducts name="151 proof rum"/>
   <cocktailProducts name="Lime peel"/>
-  <cocktailProducts name="Ricard" vol="45.0"/>
+  <cocktailProducts name="Ricard"/>
   <cocktailProducts name="Peychaud bitters"/>
-  <cocktailProducts name="Curacao" vol="40.0"/>
-  <cocktailProducts name="Anisette" vol="13.0"/>
-  <cocktailProducts name="Cointreau" vol="40.0"/>
-  <cocktailProducts name="Strawberry schnapps" vol="17.0"/>
-  <cocktailProducts name="Anis" vol="40.0"/>
+  <cocktailProducts name="Curacao"/>
+  <cocktailProducts name="Anisette"/>
+  <cocktailProducts name="Cointreau"/>
+  <cocktailProducts name="Strawberry schnapps"/>
+  <cocktailProducts name="Anis"/>
   <cocktailProducts name="Maple syrup"/>
-  <cocktailProducts name="Creme de Cassis" vol="20.0"/>
+  <cocktailProducts name="Creme de Cassis"/>
   <cocktailProducts name="Grape juice"/>
   <cocktailProducts name="Cream"/>
   <cocktailProducts name="Apple juice"/>
@@ -3375,12 +3566,12 @@
   <cocktailProducts name="Fruit"/>
   <cocktailProducts name="Mint syrup"/>
   <cocktailProducts name="Cumin seed"/>
-  <cocktailProducts name="Asafoetida" vol="12.0"/>
+  <cocktailProducts name="Asafoetida"/>
   <cocktailProducts name="Mango"/>
   <cocktailProducts name="Ginger"/>
   <cocktailProducts name="Cayenne pepper"/>
-  <cocktailProducts name="Aperol" vol="11.0"/>
-  <cocktailProducts name="Cantaloupe" vol="59.0"/>
+  <cocktailProducts name="Aperol"/>
+  <cocktailProducts name="Cantaloupe"/>
   <cocktailProducts name="Berries"/>
   <cocktailProducts name="Grapes"/>
   <cocktailProducts name="Kiwi"/>
@@ -3395,182 +3586,182 @@
   <cocktailProducts name="Half-and-half"/>
   <cocktailProducts name="Marshmallows"/>
   <cocktailProducts name="Espresso"/>
-  <cocktailProducts name="Absolut Citron" vol="40.0"/>
+  <cocktailProducts name="Absolut Citron"/>
   <cocktailProducts name="Peach schnapps"/>
   <cocktailProducts name="Cranberry juice"/>
-  <cocktailProducts name="Peach Vodka" vol="40.0"/>
+  <cocktailProducts name="Peach Vodka"/>
   <cocktailProducts name="Sirup of roses"/>
-  <cocktailProducts name="Ouzo" vol="40.0"/>
-  <cocktailProducts name="Baileys irish cream" vol="17.0"/>
-  <cocktailProducts name="J&#xe4;germeister" vol="35.0"/>
+  <cocktailProducts name="Ouzo"/>
+  <cocktailProducts name="Baileys irish cream"/>
+  <cocktailProducts name="J&#xe4;germeister"/>
   <cocktailProducts name="Coffee"/>
-  <cocktailProducts name="Grain alcohol" vol="60.0"/>
-  <cocktailProducts name="Spiced rum" vol="37.0"/>
+  <cocktailProducts name="Grain alcohol"/>
+  <cocktailProducts name="Spiced rum"/>
   <cocktailProducts name="Cardamom"/>
   <cocktailProducts name="Cloves"/>
   <cocktailProducts name="Black pepper"/>
   <cocktailProducts name="Coriander"/>
   <cocktailProducts name="Whipping cream"/>
   <cocktailProducts name="Condensed milk"/>
-  <cocktailProducts name="Anise" vol="41.0"/>
-  <cocktailProducts name="Licorice root" vol="16.0"/>
+  <cocktailProducts name="Anise"/>
+  <cocktailProducts name="Licorice root"/>
   <cocktailProducts name="Wormwood"/>
-  <cocktailProducts name="Apricot" vol="6.0"/>
+  <cocktailProducts name="Apricot"/>
   <cocktailProducts name="Almond flavoring"/>
   <cocktailProducts name="Food coloring"/>
-  <cocktailProducts name="Glycerine" vol="12.0"/>
-  <cocktailProducts name="Angelica root" vol="13.0"/>
-  <cocktailProducts name="Almond" vol="10.0"/>
-  <cocktailProducts name="Allspice" vol="41.0"/>
+  <cocktailProducts name="Glycerine"/>
+  <cocktailProducts name="Angelica root"/>
+  <cocktailProducts name="Almond"/>
+  <cocktailProducts name="Allspice"/>
   <cocktailProducts name="Marjoram leaves"/>
   <cocktailProducts name="Caramel coloring"/>
   <cocktailProducts name="Cranberries"/>
   <cocktailProducts name="Peppermint extract"/>
   <cocktailProducts name="Coconut syrup"/>
-  <cocktailProducts name="Johnnie Walker" vol="40.0"/>
+  <cocktailProducts name="Johnnie Walker"/>
   <cocktailProducts name="Fennel seeds"/>
   <cocktailProducts name="Brown sugar"/>
   <cocktailProducts name="Guava juice"/>
   <cocktailProducts name="Apple cider"/>
-  <cocktailProducts name="Rye whiskey" vol="43.0"/>
-  <cocktailProducts name="Everclear" vol="40.0"/>
-  <cocktailProducts name="Kool-Aid" vol="14.0"/>
+  <cocktailProducts name="Rye whiskey"/>
+  <cocktailProducts name="Everclear"/>
+  <cocktailProducts name="Kool-Aid"/>
   <cocktailProducts name="Carbonated soft drink"/>
   <cocktailProducts name="Sherbet"/>
-  <cocktailProducts name="Fresca" vol="14.0"/>
+  <cocktailProducts name="Fresca"/>
   <cocktailProducts name="Peach nectar"/>
-  <cocktailProducts name="Firewater" vol="7.0"/>
+  <cocktailProducts name="Firewater"/>
   <cocktailProducts name="Absolut Peppar"/>
   <cocktailProducts name="Cherry liqueur"/>
-  <cocktailProducts name="Lager" vol="5.0"/>
-  <cocktailProducts name="Cider" vol="6.0"/>
+  <cocktailProducts name="Lager"/>
+  <cocktailProducts name="Cider"/>
   <cocktailProducts name="Blackcurrant cordial"/>
-  <cocktailProducts name="Frangelico" vol="20.0"/>
+  <cocktailProducts name="Frangelico"/>
   <cocktailProducts name="Sour mix"/>
-  <cocktailProducts name="Whiskey" vol="43.0"/>
-  <cocktailProducts name="Hot Damn" vol="13.0"/>
-  <cocktailProducts name="Midori melon liqueur" vol="20.0"/>
-  <cocktailProducts name="Beer" vol="5.0"/>
+  <cocktailProducts name="Whiskey"/>
+  <cocktailProducts name="Hot Damn"/>
+  <cocktailProducts name="Midori melon liqueur"/>
+  <cocktailProducts name="Beer"/>
   <cocktailProducts name="Dr. Pepper"/>
-  <cocktailProducts name="White rum" vol="37.0"/>
-  <cocktailProducts name="Pisco" vol="40.0"/>
+  <cocktailProducts name="White rum"/>
+  <cocktailProducts name="Pisco"/>
   <cocktailProducts name="Irish cream"/>
-  <cocktailProducts name="Goldschlager" vol="44.0"/>
-  <cocktailProducts name="Ale" vol="6.0"/>
-  <cocktailProducts name="Guinness stout" vol="6.0"/>
-  <cocktailProducts name="Chocolate liqueur" vol="17.0"/>
-  <cocktailProducts name="Sambuca" vol="38.0"/>
-  <cocktailProducts name="Erin Cream" vol="18.0"/>
-  <cocktailProducts name="Advocaat" vol="15.0"/>
+  <cocktailProducts name="Goldschlager"/>
+  <cocktailProducts name="Ale"/>
+  <cocktailProducts name="Guinness stout"/>
+  <cocktailProducts name="Chocolate liqueur"/>
+  <cocktailProducts name="Sambuca"/>
+  <cocktailProducts name="Erin Cream"/>
+  <cocktailProducts name="Advocaat"/>
   <cocktailProducts name="Passion fruit syrup"/>
   <cocktailProducts name="Vanilla ice-cream"/>
   <cocktailProducts name="Oreo cookie"/>
   <cocktailProducts name="Sprite"/>
   <cocktailProducts name="Pink lemonade"/>
   <cocktailProducts name="Iced tea"/>
-  <cocktailProducts name="Sarsaparilla" vol="20.0"/>
+  <cocktailProducts name="Sarsaparilla"/>
   <cocktailProducts name="7-Up"/>
   <cocktailProducts name="Apple schnapps"/>
   <cocktailProducts name="Peppermint schnapps"/>
-  <cocktailProducts name="Jack Daniels" vol="40.0"/>
-  <cocktailProducts name="Jim Beam" vol="40.0"/>
+  <cocktailProducts name="Jack Daniels"/>
+  <cocktailProducts name="Jim Beam"/>
   <cocktailProducts name="Pina colada mix"/>
   <cocktailProducts name="Daiquiri mix"/>
-  <cocktailProducts name="Absolut Vodka" vol="40.0"/>
+  <cocktailProducts name="Absolut Vodka"/>
   <cocktailProducts name="Butterscotch schnapps"/>
-  <cocktailProducts name="Coconut liqueur" vol="30.0"/>
-  <cocktailProducts name="Crown Royal" vol="14.0"/>
-  <cocktailProducts name="Vermouth" vol="17.0"/>
-  <cocktailProducts name="Chambord raspberry liqueur" vol="17.0"/>
-  <cocktailProducts name="Godiva liqueur" vol="17.0"/>
-  <cocktailProducts name="Absolut Kurant" vol="40.0"/>
-  <cocktailProducts name="Pisang Ambon" vol="17.0"/>
+  <cocktailProducts name="Coconut liqueur"/>
+  <cocktailProducts name="Crown Royal"/>
+  <cocktailProducts name="Vermouth"/>
+  <cocktailProducts name="Chambord raspberry liqueur"/>
+  <cocktailProducts name="Godiva liqueur"/>
+  <cocktailProducts name="Absolut Kurant"/>
+  <cocktailProducts name="Pisang Ambon"/>
   <cocktailProducts name="Bitter lemon"/>
   <cocktailProducts name="Turkish apple tea"/>
-  <cocktailProducts name="Cherry Heering" vol="24.0"/>
+  <cocktailProducts name="Cherry Heering"/>
   <cocktailProducts name="Hot chocolate"/>
-  <cocktailProducts name="Creme de Banane" vol="25.0"/>
-  <cocktailProducts name="Malibu rum" vol="21.0"/>
-  <cocktailProducts name="Dark Creme de Cacao" vol="20.0"/>
-  <cocktailProducts name="Vanilla vodka" vol="40.0"/>
-  <cocktailProducts name="Wild Turkey" vol="50.0"/>
+  <cocktailProducts name="Creme de Banane"/>
+  <cocktailProducts name="Malibu rum"/>
+  <cocktailProducts name="Dark Creme de Cacao"/>
+  <cocktailProducts name="Vanilla vodka"/>
+  <cocktailProducts name="Wild Turkey"/>
   <cocktailProducts name="Grape soda"/>
-  <cocktailProducts name="Candy" vol="8.0"/>
-  <cocktailProducts name="Banana liqueur" vol="25.0"/>
-  <cocktailProducts name="Kiwi liqueur" vol="20.0"/>
+  <cocktailProducts name="Candy"/>
+  <cocktailProducts name="Banana liqueur"/>
+  <cocktailProducts name="Kiwi liqueur"/>
   <cocktailProducts name="Peachtree schnapps"/>
   <cocktailProducts name="Surge"/>
-  <cocktailProducts name="Jello" vol="6.0"/>
-  <cocktailProducts name="Fruit punch" vol="12.0"/>
-  <cocktailProducts name="Cranberry vodka" vol="40.0"/>
-  <cocktailProducts name="Apfelkorn" vol="41.0"/>
+  <cocktailProducts name="Jello"/>
+  <cocktailProducts name="Fruit punch"/>
+  <cocktailProducts name="Cranberry vodka"/>
+  <cocktailProducts name="Apfelkorn"/>
   <cocktailProducts name="Schweppes Russchian"/>
-  <cocktailProducts name="Corona" vol="5.0"/>
-  <cocktailProducts name="Bacardi Limon" vol="32.0"/>
-  <cocktailProducts name="Yukon Jack" vol="50.0"/>
-  <cocktailProducts name="Coconut rum" vol="30.0"/>
-  <cocktailProducts name="Tropicana" vol="5.0"/>
-  <cocktailProducts name="Cherries" vol="7.0"/>
-  <cocktailProducts name="Root beer" vol="15.0"/>
-  <cocktailProducts name="Aquavit" vol="42.0"/>
+  <cocktailProducts name="Corona"/>
+  <cocktailProducts name="Bacardi Limon"/>
+  <cocktailProducts name="Yukon Jack"/>
+  <cocktailProducts name="Coconut rum"/>
+  <cocktailProducts name="Tropicana"/>
+  <cocktailProducts name="Cherries"/>
+  <cocktailProducts name="Root beer"/>
+  <cocktailProducts name="Aquavit"/>
   <cocktailProducts name="Chocolate milk"/>
-  <cocktailProducts name="Kirschwasser" vol="11.0"/>
-  <cocktailProducts name="Strawberry liqueur" vol="15.0"/>
-  <cocktailProducts name="Black Sambuca" vol="30.0"/>
+  <cocktailProducts name="Kirschwasser"/>
+  <cocktailProducts name="Strawberry liqueur"/>
+  <cocktailProducts name="Black Sambuca"/>
   <cocktailProducts name="Blackcurrant squash"/>
-  <cocktailProducts name="Zima" vol="13.0"/>
+  <cocktailProducts name="Zima"/>
   <cocktailProducts name="Pepsi Cola"/>
-  <cocktailProducts name="Orange Curacao" vol="40.0"/>
+  <cocktailProducts name="Orange Curacao"/>
   <cocktailProducts name="Cream of coconut"/>
-  <cocktailProducts name="Absinthe" vol="74.0"/>
-  <cocktailProducts name="Whisky" vol="47.0"/>
-  <cocktailProducts name="Tennessee whiskey" vol="44.0"/>
+  <cocktailProducts name="Absinthe"/>
+  <cocktailProducts name="Whisky"/>
+  <cocktailProducts name="Tennessee whiskey"/>
   <cocktailProducts name="Limeade"/>
-  <cocktailProducts name="Melon liqueur" vol="25.0"/>
+  <cocktailProducts name="Melon liqueur"/>
   <cocktailProducts name="Mountain Dew"/>
   <cocktailProducts name="Corn syrup"/>
-  <cocktailProducts name="Rumple Minze" vol="50.0"/>
+  <cocktailProducts name="Rumple Minze"/>
   <cocktailProducts name="Lime juice cordial"/>
-  <cocktailProducts name="Gold tequila" vol="35.0"/>
+  <cocktailProducts name="Gold tequila"/>
   <cocktailProducts name="Blueberry schnapps"/>
-  <cocktailProducts name="Maui" vol="4.0"/>
-  <cocktailProducts name="Raspberry vodka" vol="40.0"/>
-  <cocktailProducts name="Triple Sec" vol="39.0"/>
+  <cocktailProducts name="Maui"/>
+  <cocktailProducts name="Raspberry vodka"/>
+  <cocktailProducts name="Triple Sec"/>
   <cocktailProducts name="Cherry Grenadine"/>
   <cocktailProducts name="Lemon Juice"/>
   <cocktailProducts name="Agave Syrup"/>
   <cocktailProducts name="demerara Sugar"/>
   <cocktailProducts name="lemon juice"/>
-  <cocktailProducts name="maraschino liqueur" vol="32.0"/>
+  <cocktailProducts name="maraschino liqueur"/>
   <cocktailProducts name="Olive Brine"/>
   <cocktailProducts name="Lime Juice"/>
   <cocktailProducts name="Pineapple Syrup"/>
-  <cocktailProducts name="St. Germain" vol="20.0"/>
-  <cocktailProducts name="Angostura Bitters" vol="48.0"/>
+  <cocktailProducts name="St. Germain"/>
+  <cocktailProducts name="Angostura Bitters"/>
   <cocktailProducts name="Pepper"/>
   <cocktailProducts name="Lavender"/>
-  <cocktailProducts name="gin" vol="46.0"/>
+  <cocktailProducts name="gin"/>
   <cocktailProducts name="Peach Bitters"/>
-  <cocktailProducts name="Apricot Brandy" vol="24.0"/>
+  <cocktailProducts name="Apricot Brandy"/>
   <cocktailProducts name="Orange Juice"/>
   <cocktailProducts name="Egg Yolk"/>
   <cocktailProducts name="orange juice"/>
   <cocktailProducts name="Grapefruit Juice"/>
-  <cocktailProducts name="Maraschino Liqueur" vol="32.0"/>
+  <cocktailProducts name="Maraschino Liqueur"/>
   <cocktailProducts name="Coconut milk"/>
   <cocktailProducts name="Pineapple Juice"/>
-  <cocktailProducts name="Prosecco" vol="11.0"/>
-  <cocktailProducts name="Creme de Mure" vol="18.0"/>
-  <cocktailProducts name="Dark Rum" vol="40.0"/>
-  <cocktailProducts name="Ginger Beer" vol="6.0"/>
-  <cocktailProducts name="Raspberry Liqueur" vol="17.0"/>
+  <cocktailProducts name="Prosecco"/>
+  <cocktailProducts name="Creme de Mure"/>
+  <cocktailProducts name="Dark Rum"/>
+  <cocktailProducts name="Ginger Beer"/>
+  <cocktailProducts name="Raspberry Liqueur"/>
   <cocktailProducts name="pineapple juice"/>
   <cocktailProducts name="Sugar Syrup"/>
   <cocktailProducts name="Soda Water"/>
   <cocktailProducts name="Agave syrup"/>
   <cocktailProducts name="Tomato Juice"/>
-  <cocktailProducts name="Lillet Blanc" vol="17.0"/>
-  <cocktailProducts name="White Rum" vol="37.0"/>
+  <cocktailProducts name="Lillet Blanc"/>
+  <cocktailProducts name="White Rum"/>
   <cocktailProducts name="Vanilla Ice-Cream"/>
   <cocktailProducts name="Whipped Cream"/>
   <cocktailProducts name="caramel sauce"/>
@@ -3585,28 +3776,28 @@
   <cocktailProducts name="Salted Chocolate"/>
   <cocktailProducts name="Maraschino Cherry"/>
   <cocktailProducts name="Blackberries"/>
-  <cocktailProducts name="Gold rum" vol="55.0"/>
-  <cocktailProducts name="Pernod" vol="40.0"/>
-  <cocktailProducts name="Ginger beer" vol="6.0"/>
+  <cocktailProducts name="Gold rum"/>
+  <cocktailProducts name="Pernod"/>
+  <cocktailProducts name="Ginger beer"/>
   <cocktailProducts name="Tonic Water"/>
-  <cocktailProducts name="Rosemary" vol="40.0"/>
-  <cocktailProducts name="Mezcal" vol="47.0"/>
-  <cocktailProducts name="Lillet" vol="17.0"/>
+  <cocktailProducts name="Rosemary"/>
+  <cocktailProducts name="Mezcal"/>
+  <cocktailProducts name="Lillet"/>
   <cocktailProducts name="Orange Peel"/>
   <cocktailProducts name="Orange Bitters"/>
   <cocktailProducts name="Grape Soda"/>
-  <cocktailProducts name="Bailey" vol="17.0"/>
-  <cocktailProducts name="Jagermeister" vol="35.0"/>
-  <cocktailProducts name="Sweet and Sour" vol="16.0"/>
-  <cocktailProducts name="Passoa" vol="17.0"/>
+  <cocktailProducts name="Bailey"/>
+  <cocktailProducts name="Jagermeister"/>
+  <cocktailProducts name="Sweet and Sour"/>
+  <cocktailProducts name="Passoa"/>
   <cocktailProducts name="Elderflower cordial"/>
-  <cocktailProducts name="Rosso Vermouth" vol="17.0"/>
+  <cocktailProducts name="Rosso Vermouth"/>
   <cocktailProducts name="Hot Chocolate"/>
-  <cocktailProducts name="Irish Whiskey" vol="43.0"/>
-  <cocktailProducts name="Blended Scotch" vol="40.0"/>
+  <cocktailProducts name="Irish Whiskey"/>
+  <cocktailProducts name="Blended Scotch"/>
   <cocktailProducts name="Honey syrup"/>
   <cocktailProducts name="Ginger Syrup"/>
-  <cocktailProducts name="Islay single malt Scotch" vol="40.0"/>
-  <cocktailProducts name="Falernum" vol="11.0"/>
-  <cocktailProducts name="blackstrap rum" vol="7.0"/>
+  <cocktailProducts name="Islay single malt Scotch"/>
+  <cocktailProducts name="Falernum"/>
+  <cocktailProducts name="blackstrap rum"/>
 </cocktail:CocktailParty>

@@ -256,7 +256,7 @@ for drink in data["drinks"]:
       ingredient_amount = listAmount[l]
       ingredient_unit = listUnit[l]
       # gidder ikke legge det inn hvis alle er tomme
-      if (ingredient is not None and ingredient_amount is not None and ingredient_amount is not None):
+      if (not(ingredient is None and ingredient_amount is None and ingredient_amount is None)):
       #her, i dictionary, må vi legge til listen med ingredienser
         ingredientstemp["ingredient"] =  ingredient
         ingredientstemp["amount"] = ingredient_amount
