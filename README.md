@@ -32,8 +32,6 @@ We chose to use Python for the refactoring of the original cocktail API. The res
 
 ### Visualization
 
-### Custom Tools
-
 ## How To
 Follow the installation steps to get the project running and follow the user guide to test the DSL features.
 
@@ -44,7 +42,7 @@ Follow the installation steps to get the project running and follow the user gui
 4. Open the tdt4250.project.design.examples folder in this new Eclipse application
 5. This folder should contain a representation file, where the viewpoints are located
 
-#### Dependencies
+### Dependencies
 The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which later can be translated to an instance of type .xmi, which is easier to handle with representations. As such, a few dependencies must be downloaded.
 
 1. Open Eclipse
@@ -53,4 +51,7 @@ The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which 
 4. All required dependencies should be installed after the prompted Eclipse restart
 
 ### User Guide
-The project offers three different viewpoints. A complete cocktail party viewpoint, filled with all potential products, drinks and inventories. From this viewpoint you may double click inventories or drinks to view their respective viewpoints, inventory viewpoint and drink viewpoint. From the inventory viewpoint, you are able to see which drinks you can make with your current inventory, as well as alter your current stock. In the drinks viewpoint, you are able to read the instructions for creating the drink, and view which ingredients are neccessary to make it. From the main viewpoint, you are also able to add new products, drinks and inventories. 
+The project offers three different viewpoints. A complete cocktail party viewpoint, filled with all potential products, drinks and inventories. From this viewpoint you may double click inventories or drinks to view their respective viewpoints, inventory viewpoint and drink viewpoint. From the inventory viewpoint, you are able to see which drinks you can make with your current inventory, as well as alter your current stock. In the drinks viewpoint, you are able to read the instructions for creating the drink, and view which ingredients are neccessary to make it.
+
+#### Custom Tools
+The diagrams offer different custom tools for adjusting their respective contents. In the main viewpoint, you can choose to add new containers to a CocktailParty, these containers being a new product, a new inventory or a new drink. From the inventory viewpoint, you are able to alter your current stock, in case you have bought new ingredients, or used up some previous ingredients. In the drinks viewpoint, you can edit a drinks required ingredients, if you feel the drink could improve its contents somehow.
