@@ -21,7 +21,7 @@ A Drink is specific mixture of ingredients, like cocktails or special shots. We 
 ![alt text](https://github.com/rammt/TDT4250-cocktail/blob/master/images/cocktail_model.png?raw=true "Cocktail Model in PlantUML")
 
 ### Chosen API
-
+Our data source is [thecocktaildb.com API](https://www.thecocktaildb.com/api.php). It contains 600+ drinks with ingredients.
 
 ### Refactoring API to EMFJson
 Considering our refactoring was a one time job, we wanted to make it as easy for ourselves as possible. We used Python to iterate through our data set, and rewrote the data set in EMFJson format. Following this, we loaded the .json file as a resource, and translated it to an .xmi resource. How this was done is shown in tdt4250.project.resources/src/LoudResourceToXMI.java.
