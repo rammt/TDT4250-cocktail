@@ -29,20 +29,20 @@ Considering our refactoring was a one time job, we wanted to make it as easy for
 ## How To
 Follow the installation steps to get the project running and follow the user guide to test the DSL features.
 
-### Installation
-1. Clone the repo
-2. Using Eclipse, open the 4 projects contained under eclipse-projects
-3. Run a new Eclipse application, using tdt4250.project.model and tdt4250.project.design as plug-ins for the application
-4. Import the tdt4250.project.design.examples folder in this new Eclipse application
-5. OPTIONAL: If you want to edit the views or view how the design file is used, you may import tdt4250.project.design as well.
-
-#### Dependencies
+### Dependencies
 The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which later can be translated to an instance of type .xmi, which is easier to handle with representations. As such, a few dependencies must be downloaded.
 
 1. Open Eclipse
 2. Click Help > Install New Software
 3. From the URI http://ghillairet.github.io/p2, install the bundles "Jackson" and "emfjson bundles"
 4. All required dependencies should be installed after the prompted Eclipse restart
+
+### Installation
+1. Clone the repo
+2. Using Eclipse, open the 4 projects contained under eclipse-projects
+3. Run a new Eclipse application, using tdt4250.project.model and tdt4250.project.design as plug-ins for the application
+4. Import the tdt4250.project.design.examples folder in this new Eclipse application
+5. OPTIONAL: If you want to edit the views or view how the design file is used, you may import tdt4250.project.design as well.
 
 ### User Guide
 The project offers four different views. A complete cocktail party view, filled with all potential products, drinks and inventories. From this view you may double click inventories, drinks and products to see their respective views, inventory view, drink view and product view. This complete cocktail party view gives an overview of all the data in the instance.
