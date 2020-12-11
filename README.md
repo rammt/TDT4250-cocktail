@@ -18,7 +18,6 @@ Through the use of Sirius, it shows you the instructions and required ingredient
 The root of the model is the CocktailParty class, it may contain several user Inventories, Drinks (Cocktails) and Products.
 A Drink is  specific Cocktail and may contain several DrinkIngredients. A DrinkIngredient is related to a product, however, a DrinkIngredient is specific for a given Drink and specifies the the amountType (f.ex liter, kilogram or piece) and the amount of the ingredient required for the Drink. The AmountType is an enum that holds all the various types of measurements found in the cocktail dataset.
 
-TODO: Update image
 ![alt text](https://github.com/rammt/TDT4250-cocktail/blob/master/images/cocktail_model.png?raw=true "Cocktail Model in PlantUML")
 
 ### Chosen API
