@@ -33,8 +33,8 @@ Follow the installation steps to get the project running and follow the user gui
 1. Clone the repo
 2. Using Eclipse, open the 4 projects contained under eclipse-projects
 3. Run a new Eclipse application, using tdt4250.project.model and tdt4250.project.design as plug-ins for the application
-4. Open the tdt4250.project.design.examples folder in this new Eclipse application
-5. OPTIONAL: If you want to edit the views or view how the design file is used, you may open tdt4250.project.design as well.
+4. Import the tdt4250.project.design.examples folder in this new Eclipse application
+5. OPTIONAL: If you want to edit the views or view how the design file is used, you may import tdt4250.project.design as well.
 
 #### Dependencies
 The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which later can be translated to an instance of type .xmi, which is easier to handle with representations. As such, a few dependencies must be downloaded.
