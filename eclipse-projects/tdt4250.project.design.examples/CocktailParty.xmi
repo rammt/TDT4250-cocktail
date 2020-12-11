@@ -5,6 +5,9 @@
     <availableIngredients product="//@cocktailProducts.23" amountType="cube" amount="10.0"/>
     <availableIngredients product="//@cocktailProducts.229" amount="40.0"/>
   </inventories>
+  <inventories name="An Inventory">
+    <availableIngredients product="//@cocktailProducts.8" amount="40.0"/>
+  </inventories>
   <drinkRegister name="Mojito" instructions="Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish and serve with straw.">
     <requiredIngredients product="//@cocktailProducts.0" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.1" amountType="unknown" amount="1.0"/>
@@ -16,7 +19,7 @@
     <requiredIngredients product="//@cocktailProducts.5" amountType="cl" amount="4.5"/>
     <requiredIngredients product="//@cocktailProducts.6" amountType="dash" amount="2.0"/>
     <requiredIngredients product="//@cocktailProducts.2" amountType="cube" amount="1.0"/>
-    <requiredIngredients product="//@cocktailProducts.7" amountType="dash"/>
+    <requiredIngredients product="//@cocktailProducts.7" amountType="dash" amount="1.0"/>
   </drinkRegister>
   <drinkRegister name="Long Island Tea" instructions="Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.">
     <requiredIngredients product="//@cocktailProducts.8" amount="0.5"/>
@@ -3420,7 +3423,7 @@
   <cocktailProducts name="Sugar"/>
   <cocktailProducts name="Mint"/>
   <cocktailProducts name="Soda water"/>
-  <cocktailProducts name="Bourbon"/>
+  <cocktailProducts name="Bourbon" vol="37.5"/>
   <cocktailProducts name="Angostura bitters"/>
   <cocktailProducts name="Water"/>
   <cocktailProducts name="Vodka"/>

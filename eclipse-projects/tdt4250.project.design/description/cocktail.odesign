@@ -178,15 +178,6 @@
             </initialOperation>
           </ownedTools>
         </toolSections>
-        <toolSections name="ChildCreatorTools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="DrinkIngredientCreator" nodeMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientInstructionsContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']">
-            <variable name="container"/>
-            <viewVariable name="containerView"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::DrinkIngredient" referenceName="requiredIngredients"/>
-            </initialOperation>
-          </ownedTools>
-        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Inventory Diagram" titleExpression="aql:'Drinks available from inventory ' + self.name" domainClass="cocktail::Inventory" enablePopupBars="true">
@@ -319,13 +310,22 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </containerMappings>
+        <toolSections name="ChildCreatorTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="DrinkIngredientCreator" nodeMappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='CocktailDiagram']/@defaultLayer/@containerMappings[name='DrinkContainer']/@subContainerMappings[name='DrinkIngredientInstructionsContainer']/@subContainerMappings[name='DrinkIngredientsContainer']/@subNodeMappings[name='DrinkIngredientNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cocktail::DrinkIngredient" referenceName="requiredIngredients"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Product Diagram" titleExpression="aql:'Drinks made with product ' + self.name" domainClass="cocktail::Product" enablePopupBars="true">
       <defaultLayer name="Default">
         <containerMappings name="ProductContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Product" childrenPresentation="HorizontalStack">
           <subContainerMappings name="AvailableDrinksContainer" semanticCandidatesExpression="var:self" domainClass="cocktail::Product" childrenPresentation="List">
-            <subNodeMappings name="DrinkNode" semanticCandidatesExpression="aql:self.eContainer().drinkRegister->select(d | d.requiredIngredients -> exists(p | p.product.name = self.name))" domainClass="cocktail::Drink">
+            <subNodeMappings name="DrinkNode" semanticCandidatesExpression="aql:self.eContainer().drinkRegister->select(d | d.requiredIngredients -> exists(p | p.product.name = self.name))" doubleClickDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Product%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DrinkDoubleClick']" domainClass="cocktail::Drink">
               <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="aql:self.name" sizeComputationExpression="8" labelPosition="node" resizeKind="NSEW">
                 <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
                 <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -348,6 +348,15 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="DrinkDoubleClick" mappings="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Product%20Diagram']/@defaultLayer/@containerMappings[name='ProductContainer']/@subContainerMappings[name='AvailableDrinksContainer']/@subNodeMappings[name='DrinkNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CocktailViewpoint']/@ownedRepresentations[name='Drink%20Diagram']"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="tdt4250.project.design.Services"/>
