@@ -48,13 +48,17 @@ The project uses EMFJson-Jackson to read EMF formatted JSON as Resources, which 
 The project offers four different views. A complete cocktail party view, filled with all potential products, drinks and inventories. From this view you may double click inventories, drinks and products to see their respective views, inventory view, drink view and product view. This complete cocktail party view gives an overview of all the data in the instance.
 
 From the inventory view, you are able to see which drinks you can make with your current inventory, as well as alter your current stock.
+
 ![alt text](https://github.com/rammt/TDT4250-cocktail/blob/master/images/inventory.png?raw=true "Inventory View")
 
 In the drinks view, you are able to read the instructions for creating the drink, and view which ingredients are neccessary to make it.
+
 ![alt text](https://github.com/rammt/TDT4250-cocktail/blob/master/images/drink.png?raw=true "Drink View")
 
 From the product view, you may see which drinks use the product.
+
 ![alt text](https://github.com/rammt/TDT4250-cocktail/blob/master/images/product.png?raw=true "Product View")
+
 
 Additionally, all views where drinks are present, you may double click the drinks name to look at the view for that drink. 
 
